@@ -1,0 +1,149 @@
+.upgradeColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.hoverStuff {
+    position: absolute;
+    bottom: 3.6em;
+    left: 3.6em;
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 1em;
+    width: 15em;
+    height: auto;
+    opacity: 1;
+    z-index: 20222;
+    text-align: left;
+    padding: 1em;
+    padding-top: .5em;
+    font-family: UtopiaF;
+}
+
+.star {
+    width: 1.5em;
+    margin-right: .5em;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circleDisabled {
+    filter: brightness(40%);
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.upgrade {
+    margin-bottom: -1em;
+    width: 130%;
+    z-index: 99;
+}
+
+.column>img {
+    width: 70%;
+    height: auto;
+    margin: .5em;
+    z-index: 9999;
+}
+
+.text {
+    color: rgb(240, 205, 50);
+}
+
+.hoverEffects {
+    border-radius: 5em;
+    box-shadow: 0 0 5px 3px rgb(71, 255, 47);
+}
+
+.relative {
+    position: relative;
+}
+
+.bar {
+    position: absolute;
+    width: .4em;
+    height: 4em;
+    margin-top: -2em;
+    background-color: rgb(255, 208, 0);
+    margin-left: 2.24em;
+    z-index: 1;
+}
+
+.overlayImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+    width: 2em;
+    filter: drop-shadow(0 0 1em rgb(12, 12, 12));
+}
+
+.overlayImageDisabled {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+    width: 2em;
+    filter: drop-shadow(0 0 1em rgb(12, 12, 12)) brightness(30%);
+}
+
+@media screen and (max-width: 1200px) {
+    .hoverStuff {
+        bottom: 6vw;
+        left: 6vw;
+        border-radius: 1vw;
+        width: 17vw;
+        opacity: 1;
+        padding: 1vw;
+        padding-top: .5vw;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .bar {
+        width: .7vw;
+        height: 4vw;
+        margin-top: -2vw;
+        margin-left: 3.6vw;
+    }
+
+    .column>img {
+        width: 6vw;
+        margin: 1vw;
+    }
+
+    .upgrade {
+        width: 11.3vw;
+    }
+
+    .hoverStuff {
+        font-size: 1.5vw;
+        bottom: 6.6vw;
+        left: 6.6vw;
+    }
+
+    .star {
+        width: 2vw;
+    }
+}

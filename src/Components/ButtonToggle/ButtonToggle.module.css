@@ -1,0 +1,18 @@
+/* Overlay of buttons at top */
+
+.button {
+    width: 10em;
+    transition: .1s;
+}
+
+.options {
+    transition: .1s;
+}
+
+.options:active {
+    transform: scale(.96);
+}
+
+.button:active {
+    transform: scale(.96);
+}

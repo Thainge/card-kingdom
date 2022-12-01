@@ -1,0 +1,365 @@
+.papa {
+    height: 17em;
+    width: auto;
+}
+
+.relativeBox1:active {
+    scale: .98
+}
+
+.relativeBox1 {
+    position: relative;
+}
+
+.card1 {
+    margin-top: .7em;
+    width: 12em;
+    height: 17em;
+}
+
+.cardActive {
+    margin-top: .7em;
+    width: 12em;
+    height: 17em;
+}
+
+.cardImage1 {
+    position: absolute;
+    margin-top: .7em;
+    margin-left: .1em;
+    background-repeat: no-repeat;
+    width: 11.9em;
+    height: 16.9em;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.deckDisabled2 {
+    background-color: #23201b;
+    pointer-events: none;
+    width: 12em;
+    height: 17em;
+    margin-top: .7em;
+}
+
+.healthImage {
+    position: absolute;
+    margin-bottom: -.25em;
+    margin-right: -.8em;
+    background-repeat: no-repeat;
+    width: 4em;
+    height: auto;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+}
+
+.attackImage {
+    position: absolute;
+    margin-bottom: .25em;
+    margin-left: -.78em;
+    background-repeat: no-repeat;
+    width: 4em;
+    height: auto;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+}
+
+.healthText {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    margin-right: .3em;
+    margin-bottom: .45em;
+    font-size: 1.5em;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    background: -webkit-linear-gradient(#fcf9f0, #cfcfcb);
+    font-style: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'HeaderFont';
+}
+
+.attackText {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    margin-left: .6em;
+    margin-bottom: .5em;
+    font-size: 1.5em;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    font-family: 'HeaderFont';
+    background: -webkit-linear-gradient(#fcf9f0, #cfcfcb);
+    font-style: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.attackBox {
+    display: flex;
+}
+
+.healthTextBig {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    padding-right: .1em;
+    padding-bottom: .6em;
+    font-size: 1.4em;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    font-family: 'HeaderFont';
+    background: -webkit-linear-gradient(#fcf9f0, #cfcfcb);
+    font-style: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.attackTextBig {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    padding-left: .2em;
+    padding-bottom: .6em;
+    font-size: 1.4em;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    font-family: 'HeaderFont';
+    background: -webkit-linear-gradient(#fcf9f0, #cfcfcb);
+    font-style: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.legendary {
+    box-shadow: 0 0 4px 2px rgb(255, 241, 47);
+}
+
+.epic {
+    box-shadow: 0 0 4px 2px rgb(172, 47, 255);
+}
+
+.rare {
+    box-shadow: 0 0 4px 2px rgb(47, 172, 255);
+}
+
+.common {
+    box-shadow: 0 0 4px 2px rgb(0, 165, 27);
+}
+
+.specialText1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    padding-right: .55em;
+    padding-bottom: .6em;
+    font-size: 1.4em;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    font-family: 'HeaderFont';
+    background: -webkit-linear-gradient(#fcf9f0, #cfcfcb);
+    font-style: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.absolute {
+    position: absolute;
+    top: -.5em;
+    right: -.5em;
+    z-index: 99;
+}
+
+.relative {
+    position: relative;
+}
+
+.delay {
+    width: 2.5em;
+}
+
+.delayText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 1em;
+    font-size: 1.3em;
+    -webkit-text-stroke: 2px black;
+    background: -webkit-linear-gradient(#fcf9f0, #cfcfcb);
+    font-style: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'HeaderFont';
+}
+
+.specialAbilties {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    width: 95%;
+    margin-left: .4em;
+    height: 3em;
+    margin-bottom: 0.2em;
+    background-color: rgb(0, 0, 0, .5);
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.specialField {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    width: 95%;
+    margin-left: .4em;
+    height: 3.5em;
+    margin-bottom: .6em;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.specialImage {
+    width: 2em;
+}
+
+.greaterHealth {
+    background: -webkit-linear-gradient(#46fa35, #479c5c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lowerHealth {
+    background: -webkit-linear-gradient(#f74e00, #ec7f7f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.greaterAttack {
+    background: -webkit-linear-gradient(#46fa35, #479c5c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lowerAttack {
+    background: -webkit-linear-gradient(#f74e00, #ee8b8b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1124px) {
+    .specialAbilties {
+        width: 98%;
+        margin-left: .5vw;
+        height: 3vw;
+        margin-bottom: 1vw;
+    }
+
+    .specialImage {
+        width: 2.3vw;
+    }
+
+    .absolute {
+        right: -.5vw;
+    }
+
+    .delay {
+        width: 3.5vw;
+    }
+
+    .delayText {
+        font-size: 1.6vw;
+        -webkit-text-stroke: .2vw black;
+    }
+
+    .specialText1 {
+        padding-right: 1.5vw;
+        padding-bottom: 1.1vw;
+        font-size: 1.8vw;
+        -webkit-text-stroke: .2vw black;
+    }
+
+    .healthTextBig {
+        padding-right: .7vw;
+        padding-bottom: 1.5vw;
+        font-size: 1.6vw;
+        -webkit-text-stroke: .2vw black;
+    }
+
+    .attackTextBig {
+        padding-left: 1vw;
+        padding-bottom: 1.5vw;
+        font-size: 1.6vw;
+        -webkit-text-stroke: .2vw black;
+    }
+
+    .attackText,
+    .healthText {
+        font-size: 1.8vw;
+        -webkit-text-stroke: .2vw black;
+    }
+
+    .healthText {
+        padding-right: .55vw;
+        padding-bottom: .3vw;
+    }
+
+    .attackText {
+        padding-left: .45vw;
+        padding-bottom: .3vw;
+    }
+
+    .healthImage {
+        margin-bottom: -.35vw;
+        margin-right: -.8vw;
+        width: 5.5vw;
+    }
+
+    .attackImage {
+        margin-bottom: .25vw;
+        margin-left: -.8vw;
+        width: 5.5vw;
+    }
+
+    .papa {
+        height: 21.5vw
+    }
+
+    .deckDisabled2 {
+        height: 21.1vw !important;
+        margin-bottom: .5vw !important;
+        margin-top: 0;
+        width: 15.5vw;
+    }
+
+    .cardImage1 {
+        margin-top: .1vw;
+        margin-left: .1vw;
+        width: 15.4vw;
+        height: 21.4vw;
+    }
+
+    .card1,
+    .cardActive {
+        margin-top: 0;
+        width: 15.5vw;
+        height: 21.5vw;
+    }
+}

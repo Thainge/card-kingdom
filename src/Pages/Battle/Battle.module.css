@@ -1,0 +1,856 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlayModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 100.1vw;
+    height: 100.1vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility ease-in 0s, opacity 500ms;
+}
+
+.fadeInOut {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 100.1vw;
+    height: 100.1vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility ease-in-out 300ms, opacity 300ms;
+}
+
+.overlayModalTut {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 100.1vw;
+    height: 100.1vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1000002;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility ease-in 0s, opacity .5s;
+}
+
+.fadeInOutTut {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 100.1vw;
+    height: 100.1vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1000002;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility ease-in-out .5s, opacity .5s;
+}
+
+.overTheOthers {
+    z-index: 110000;
+}
+
+.home {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1em;
+    z-index: 105;
+}
+
+.home:hover {
+    scale: 1.02;
+}
+
+.home:active {
+    scale: .98;
+}
+
+.absoluteSpeed {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 1em;
+    z-index: 105;
+}
+
+.absoluteSpeed:hover {
+    scale: 1.02;
+}
+
+.absoluteSpeed:active {
+    scale: .98;
+}
+
+.speedText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-55%, -100%);
+    font-size: 1.7em;
+    -webkit-text-stroke: 2.5px black;
+}
+
+.overflowButton {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 1em;
+    z-index: 106;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+/* Cards in hand */
+
+.delay {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: auto;
+    top: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -180%);
+}
+
+.timerCount {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: auto;
+    top: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -25%);
+    -webkit-text-stroke: 3px black;
+    width: 1em;
+    font-family: 'HeaderFont';
+    background: -webkit-linear-gradient(#fcf9f0, #cfcfcb);
+    font-style: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2em;
+}
+
+.relativeImage {
+    position: relative;
+}
+
+.cardsContainer {
+    width: 60vw;
+    height: 5.2em;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: auto;
+    top: auto;
+    margin-right: -50%;
+    transform: translate(-25%, 4%);
+    z-index: 104;
+    display: flex;
+    flex-direction: row;
+}
+
+.test {
+    width: 14em;
+    height: 18em;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    transition: all .3s;
+    margin-right: .7em;
+    margin-left: .7em;
+}
+
+.test:hover {
+    z-index: 100;
+    translate: 0 -15.6em;
+}
+
+.cardInHand {
+    width: 14em;
+    height: 18em;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    transition: all .3s;
+    margin-right: .7em;
+    margin-left: .7em;
+}
+
+.cardInHand:hover {
+    z-index: 100;
+    translate: 0 -15.6em;
+}
+
+.arrowButton:hover {
+    scale: 1.02;
+}
+
+.arrowButton:active {
+    scale: .98;
+}
+
+/* Played cards */
+
+.playedCards {
+    height: auto;
+    display: flex;
+    column-gap: 2em;
+    min-height: 19.6em;
+    padding: 1em;
+}
+
+.playedCardsContainer {
+    width: 81vw;
+    height: 55em;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: auto;
+    top: auto;
+    transform: translate(-39%, 0%);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+.playedCardsContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.overflowplayedCards {
+    display: flex;
+    row-gap: 2em;
+    flex-direction: column;
+}
+
+.playedCardItem {
+    width: 13.2em;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    transition: all .2s;
+    min-width: 13.19em;
+}
+
+/* Left side */
+
+.leftSideContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 20em;
+    display: inline-block;
+    z-index: 99;
+}
+
+.leftTop {
+    height: 46.5%;
+    width: 100%;
+    margin-left: -3em;
+    transform-origin: right;
+    transform: skew(-10deg);
+    border: .4em solid transparent;
+    border-image: linear-gradient(to left bottom, rgb(248, 112, 0), rgb(255, 174, 0) 50%);
+    border-image-slice: 1;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    box-shadow: inset 0 .1em 1em .2em black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.leftBottom {
+    height: 50%;
+    width: 100%;
+    margin-left: -3em;
+    transform: skew(10deg);
+    border-right: 5px solid yellow;
+    border: .4em solid transparent;
+    border-image: linear-gradient(to left top, rgb(248, 112, 0), rgb(255, 196, 0) 50%);
+    border-image-slice: 1;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    box-shadow: inset 0 -1em 1em .2em black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.leftMiddle {
+    background: linear-gradient(to top, rgb(82, 82, 82) 40%, rgb(0, 0, 0) 150%);
+    height: 3%;
+    width: 100%;
+    border: .5em solid transparent;
+    border-image: linear-gradient(to left top, rgb(255, 174, 0) 50%, rgb(248, 112, 0));
+    border-image-slice: 1;
+    border-bottom: none;
+    border-left: none;
+    transform: skew(-45deg);
+    margin-left: -3em;
+    box-shadow: .2em -.1em .2em .1em black;
+    z-index: 151;
+}
+
+.leftMiddle2 {
+    background: linear-gradient(to bottom, rgb(82, 82, 82) 40%, rgb(0, 0, 0) 150%);
+    height: 3%;
+    width: 100%;
+    border: .5em solid transparent;
+    border-image: linear-gradient(to left bottom, rgb(255, 196, 0), rgb(248, 112, 0));
+    border-image-slice: 1;
+    border-top: none;
+    border-left: none;
+    transform: skew(45deg);
+    margin-left: -3em;
+    box-shadow: .2em .3em .2em .1em black;
+    margin-top: -.02em;
+    z-index: 150;
+    position: relative;
+}
+
+/* Left other */
+
+.backCardsContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 20em;
+    display: inline-block;
+    z-index: 1;
+}
+
+.backCards1 {
+    height: 50.5%;
+}
+
+.backCards2 {
+    height: 49.5%;
+}
+
+.heart1 {
+    position: relative;
+    width: 7em;
+    top: 0;
+    left: 0;
+    margin-top: -2.5em;
+    margin-left: -4.9em;
+}
+
+.progressBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 13em;
+    height: 2.5em;
+    background-color: black;
+    z-index: 100;
+    border: .2em solid white;
+    box-shadow: 0 0 .1em .1em black;
+    border-radius: .8em;
+    margin-top: 22em;
+    margin-left: 4.5em;
+}
+
+.fillProgress {
+    height: 88%;
+    background: linear-gradient(to bottom, rgb(161, 205, 255) -10%, rgb(0, 91, 151));
+    position: relative;
+    top: 50%;
+    left: 0;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(.2em, -50%);
+    border-radius: .5em;
+    transition: 1s all;
+}
+
+.progressBarOpponent {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 13em;
+    height: 2.5em;
+    background-color: black;
+    z-index: 100;
+    border: .2em solid white;
+    box-shadow: 0 0 .1em .1em black;
+    border-radius: .8em;
+    margin-bottom: 2em;
+    margin-left: 4.5em;
+}
+
+.heartText {
+    position: absolute;
+    z-index: 106;
+    -webkit-text-stroke: 3px black;
+    font-family: 'HeaderFont';
+    background: -webkit-linear-gradient(#fcf9f0, #cfcfcb);
+    font-style: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5em;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(0, -50%);
+    left: 0;
+    margin-left: -1.7em;
+}
+
+.heartTextSmall {
+    margin-left: -1.25em !important;
+}
+
+.turn {
+    position: absolute;
+    margin-left: 5em;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 180;
+    font-size: 1.5em;
+    width: 13em;
+}
+
+.currentTurn {
+    position: absolute;
+    margin-left: 2.4em;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 180;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.arrowTurn {
+    position: relative;
+    width: 3em;
+    height: 3em;
+    background: linear-gradient(to left bottom, rgb(255, 196, 0), rgb(248, 112, 0));
+    transform: rotate(-45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 .2em .2em black;
+}
+
+.arrow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(45deg);
+    border-left: 1.5em solid transparent;
+    border-right: 1.5em solid transparent;
+    margin-left: .54em;
+    margin-top: .25em;
+}
+
+.arrow2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(-135deg);
+    border-left: 1.5em solid transparent;
+    border-right: 1.5em solid transparent;
+    margin-left: -.51em;
+    margin-bottom: .2em;
+}
+
+.arrowRed1 {
+    border-bottom: 1.5em solid rgb(105, 0, 0);
+}
+
+.arrowRed2 {
+    border-bottom: 1.5em solid rgb(206, 0, 0);
+}
+
+.arrowGreen1 {
+    border-bottom: 1.5em solid rgb(6, 71, 0);
+}
+
+.arrowGreen2 {
+    border-bottom: 1.5em solid rgb(1, 189, 1);
+}
+
+.avatar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 1em;
+    margin-bottom: 2em;
+    width: 12em;
+    z-index: 100;
+}
+
+.avatarOpponnent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20em;
+    margin-top: 4em;
+    z-index: 100;
+}
+
+/* Animations for cards */
+
+.imgHeal {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 6em;
+    margin-right: -1em;
+    margin-bottom: .3em;
+    z-index: 1;
+    opacity: 0;
+    animation: fadeHeal 1000ms ease-out;
+}
+
+@keyframes fadeHeal {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.attackCard {
+    translate: 0 0;
+    animation: attackAnimation 300ms ease-in;
+}
+
+@keyframes attackAnimation {
+
+    0%,
+    100% {
+        translate: 0 0;
+    }
+
+    50% {
+        translate: 0 -8em;
+    }
+}
+
+.attackCardOpponnent {
+    translate: 0 0;
+    animation: attackAnimationOpponnent 300ms ease-in;
+}
+
+@keyframes attackAnimationOpponnent {
+
+    0%,
+    100% {
+        translate: 0 0;
+    }
+
+    50% {
+        translate: 0 8em;
+    }
+}
+
+.relative {
+    position: relative;
+}
+
+.centerImg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.centerImgTrample {
+    width: 11em;
+    opacity: 0;
+    animation: fadeTrample 1000ms ease-out;
+}
+
+@keyframes fadeTrample {
+
+    0%,
+    100% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+.freezeContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 12.5em;
+    margin-left: -.05em;
+    margin-top: -.2em;
+    height: 18.6em;
+    box-shadow: inset 0 0 3em 1em rgba(0, 0, 0, 0);
+    animation: fadeBlueBg 1000ms ease-out;
+}
+
+.fireContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 12.5em;
+    margin-left: -.05em;
+    margin-top: -.2em;
+    height: 18.6em;
+    z-index: 100;
+    box-shadow: inset 0 0 3em 1em rgba(0, 0, 0, 0);
+    animation: fadeRedBg 1000ms ease-out;
+}
+
+.centerImgFire {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 10em;
+    z-index: 1011111;
+    opacity: 0;
+    animation: fadeFreeze 1000ms ease-in-out;
+}
+
+@keyframes fadeRedBg {
+
+    0%,
+    100% {
+        box-shadow: inset 0 0 3em 1em rgba(0, 0, 0, 0);
+    }
+
+    50% {
+        box-shadow: inset 0 0 3em 1em rgb(224, 82, 0);
+    }
+}
+
+.centerImgFreeze {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 6em;
+    z-index: 1011111;
+    opacity: 0;
+    animation: fadeFreeze 1000ms ease-in-out;
+}
+
+@keyframes fadeBlueBg {
+
+    0%,
+    100% {
+        box-shadow: inset 0 0 3em 1em rgba(0, 0, 0, 0);
+    }
+
+    50% {
+        box-shadow: inset 0 0 3em 1em rgb(0, 174, 255);
+    }
+}
+
+@keyframes fadeFreeze {
+
+    0%,
+    100% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+.centerImgBlock {
+    width: 7em;
+    opacity: 0;
+    animation: fadeBlock 1000ms ease-in-out;
+}
+
+@keyframes fadeBlock {
+
+    0%,
+    100% {
+        width: 7em;
+        opacity: 0
+    }
+
+    50% {
+        width: 9em;
+        opacity: 1
+    }
+}
+
+.justEnteredField {
+    opacity: 1;
+    animation: animationAddCard .3s ease-in;
+}
+
+@keyframes animationAddCard {
+
+    0% {
+        scale: 1.5;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.clawsOpp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12em;
+    margin-top: 8em;
+    margin-left: 2em;
+    z-index: 111;
+    opacity: 0;
+    animation: fadeFreeze .4s;
+}
+
+.claws {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 2em;
+    margin-bottom: 8em;
+    width: 12em;
+    z-index: 111;
+    opacity: 0;
+    animation: fadeFreeze .3s;
+}
+
+.dead {
+    opacity: 0;
+    animation: deadCard 1s ease-in;
+}
+
+@keyframes deadCard {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .playedCardsContainer {
+        transform: translate(-42%, 0%);
+        width: 85vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    .playedCards {
+        margin: 0;
+        padding: 0;
+        height: auto;
+        display: flex;
+        column-gap: 2em;
+        min-height: 19.6em;
+        padding: 1em;
+        margin-left: 10em;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .cardInHand {
+        width: 14.5vw;
+        height: 17.9vw;
+        margin-right: .7vw;
+        margin-left: .7vw;
+    }
+
+    .cardInHand:hover {
+        translate: 0 -14.3vw;
+    }
+}

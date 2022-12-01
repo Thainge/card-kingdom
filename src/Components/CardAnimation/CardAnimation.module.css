@@ -1,0 +1,326 @@
+.all {
+    width: 100%;
+    height: 100%;
+}
+
+.boosterPack {
+    height: 18em;
+    width: auto;
+}
+
+.booster {
+    height: 18em;
+    width: auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    -webkit-text-stroke: 2px black;
+    font-family: 'HeaderFont';
+}
+
+.healthImage {
+    position: absolute;
+    margin-bottom: -1em;
+    margin-right: -1em;
+    background-repeat: no-repeat;
+    width: 4.5em;
+    height: auto;
+    z-index: 11;
+    bottom: 0;
+    right: 0;
+    background: -webkit-linear-gradient(#fcf9f0, #cfcfcb);
+    font-style: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.attackImage {
+    position: absolute;
+    margin-bottom: -.5em;
+    margin-left: -1em;
+    background-repeat: no-repeat;
+    width: 4.5em;
+    height: auto;
+    z-index: 11;
+    bottom: 0;
+    left: 0;
+}
+
+.healthText {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 19;
+    padding-right: .4em;
+    padding-bottom: .16em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.attackText {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 19;
+    padding-left: .6em;
+    padding-bottom: .15em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.healthTextBig {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 19;
+    padding-right: .25em;
+    padding-bottom: .35em;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.attackTextBig {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 19;
+    padding-left: .3em;
+    padding-bottom: .35em;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.cardBorder {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+}
+
+.legendary {
+    box-shadow: 0 0 1em .5em rgb(255, 241, 47);
+}
+
+.epic {
+    box-shadow: 0 0 .8em .3em rgb(172, 47, 255);
+}
+
+.rare {
+    box-shadow: 0 0 .8em .3em rgb(47, 172, 255);
+}
+
+.common {
+    box-shadow: 0 0 .8em .3em rgb(0, 165, 27);
+}
+
+.specialText1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 18;
+    padding-right: .6em;
+    padding-bottom: .25em;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.rarityText {
+    width: 8em;
+}
+
+.textOverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.absolute {
+    position: absolute;
+    top: -.5em;
+    right: -.5em;
+    z-index: 99;
+}
+
+.relative {
+    position: relative;
+}
+
+.delay {
+    width: 3em;
+}
+
+.delayText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-60%, -50%);
+    font-size: 1.3em;
+}
+
+.specialAbilties {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    width: 95%;
+    margin-left: .4em;
+    height: 2.7em;
+    margin-bottom: 0.2em;
+    background-color: rgb(0, 0, 0, .5);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.specialField {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+    width: 95%;
+    margin-left: .4em;
+    height: 3.5em;
+    margin-bottom: .6em;
+    z-index: -1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.specialImage {
+    width: 2em;
+}
+
+.greaterHealth {
+    background: -webkit-linear-gradient(#46fa35, #479c5c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lowerHealth {
+    background: -webkit-linear-gradient(#f74e00, #ec7f7f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.greaterAttack {
+    background: -webkit-linear-gradient(#46fa35, #479c5c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lowerAttack {
+    background: -webkit-linear-gradient(#f74e00, #ee8b8b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 912px) {
+    .specialAbilties {
+        width: 98%;
+        margin-left: .5vw;
+        height: 3.5vw;
+        margin-bottom: .4vw;
+    }
+
+    .specialImage {
+        width: 2.3vw;
+    }
+
+    .absolute {
+        top: -1vw;
+        right: -1vw;
+    }
+
+    .delay {
+        width: 4vw;
+    }
+
+    .delayText {
+        font-size: 1.8vw;
+    }
+
+    .rarityText {
+        width: 10vw;
+    }
+
+    .specialText1 {
+        padding-right: 1.3vw;
+        padding-bottom: .8vw;
+        font-size: 2vw;
+    }
+
+    .healthTextBig {
+        padding-right: .5vw;
+        padding-bottom: 1.2vw;
+        font-size: 1.8vw;
+    }
+
+    .attackTextBig {
+        padding-left: 1.1vw;
+        padding-bottom: 1.2vw;
+        font-size: 1.8vw;
+    }
+
+    .attackText,
+    .healthText {
+        font-size: 2vw;
+    }
+
+    .healthText {
+        padding-right: .8vw;
+        padding-bottom: .8vw;
+    }
+
+    .attackText {
+        padding-left: 1.8vw;
+        padding-bottom: .8vw;
+    }
+
+    .healthImage {
+        margin-bottom: -1vw;
+        margin-right: -1.5vw;
+        width: 6.5vw;
+    }
+
+    .attackImage {
+        margin-bottom: -.4vw;
+        margin-left: -1vw;
+        width: 6.5vw;
+    }
+
+    .cards {
+        -webkit-text-stroke: .2vw black;
+        justify-content: space-between;
+        width: 65%;
+    }
+
+    .all {
+        display: flex;
+        align-items: center;
+    }
+
+    .boosterPack {
+        height: 25vw;
+        width: auto;
+    }
+
+    .booster {
+        height: 25vw;
+        width: auto;
+    }
+}

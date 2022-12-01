@@ -1,0 +1,387 @@
+.panel {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: 100%;
+}
+
+.overlayModalTut {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 100.1vw;
+    height: 100.1vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1000002;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility ease-in 0s, opacity .5s;
+}
+
+.fadeInOutTut {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 100.1vw;
+    height: 100.1vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1000002;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility ease-in-out .5s, opacity .5s;
+}
+
+.container {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Cards */
+
+.cardList {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 30vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-left: 14vw;
+    column-gap: .5em;
+    row-gap: .5em;
+    padding-top: 1em;
+    z-index: 100;
+}
+
+.cardList::-webkit-scrollbar-thumb {
+    cursor: url(../../Assets/cursor1.cur), auto;
+    color: #B29B58;
+    background-color: #B29B58;
+}
+
+.cardList::-webkit-scrollbar {
+    width: .5vw;
+    cursor: url(../../Assets/cursor1.cur), auto;
+    color: #ECD27B;
+    background-color: #ECD27B;
+}
+
+.cardList::-webkit-scrollbar-track {
+    cursor: url(../../Assets/cursor1.cur), auto;
+}
+
+.cardList::-webkit-scrollbar-thumb {
+    cursor: url(../../Assets/cursor1.cur), auto;
+}
+
+.card {
+    width: 5vw;
+}
+
+.card2 {
+    width: 85%;
+    filter: drop-shadow(0 0 .4em rgb(0, 0, 0));
+}
+
+.cardBorder {
+    position: relative;
+    display: flex;
+    border-radius: .2em;
+    filter: drop-shadow(0 0 .1em rgb(0, 0, 0));
+}
+
+.cardBorder:active {
+    scale: .98;
+}
+
+.cardImage {
+    width: 99%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    margin-top: .1vw;
+    margin-left: .1vw;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 14.1vw;
+    width: 15vw;
+    margin-top: 1.5em;
+}
+
+.healthAttack {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5em;
+    position: relative;
+}
+
+.attack {
+    width: 5.5vw;
+    margin-bottom: 1em;
+}
+
+.health {
+    width: 5.5vw;
+    margin-bottom: .5em;
+}
+
+.closeButton {
+    position: absolute;
+    width: 2em;
+    height: 20%;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 76.3vw;
+    margin-bottom: 41.7vw;
+    z-index: 101;
+}
+
+.header1 {
+    position: absolute;
+    z-index: 0;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 55.1vw;
+    margin-bottom: 35.7vw;
+    font-size: .7vw;
+}
+
+.header2 {
+    position: absolute;
+    z-index: 0;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 21.4vw;
+    margin-bottom: 35.7vw;
+    font-size: .7vw;
+}
+
+.disabledCardBorder {
+    filter: brightness(50%);
+}
+
+.healthText {
+    position: absolute;
+    z-index: 11;
+    font-size: 1.5vw;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -80%);
+    -webkit-text-stroke: 2px black;
+    font-family: 'HeaderFont';
+    background: -webkit-linear-gradient(#F5F2E6, #A8A075);
+    font-style: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.relative {
+    position: relative;
+}
+
+.attackText {
+    position: absolute;
+    z-index: 11;
+    font-size: 1.5vw;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-25%, -68%);
+    -webkit-text-stroke: 2px black;
+    font-family: 'HeaderFont';
+    background: -webkit-linear-gradient(#F5F2E6, #A8A075);
+    font-style: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.attackTextBig {
+    position: absolute;
+    z-index: 11;
+    font-size: 1.7vw;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-40%, -65%);
+    -webkit-text-stroke: 2px black;
+    font-family: 'HeaderFont';
+    background: -webkit-linear-gradient(#F5F2E6, #A8A075);
+    font-style: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.healthTextBig {
+    position: absolute;
+    z-index: 11;
+    font-size: 1.7vw;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-52%, -68%);
+    -webkit-text-stroke: 2px black;
+    font-family: 'HeaderFont';
+    background: -webkit-linear-gradient(#F5F2E6, #A8A075);
+    font-style: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1200px) {
+    .healthTextBig {
+        font-size: 2vw;
+        transform: translate(-8%, -85%);
+        -webkit-text-stroke: .2vw black;
+    }
+
+    .attackTextBig {
+        font-size: 2vw;
+        transform: translate(-20%, -80%);
+        -webkit-text-stroke: .2vw black;
+    }
+
+    .attackText {
+        font-size: 2.1vw;
+        transform: translate(5%, -80%);
+        -webkit-text-stroke: .2vw black;
+    }
+
+    .healthText {
+        font-size: 2.1vw;
+        transform: translate(30%, -80%);
+        -webkit-text-stroke: .2vw black;
+    }
+
+    .cardImage {
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        margin-top: .1vw;
+        margin-left: .1vw;
+    }
+
+    .header1 {
+        margin-left: 69.9vw;
+        margin-bottom: 44.7vw;
+    }
+
+    .header2 {
+        margin-left: 27.8vw;
+        margin-bottom: 44.7vw;
+    }
+
+    .closeButton {
+        position: absolute;
+        width: 2vw;
+        height: 20%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin-left: 95.4vw;
+        margin-bottom: 52.45vw;
+    }
+
+    .panel {
+        width: 100vw;
+    }
+
+    .cardList {
+        justify-content: center;
+        margin-left: 16vw;
+    }
+
+    .card {
+        width: 9vw;
+    }
+
+    .card2 {
+        width: 16vw;
+    }
+
+    .bigCardBox {
+        margin-left: 7.8vw;
+        margin-bottom: 13vw;
+    }
+
+    .column {
+        margin-left: 11.5vw;
+        margin-top: 0;
+    }
+
+    .healthAttack {
+        justify-content: center;
+        margin-top: -10vw;
+        margin-left: 15.5vw;
+    }
+
+    .attack {
+        width: 7.5vw;
+        margin-left: 1vw;
+        margin-bottom: 2vw;
+    }
+
+    .health {
+        width: 7.5vw;
+        margin-left: 3vw;
+        margin-bottom: .9vw;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .card {
+        width: 12vw;
+    }
+}

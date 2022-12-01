@@ -1,0 +1,113 @@
+.panel {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 57em;
+    height: 47em;
+    font-family: HeaderFont;
+    letter-spacing: .1em;
+    -webkit-text-stroke: 2px black;
+}
+
+.container {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.closeButton {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, 150%);
+    margin-bottom: -9.2em
+}
+
+.overlayBtnText {
+    position: relative;
+    filter: drop-shadow(0 0 .4em rgb(0, 0, 0));
+    text-decoration: none;
+    color: #E9E9B2;
+    cursor: url(../../Assets/cursor1.cur), auto;
+}
+
+.overlayBtnText:hover {
+    filter: drop-shadow(0 0 .4em rgb(255, 217, 0));
+}
+
+.overlayBtnText:active {
+    scale: .95;
+    cursor: url(../../Assets/cursor2.cur), auto;
+}
+
+.text {
+    position: absolute;
+    z-index: 2;
+    top: 1.5em;
+    left: 1.45em;
+    font-size: 1.3em;
+    font-family: HeaderFont;
+    letter-spacing: 0;
+    -webkit-text-stroke: 2px black;
+}
+
+.btn2 {
+    width: 12em;
+}
+
+.rewardBox {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-48.5%, 310%);
+    margin-bottom: -9.2em
+}
+
+
+.rewardImg {
+    position: relative;
+    width: 10em;
+}
+
+.rewardText {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: .8em;
+    margin-left: .9em;
+}
+
+.relative {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 8em;
+}
+
+.diamond {
+    width: 3em;
+}
+
+.rwText {
+    font-size: 1.3em;
+}

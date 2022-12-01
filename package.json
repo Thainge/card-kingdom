@@ -2,20 +2,47 @@
   "name": "card-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Thainge.github.io/movies-app",
   "dependencies": {
+    "@pronestor/react-zoom-pan-pinch": "^2.4.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "local-storage": "^2.0.0",
     "react": "^18.2.0",
+    "react-3d-hover": "^1.1.1",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dnd-touch-backend": "^16.0.1",
     "react-dom": "^18.2.0",
+    "react-easy-panzoom": "^0.4.4",
+    "react-fittext": "^1.0.0",
+    "react-gesture-responder": "^2.1.0",
+    "react-grid-dnd": "^2.1.2",
+    "react-helmet": "^6.1.0",
+    "react-hover": "^3.0.1",
+    "react-image-zoom-pan": "^0.3.1",
+    "react-modal": "^3.16.1",
+    "react-notifications": "^1.7.4",
+    "react-responsive-carousel": "^3.2.23",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
+    "react-typewriter-effect": "^1.1.0",
+    "react-typewriting-effect": "^1.0.4",
+    "react-zoom-pan-pinch": "^2.1.3",
+    "use-fit-text": "^2.4.0",
+    "use-sound": "^4.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +61,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "react-beautiful-dnd-grid": "^0.1.3-alpha"
   }
 }

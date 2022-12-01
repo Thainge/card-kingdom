@@ -1,0 +1,133 @@
+.boxBought {
+    filter: drop-shadow(0 0 .4em rgb(0, 0, 0));
+    width: 8em;
+    height: 8em;
+}
+
+.relative {
+    position: relative;
+}
+
+.backgroundGreen {
+    position: absolute;
+    top: 0;
+    background-color: rgb(0, 128, 0, .4);
+    width: 100%;
+    height: 96%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5em;
+}
+
+.check {
+    width: 4.5em;
+    opacity: .7;
+}
+
+.box {
+    width: 8em;
+    height: 8em;
+    filter: drop-shadow(0 0 .4em rgb(0, 0, 0));
+    z-index: 999;
+}
+
+.box:hover {
+    filter: drop-shadow(0 0 .3em rgb(71, 255, 47));
+}
+
+.hoverStuff {
+    position: absolute;
+    bottom: 3.6em;
+    left: 3.6em;
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 1em;
+    width: 15em;
+    height: auto;
+    opacity: 1;
+    z-index: 20222;
+    text-align: left;
+    padding: .8em;
+    margin-bottom: 4em;
+    margin-left: 4em;
+    font-family: UtopiaF;
+}
+
+.star {
+    margin-right: .5em;
+    width: 1.8em;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    color: rgb(240, 205, 50);
+}
+
+.hoverEffects {
+    border-radius: 5em;
+}
+
+.hoverEffects:hover {
+    box-shadow: 0 0 5px 3px rgb(71, 255, 47);
+}
+
+.hoverEffects:active {
+    box-shadow: 0 0 5px 3px rgb(71, 255, 47);
+}
+
+@media screen and (max-width: 1200px) {
+    .hoverStuff {
+        bottom: 6vw;
+        left: 6vw;
+        border-radius: 1vw;
+        width: 17vw;
+        opacity: 1;
+        padding: 1vw;
+        padding-top: .5vw;
+        font-size: 1.4vw;
+        margin-left: 3em;
+        margin-bottom: 3em;
+    }
+
+    .star {
+        width: 2.3vw;
+    }
+
+    .backgroundGreen {
+        border-radius: 2vw;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .hoverStuff {
+        font-size: 1.5vw;
+        bottom: 6.3vw;
+        left: 6.3vw;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .check {
+        width: 7vw;
+    }
+
+    .specialGrid {
+        margin: 4vw;
+    }
+
+    .box {
+        width: 13vw;
+        height: 13vw;
+    }
+
+    .boxBought {
+        width: 13vw;
+        height: 13vw;
+    }
+}

@@ -1,0 +1,37 @@
+.close {
+    width: 3.2vw;
+}
+
+.close2 {
+    width: 3.2em;
+}
+
+.close3 {
+    width: 3vw;
+}
+
+.close4 {
+    width: 3vw;
+}
+
+@media screen and (max-width: 1200px) {
+    .close {
+        width: 4vw;
+    }
+
+    .close4 {
+        width: 3.4vw;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .close3 {
+        width: 5vw;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .close2 {
+        width: 5vw;
+    }
+}

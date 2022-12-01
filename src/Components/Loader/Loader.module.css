@@ -1,0 +1,130 @@
+.loader {
+    background-image: url(../../Assets/body.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 100.1vw;
+    height: 100.1vh;
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 1000001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.barImageContainer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: auto;
+    top: auto;
+    margin-right: -50%;
+    transform: translate(-50%, 4%);
+    width: 40em;
+    display: flex;
+}
+
+.Bar {
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    width: 32em;
+    margin-left: 3.7em;
+    height: 3em;
+    background-color: yellow;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    animation: loader 2s;
+}
+
+.Bar2 {
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    width: 32em;
+    margin-left: 3.7em;
+    height: 3em;
+    background-color: yellow;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    animation: loader 1s;
+}
+
+@keyframes loader {
+    0% {
+        width: 0em;
+    }
+
+    100% {
+        width: 32em;
+    }
+}
+
+.loaderBar {
+    position: absolute;
+    width: 40em;
+    bottom: 0;
+    z-index: 11;
+}
+
+.fadeOutLoader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 100.1vw;
+    height: 100.1vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility ease-in-out 500ms, opacity 500ms;
+}
+
+@media screen and (max-width: 612px) {
+    .barImageContainer {
+        width: 100%
+    }
+
+    .Bar {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        animation: newAnimation ease-out 2s;
+    }
+
+    .Bar2 {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        animation: newAnimation ease-out 1s;
+    }
+
+    @keyframes newAnimation {
+        0% {
+            width: 0vw
+        }
+
+        100% {
+            width: 100vw
+        }
+    }
+
+    .loaderBar {
+        display: none;
+    }
+}

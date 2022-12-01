@@ -1,0 +1,509 @@
+@font-face {
+    font-family: HeaderFont;
+    src: url(../../Assets/fonts/bolder.ttf);
+}
+
+.overlayModalTut {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 100.1vw;
+    height: 100.1vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1000002;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility ease-in 0s, opacity .5s;
+}
+
+.fadeInOutTut {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 100.1vw;
+    height: 100.1vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1000002;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility ease-in-out .5s, opacity .5s;
+}
+
+.panel {
+    position: fixed;
+}
+
+.backgroundImage {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+    max-height: 59em;
+}
+
+.closeButton {
+    position: absolute;
+    width: auto;
+    height: 100vh;
+    margin-left: 93.4%;
+    margin-top: 2.3%;
+    z-index: 100;
+    border-radius: 50em;
+}
+
+/* Containers */
+
+.cardContainer {
+    position: relative;
+}
+
+/* Top */
+
+.card:hover,
+.card2:hover {
+    box-shadow: 0 0 4px 2px rgb(252, 255, 47);
+}
+
+.card:active,
+.card2:active {
+    scale: .98;
+}
+
+.deckButtons3 {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    top: 0;
+    left: 2em;
+    width: 93%;
+}
+
+.card2 {
+    width: 9.5em;
+    height: 12.5em;
+}
+
+.card3 {
+    height: 90%;
+}
+
+.overlayBtnText {
+    position: relative;
+    z-index: 99999;
+    filter: drop-shadow(0 0 .2em rgb(0, 0, 0));
+    transition: all .2s;
+}
+
+.overlayBtnText:hover {
+    filter: drop-shadow(0 0 .2em rgb(255, 217, 0));
+}
+
+.overlayBtnText:active {
+    scale: .95;
+}
+
+.text {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -65%);
+    font-family: HeaderFont;
+    letter-spacing: .1em;
+    font-size: .9em;
+    -webkit-text-stroke: 1px black;
+}
+
+.sortText {
+    background-color: #23201b;
+    padding: .9em;
+    box-shadow: #0000009c 0px 5px 10px, #000000 0px 4px 4px;
+    border-radius: 1em;
+    display: flex;
+    align-self: flex-start;
+    justify-self: flex-start;
+    margin-left: 1em;
+    z-index: 99999;
+    font-family: HeaderFont;
+    letter-spacing: .1em;
+    -webkit-text-stroke: 1px black;
+}
+
+.sortContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Bottom */
+.scrollContainer {
+    position: absolute;
+    bottom: .8em;
+    left: 5.5em;
+    border-radius: 1em;
+    width: 84%;
+    height: 45%;
+}
+
+.scrollContainer2 {
+    position: absolute;
+    top: 7.5em;
+    left: 5.5em;
+    border-radius: 1em;
+    width: 84%;
+    height: 45%;
+}
+
+.deckSlots {
+    position: absolute;
+    top: 7.5em;
+    left: 5.5em;
+    background-color: #23201b;
+    box-shadow: #0000009c 0px 10px 20px, #000000 0px 6px 6px;
+    border-radius: 1em;
+    width: 84%;
+    height: 50%;
+}
+
+.scroll {
+    position: absolute;
+    top: 0;
+    right: -2em;
+    height: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+    column-gap: 1em;
+    row-gap: 1em;
+    padding-left: 2em;
+    margin-top: 1.5em;
+}
+
+.backgroundImage2 {
+    width: 100%;
+    height: 90%;
+}
+
+.smoothScroll {
+    scroll-behavior: smooth;
+}
+
+.overflow::-webkit-scrollbar-thumb {
+    cursor: url(../../Assets/cursor1.cur), auto;
+}
+
+.overflow::-webkit-scrollbar {
+
+    cursor: url(../../Assets/cursor1.cur), auto;
+}
+
+.overflow::-webkit-scrollbar-track {
+    cursor: url(../../Assets/cursor1.cur), auto;
+}
+
+.overflow::-webkit-scrollbar-thumb {
+    cursor: url(../../Assets/cursor1.cur), auto;
+    background-color: #e4e4e4;
+    border-radius: 1em;
+    box-shadow: inset #000000 2px 2px .6em 2px, #000000 0 0 .2em 2px;
+}
+
+.card {
+    margin-top: .7em;
+    width: 12em;
+    height: 17em;
+}
+
+.deckDisabled {
+    background-color: #23201b;
+    pointer-events: none;
+    margin-top: .7em !important;
+    margin-bottom: .1em;
+}
+
+.cardDisabled {
+    filter: brightness(50%);
+    pointer-events: none;
+}
+
+.overflow {
+    position: relative;
+    z-index: 9999;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 170%;
+    width: 93.5%;
+}
+
+.overflow2 {
+    left: 0em;
+}
+
+.paddingOverflow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+    column-gap: 1.5em;
+    row-gap: 1.2em;
+    padding-top: 2.9em;
+    padding-bottom: 2em !important;
+}
+
+.error {
+    position: absolute;
+    background-color: rgb(234, 0, 0, .8);
+    padding: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin: 2vw;
+    border-radius: 1vw;
+    right: 4em;
+    z-index: 99999;
+    word-wrap: break-word;
+}
+
+.Header {
+    position: absolute;
+    width: 2em;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin-left: 40.5%;
+    margin-top: 1.5em;
+    z-index: 10;
+}
+
+.deckHeader {
+    height: 5%;
+    -webkit-text-stroke: 2px black;
+    font-family: 'HeaderFont';
+    background: -webkit-linear-gradient(#F5F2E6, #A8A075) !important;
+    font-style: bold;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.deckButtons1 {
+    position: absolute;
+    z-index: 100222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    top: 0;
+    left: 2em;
+    width: auto;
+    margin-right: 4%;
+}
+
+.close3 {
+    width: 3.6em;
+}
+
+.overlay2 {
+    margin-right: 1em;
+}
+
+.overlay2 {
+    box-shadow: none;
+}
+
+.overlay2:active {
+    scale: none;
+}
+
+.overlay2:hover {
+    scale: none;
+}
+
+.deckLength1 {
+    font-size: 1.8em;
+    z-index: 99999;
+    background-color: rgb(35, 32, 27);
+    border-radius: .2em;
+    padding: .1em;
+    box-shadow: #0000009c 0px 5px 10px, #000000 0px 4px 4px;
+    margin-right: 1.8em;
+    margin-bottom: .2em;
+}
+
+@media screen and (max-width: 1124px) {
+    .deckLength1 {
+        font-size: 2vw;
+        padding: 1vw;
+        margin-bottom: 1vw;
+        margin-right: 3vw;
+    }
+
+    .deckDisabled {
+        margin-top: 0 !important;
+    }
+
+    .card {
+        margin-top: 0;
+        width: 15.5vw;
+        height: 21vw;
+    }
+
+    .deckButtons1 {
+        left: 4.4vw;
+        margin-right: 4%;
+    }
+
+    .deckButtons3 {
+        left: 4.4vw;
+        margin-right: 4%;
+    }
+
+    .overflow {
+        height: 165%;
+        width: 100%;
+    }
+
+    .paddingOverflow {
+        column-gap: .5vw;
+        row-gap: 1vw;
+        margin: 0;
+        padding: 0;
+        padding-top: 5vw;
+        padding-left: .9vw;
+        padding-bottom: .5vw;
+    }
+
+    .overflowExtra {
+        width: 100%;
+    }
+
+    .error {
+        font-size: 1.7vw;
+        right: 9vw;
+    }
+
+    .overlayBtn4 {
+        margin-right: 7%;
+    }
+
+    .Header {
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        margin-left: 34vw;
+        margin-top: .8vw;
+        font-size: 1.7vw;
+    }
+
+    .card3 {
+        height: 90%;
+    }
+
+    .backgroundImage {
+        width: 90vw;
+        height: auto;
+    }
+
+    .closeButton {
+        width: 100%;
+        height: 100%;
+        margin-left: 84vw;
+        margin-top: 1.8vw;
+        z-index: 10031;
+    }
+
+    .close3 {
+        width: 5vw
+    }
+
+    /* Bottom */
+    .scrollContainer {
+        bottom: .8vw;
+        left: 7vw;
+    }
+
+    .scrollContainer2 {
+        top: 10vw;
+        left: 7vw;
+    }
+
+    .scroll {
+        top: 0;
+        right: 4vw;
+        height: 50%;
+        width: 90%;
+        column-gap: 1vw;
+        row-gap: 1vw;
+        padding-left: 4vw;
+        margin-top: 1.5vw;
+    }
+
+    .overflow::-webkit-scrollbar {
+        width: 2vw;
+    }
+
+    .card2 {
+        background-size: cover;
+        width: 10vw;
+        height: 13.5vw;
+    }
+
+    .scroll2 {
+        top: 0;
+        right: 4vw;
+        height: 50%;
+        column-gap: 1vw;
+        row-gap: 1vw;
+        padding-left: 4vw;
+        margin-top: 1.5vw;
+    }
+
+    .text {
+        font-size: 1.5vw;
+        letter-spacing: .1vw;
+        margin-top: .2vw;
+        font-size: 1.2vw;
+        -webkit-text-stroke: .1vw black;
+    }
+
+    .overlayBtnText {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 0;
+    }
+
+    .btn3 {
+        width: 10vw;
+    }
+
+    .sortText {
+        padding: 1.4vw;
+        align-self: center;
+        margin-left: 1vw;
+        border-radius: 1vw;
+        letter-spacing: .1vw;
+        font-size: 1vw;
+        -webkit-text-stroke: .1vw black;
+    }
+}

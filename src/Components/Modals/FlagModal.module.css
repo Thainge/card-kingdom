@@ -1,0 +1,427 @@
+.panel {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: 100%;
+}
+
+.container {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.column {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 50vw;
+    margin-bottom: 10vw;
+    z-index: 100;
+}
+
+.closeButton {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 68.85vw;
+    margin-bottom: 33.7vw;
+    z-index: 101;
+}
+
+.header1 {
+    position: absolute;
+    z-index: 0;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 50.15vw;
+    margin-bottom: 24.8vw;
+    font-size: 1.1vw;
+}
+
+.header2 {
+    position: absolute;
+    z-index: 0;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 25.3vw;
+    margin-bottom: 24vw;
+    font-size: 1.1vw;
+}
+
+.headerColor {
+    -webkit-text-stroke: 0px black;
+    color: #655836;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    background: none;
+    font-family: UtopiaF;
+}
+
+/* Left side */
+
+.information {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 20vw;
+    margin-bottom: 8vw;
+    z-index: 100;
+}
+
+.cardInfo {
+    position: absolute;
+    width: 9vw;
+    margin-left: 4.15vw;
+}
+
+.starsbox {
+    position: absolute;
+    margin-left: 4.4vw;
+    margin-top: 27vw;
+    background-image: url(../../Assets/rewards.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: .8vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .3vw;
+}
+
+.starsbox2 {
+    position: absolute;
+    margin-left: 4.4vw;
+    margin-top: 15vw;
+    background-image: url(../../Assets/rewards.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: .8vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .3vw;
+}
+
+.star {
+    width: 1.5vw;
+}
+
+.diamondBox {
+    position: absolute;
+    margin-left: 4.4vw;
+    margin-top: 18.5vw;
+    background-image: url(../../Assets/rewards.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: .8vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .3vw;
+    width: 6.65vw;
+    font-size: 1.5vmin;
+}
+
+.diamondBox2 {
+    position: absolute;
+    margin-left: 4.4vw;
+    margin-top: 2vw;
+    background-image: url(../../Assets/rewards.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: .8vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .3vw;
+    width: 6.65vw;
+    font-size: 1.5vmin;
+    font-family: HeaderFont;
+}
+
+.diamondBox3 {
+    position: absolute;
+    margin-left: 4.4vw;
+    margin-top: 15vw;
+    background-image: url(../../Assets/rewards.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: .8vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .3vw;
+    width: 6.65vw;
+    font-family: HeaderFont;
+}
+
+.dBox1 {
+    margin-top: 28vw;
+}
+
+.dBox2 {
+    margin-top: 19.5vw;
+}
+
+.dText1 {
+    margin-top: 14.3vw;
+    margin-left: 6.3vw !important;
+    font-size: 1.1vw !important;
+}
+
+.dText2 {
+    margin-top: 19.2vw;
+    margin-left: 7.5vw !important;
+    font-size: 1.1vw !important;
+}
+
+.star {
+    width: 1.2vw;
+    margin-left: -.3vw;
+}
+
+.diamond {
+    width: 1.4vw;
+    margin-left: -.3vw;
+}
+
+.diamondText {
+    margin-left: .5vw;
+    color: #655836;
+    font-size: .8vw;
+}
+
+/* Right side */
+
+.toBattle {
+    position: absolute;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-left: -18.2vw;
+    margin-bottom: -54vw;
+    cursor: url(../../Assets/cursor1.cur), auto;
+}
+
+.toBattle:active {
+    cursor: url(../../Assets/cursor2.cur), auto;
+}
+
+.toBattle:focus,
+.toBattle:hover,
+.toBattle:visited,
+.toBattle:link,
+.toBattle:active {
+    text-decoration: none;
+    color: unset;
+}
+
+.toBattleButton {
+    width: 7vw;
+}
+
+.toBattleButton:hover {
+    filter: brightness(1.2)
+}
+
+.textBoxContainer {
+    height: 10vw;
+    margin-left: -4vw;
+    font-family: UtopiaF;
+}
+
+.p {
+    margin-top: 4vw;
+    font-size: 1.2vw;
+    padding-left: .5vw;
+    max-width: 17vw;
+    color: #655836;
+}
+
+.castleBox {
+    position: relative;
+}
+
+.castle {
+    position: relative;
+    top: 0;
+    float: left;
+    width: 4.5vw;
+}
+
+.singleLetter {
+    top: 2.7vw;
+    position: absolute;
+    z-index: 5;
+    width: 4.5vw;
+    height: 1.7vw;
+    font-size: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.starsTextTitle {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 7.2vw;
+    margin-bottom: 3.2vw;
+    z-index: 101;
+    -webkit-text-stroke: 0px black;
+    color: #655836;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    background: none;
+    font-family: UtopiaF;
+    font-size: 1.5vw;
+}
+
+.diamondsTextTitle {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 5.5vw;
+    margin-bottom: -9.7vw;
+    z-index: 101;
+    -webkit-text-stroke: 0px black;
+    color: #655836;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    background: none;
+    font-family: UtopiaF;
+    font-size: 1.5vw;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .dBox1 {
+        margin-top: 33vw;
+    }
+
+    .dBox2 {
+        margin-top: 21.5vw;
+    }
+
+    .dText1 {
+        margin-top: 19vw;
+        margin-left: 6.3vw !important;
+        font-size: 1.1vw !important;
+    }
+
+    .dText2 {
+        margin-top: 21vw;
+        margin-left: 7.5vw !important;
+        font-size: 1.1vw !important;
+    }
+
+    .star {
+        width: 1.2vw;
+        margin-left: -.3vw;
+    }
+
+    /* Right side */
+    .toBattle {
+        margin-left: -23.5vw;
+        margin-bottom: -68vw;
+    }
+
+    .toBattleButton {
+        width: 10.1vw;
+    }
+
+    .textBoxContainer {
+        height: 16vw;
+        margin-left: 9vw;
+    }
+
+    .p {
+        margin-top: 3.9vw;
+        font-size: 1.4vw;
+        max-width: 19vw;
+    }
+
+    /* Left side */
+
+    .information {
+        margin-left: 27.3vw;
+        margin-bottom: 11vw;
+    }
+
+    .cardInfo {
+        width: 9vw;
+        margin-left: 4.3vw;
+    }
+
+    .starsbox {
+        margin-top: 32vw;
+    }
+
+    /* Other */
+
+    .header1 {
+        margin-left: 63.4vw;
+        margin-bottom: 30.8vw;
+        font-size: 1.2vw;
+    }
+
+    .header2 {
+        margin-left: 32.2vw;
+        margin-bottom: 30vw;
+        font-size: 1.2vw;
+    }
+
+    .closeButton {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin-left: 86vw;
+        margin-bottom: 42vw;
+    }
+
+    .panel {
+        width: 100vw;
+    }
+}

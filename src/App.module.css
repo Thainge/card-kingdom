@@ -1,0 +1,66 @@
+@font-face {
+    font-family: soho;
+    src: url(./Assets/fonts/SoHo.ttf);
+}
+
+@font-face {
+    font-family: HeaderFont;
+    src: url(./Assets/fonts/bolder.ttf);
+}
+
+@font-face {
+    font-family: Signor;
+    src: url(./Assets/fonts/Signor.ttf);
+}
+
+@font-face {
+    font-family: UtopiaF;
+    src: url(./Assets/fonts/UtopiaStd-DispIt.otf);
+}
+
+* {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    cursor: url(./Assets/cursor1.cur), auto;
+    font-family: soho;
+    color: #E9E9B2;
+    background-image: url(./Assets/body.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+body:active {
+    cursor: url(./Assets/cursor2.cur), auto;
+}
+
+::-webkit-scrollbar-thumb {
+    cursor: url(./Assets/cursor1.cur), auto;
+}
+
+h1 {
+    -webkit-text-stroke: 2px black;
+    font-family: 'HeaderFont';
+    background: -webkit-linear-gradient(#F5F2E6, #A8A075);
+    font-style: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1400px) {
+    h1 {
+        -webkit-text-stroke: .13vw black;
+    }
+}
+
+@media screen and (max-width: 612px) {
+    h1 {
+        -webkit-text-stroke: .2vw black;
+    }
+}

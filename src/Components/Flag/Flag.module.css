@@ -1,0 +1,45 @@
+.flagContainer {
+    position: absolute;
+    z-index: 1222;
+}
+
+.dot {
+    position: absolute;
+    z-index: 1222;
+}
+
+.flag {
+    width: 8.5em;
+    height: auto;
+}
+
+.flagContainer:hover {
+    scale: 1.03;
+    filter: drop-shadow(0 0 .7em rgb(255, 217, 0));
+}
+
+.flagContainer:active {
+    scale: 1.06;
+}
+
+.flag2 {
+    width: 5.8em;
+    height: auto;
+
+}
+
+.flag2:hover {
+    scale: 1.03;
+    filter: drop-shadow(0 0 .7em rgb(255, 217, 0));
+}
+
+.error {
+    position: absolute;
+    background-color: rgb(234, 0, 0, .8);
+    width: 10em;
+    padding: 2vw;
+    border-radius: 1vw;
+    font-size: 2em;
+    z-index: 99999;
+    word-wrap: break-word;
+}
