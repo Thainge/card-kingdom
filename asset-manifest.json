@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/card-kingdom/static/css/main.46bd847a.css",
-    "main.js": "/card-kingdom/static/js/main.cc720710.js",
+    "main.js": "/card-kingdom/static/js/main.b4be6ff6.js",
     "static/js/845.ba8360cc.chunk.js": "/card-kingdom/static/js/845.ba8360cc.chunk.js",
     "static/media/map.png": "/card-kingdom/static/media/map.80bf95ba01be0e4a03d4.png",
     "static/media/mapMusic.mp3": "/card-kingdom/static/media/mapMusic.5c281a858c7a7242ab07.mp3",
@@ -217,11 +217,11 @@
     "static/media/greenUpgrade.png": "/card-kingdom/static/media/greenUpgrade.69b71e84d51ad4b3b577.png",
     "static/media/epic.png": "/card-kingdom/static/media/epic.c8e9567cf1532e9b9cc0.png",
     "static/media/mute.png": "/card-kingdom/static/media/mute.cebfe52da3937972df37.png",
-    "static/media/surrender.png": "/card-kingdom/static/media/surrender.cebfe52da3937972df37.png",
     "static/media/unMuted.png": "/card-kingdom/static/media/unMuted.9e22c173c751c5397c9a.png",
     "static/media/arrow.png": "/card-kingdom/static/media/arrow.e0d2c650eab7f24907dc.png",
     "static/media/arrowActive.png": "/card-kingdom/static/media/arrowActive.5bdfa796af3a8940536b.png",
     "static/media/fullscreen.png": "/card-kingdom/static/media/fullscreen.98e2d3d159be3c6f8baf.png",
+    "static/media/surrender.png": "/card-kingdom/static/media/surrender.6aee4540d51aa30e27eb.png",
     "static/media/blueActive.png": "/card-kingdom/static/media/blueActive.85bb2f26476e12630faf.png",
     "static/media/greenPotion.png": "/card-kingdom/static/media/greenPotion.28a12ac20ba3deddea59.png",
     "static/media/blueShield.png": "/card-kingdom/static/media/blueShield.390ebd23218732eede0d.png",
@@ -247,11 +247,11 @@
     "static/media/cursor2.cur": "/card-kingdom/static/media/cursor2.f63672ee319292e7a023.cur",
     "index.html": "/card-kingdom/index.html",
     "main.46bd847a.css.map": "/card-kingdom/static/css/main.46bd847a.css.map",
-    "main.cc720710.js.map": "/card-kingdom/static/js/main.cc720710.js.map",
+    "main.b4be6ff6.js.map": "/card-kingdom/static/js/main.b4be6ff6.js.map",
     "845.ba8360cc.chunk.js.map": "/card-kingdom/static/js/845.ba8360cc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46bd847a.css",
-    "static/js/main.cc720710.js"
+    "static/js/main.b4be6ff6.js"
   ]
 }
