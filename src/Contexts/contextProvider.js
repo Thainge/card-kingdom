@@ -83,17 +83,17 @@ export function InputProvider({ children }) {
     }, [music.playingMusic2]);
 
     // Update localStorage on change
-    // useEffect(() => {
-    //     ls.set('cards', cards);
-    // }, [cards])
+    useEffect(() => {
+        ls.set('cards', cards);
+    }, [cards])
 
-    // useEffect(() => {
-    //     ls.set('deck', deck);
-    // }, [deck])
+    useEffect(() => {
+        ls.set('deck', deck);
+    }, [deck])
 
-    // useEffect(() => {
-    //     ls.set('user', user);
-    // }, [user])
+    useEffect(() => {
+        ls.set('user', user);
+    }, [user])
 
     let obj = {
         user: user,
