@@ -1,0 +1,118 @@
+.app {
+    width: 100vw;
+    height: 100vh;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+
+.logo {
+    height: 18em;
+}
+
+.overlayModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility ease-in-out 0s, opacity 400ms;
+}
+
+.fadeInOut {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility ease-in-out 300ms, opacity 300ms;
+}
+
+.startButtonContainer {
+    cursor: url(../../Assets/cursor1.cur), auto;
+}
+
+.startButtonContainer:active {
+    cursor: url(../../Assets/cursor2.cur), auto;
+}
+
+.startButton {
+    height: 8em;
+    transition: all .05s;
+}
+
+.startButton:hover {
+    transform: scale(1.02);
+}
+
+.startButton:active {
+    transform: scale(.98);
+}
+
+.creditsButton {
+    height: 5em;
+    transition: all .05s;
+}
+
+.creditsButton:hover {
+    transform: scale(1.02);
+}
+
+.creditsButton:active {
+    transform: scale(.98);
+}
+
+.topLeft {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    height: 3em;
+    margin: 1em;
+}
+
+.options:hover {
+    transform: scale(1.02);
+}
+
+.options:active {
+    transform: scale(.98);
+}

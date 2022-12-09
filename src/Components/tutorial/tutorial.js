@@ -25,7 +25,7 @@ function TutorialModal({ item, index, showAll, setFinished }) {
                 return true;
             })
         }
-    }, [item])
+    }, [showAll])
 
     // Logic for typed text
     return (

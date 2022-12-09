@@ -110,7 +110,7 @@ function MainPage() {
     }, [cards]);
 
     const startMusic = () => {
-        if (!music.playingMusic1 && muteIsActive === false) {
+        if (music.playingMusic1 === false && muteIsActive === false) {
             // Start music 1
             let newObj = {
                 playingMusic1: true,
@@ -133,16 +133,11 @@ function MainPage() {
             left: '0',
         },
         {
-            text: 'To get started, go ahead and drag the map down and click on the red flag to start your first battle!',
+            text: 'To get started, go ahead and click on the red flag to start your first battle!',
             top: '0',
             left: '0',
         },
     ]
-
-    let totalStars = 0;
-    if (user) {
-        totalStars = user.flags.length * 3;
-    }
 
     useEffect(() => {
         if (music.playingMusic2) {
@@ -162,6 +157,11 @@ function MainPage() {
             }, 1500)
         }
     }, []);
+
+    let totalStars = 0;
+    if (user) {
+        totalStars = user.flags.length * 3;
+    }
 
     const [currentStep, setCurrentStep] = useState(0);
     const [readyToShow, setReadyToShow] = useState(false);
@@ -183,7 +183,7 @@ function MainPage() {
         } else {
             setFinished(false);
             setShowAll(false);
-            setCurrentStep(9);
+            setCurrentStep(0);
         }
     }
 
@@ -211,6 +211,8 @@ function MainPage() {
                 }}
                 alignmentAnimation={{ sizeY: 0, sizeX: 0, velocityAlignmentTime: 0 }}
                 velocityAnimation={{ sensitivity: 200, animationTime: 500, equalToMove: false }}
+                initialPositionX={0}
+                initialPositionY={-720}
             >
                 <TransformComponent
                     wrapperStyle={{
