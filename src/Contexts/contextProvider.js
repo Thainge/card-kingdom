@@ -37,6 +37,10 @@ export function InputProvider({ children }) {
         cardsData[1],
         cardsData[2],
         cardsData[3],
+        cardsData[4],
+        cardsData[5],
+        cardsData[6],
+        cardsData[7],
     ]
     defaultDeck.forEach((item) => {
         item.owned = true;

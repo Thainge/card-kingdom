@@ -184,14 +184,25 @@ function ShopModal({ setIsOpen, isOpen }) {
         }
     }, [isOpen]);
 
+    const [finished, setFinished] = useState(false);
+    const [showAll, setShowAll] = useState(false);
+
     const moveOnToNextStep = () => {
-        if (currentStep < tutorialArr.length) {
+        // if it is finished, move on to next step
+        if (finished && currentStep < tutorialArr.length) {
+            setFinished(() => false);
+            setShowAll(() => false);
             setCurrentStep((prevStep) => {
                 let newStep = prevStep + 1;
                 return newStep;
             });
+        } else if (!finished) {
+            setFinished(() => true);
+            setShowAll(() => true);
         } else {
-            setCurrentStep(0);
+            setFinished(false);
+            setShowAll(false);
+            setCurrentStep(5);
         }
     }
 
@@ -199,8 +210,8 @@ function ShopModal({ setIsOpen, isOpen }) {
         <div className={styles.panel} onClick={e => e.stopPropagation()}>
             {
                 tutorialArr.map((item, index) => (
-                    <div key={index} className={currentStep === index + 1 ? styles.overlayModalTut : styles.fadeInOutTut}>
-                        {currentStep === index + 1 && readyToShow ? <div onClick={moveOnToNextStep}><TutorialModal index={index + 1} item={item} /></div> : <></>}
+                    <div key={index} onClick={moveOnToNextStep} className={currentStep === index + 1 ? styles.overlayModalTut : styles.fadeInOutTut}>
+                        {currentStep === index + 1 && readyToShow ? <TutorialModal setFinished={setFinished} showAll={showAll} index={index + 1} item={item} /> : <></>}
                     </div>
                 ))
             }
@@ -305,7 +316,7 @@ function ShopModal({ setIsOpen, isOpen }) {
                             </Carousel>
                         </div>
                         <div className={`${styles.titleText} ${currentItem.unlocked ? styles.nothing : styles.titleTextDisabled}`}>
-                            {currentItem.name}
+                            <div className={styles.backgroundText}>{currentItem.name}</div>
                         </div>
                         <div className={styles.spannedButtons}>
                             <div className={`${styles.overlayBtnText} ${currentItem.unlocked ? styles.nothing : styles.buttonDisabled}`} onMouseDownCapture={() => {

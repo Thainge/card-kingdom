@@ -2,7 +2,7 @@
   "name": "card-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Thainge.github.io/movies-app",
+  "homepage": "https://Thainge.github.io/card-kingdom",
   "dependencies": {
     "@pronestor/react-zoom-pan-pinch": "^2.4.3",
     "@testing-library/jest-dom": "^5.16.5",

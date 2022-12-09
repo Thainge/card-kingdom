@@ -6,7 +6,7 @@ import 'react-typewriting-effect/dist/index.css'
 import { useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 
-function TutorialModal({ item, index }) {
+function TutorialModal({ item, index, showAll, setFinished }) {
 
     const [show, setShow] = useState(false);
 
@@ -25,31 +25,36 @@ function TutorialModal({ item, index }) {
                 return true;
             })
         }
-
-    }, [item])
+    }, [showAll])
 
     // Logic for typed text
     return (
         <div className={styles.row}>
-            <Fade up distance={'2em'}>
+            <Fade up distance={'2em'} duration={500}>
                 <div style={{ backgroundImage: "url(" + backImage + ")", marginTop: item.top, marginLeft: item.left }} className={styles.tutorialBox}>
                     <img src={avatar} className={styles.player} />
                     <div className={styles.textBox}>
                         {
-                            show ?
-                                <div className={styles.relative}>
-                                    {
-                                        item.image ? <img src={item.image} className={styles.img} /> : <></>
-                                    }
-                                    <Typewriter
-                                        string={item.text}
-                                        delay={25}
-                                        cursor=''
-                                    />
-                                </div>
-                                : <></>
+                            showAll ? <div className={styles.relative}>
+                                {
+                                    item.image ? <img src={item.image} className={styles.img} /> : <></>
+                                }
+                                {item.text}
+                            </div> :
+                                show ?
+                                    <div className={styles.relative}>
+                                        {
+                                            item.image ? <img src={item.image} className={styles.img} /> : <></>
+                                        }
+                                        <Typewriter
+                                            onComplete={() => setFinished(true)}
+                                            string={item.text}
+                                            delay={25}
+                                            cursor=''
+                                        />
+                                    </div>
+                                    : <></>
                         }
-
                     </div>
                 </div>
             </Fade>

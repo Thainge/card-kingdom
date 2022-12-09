@@ -13,8 +13,8 @@ const FlagsData = [
         'left': 25,
         'bottom': 17,
         'text': 'We have been forced into the back of the forest, push the enemy out!',
-        'max': 100,
-        'min': 25,
+        'max': 200,
+        'min': 100,
         'cards': EnemyCardsData[0]
     },
     {
@@ -29,8 +29,8 @@ const FlagsData = [
         'left': 45,
         'bottom': 14,
         'text': 'We have secured a base, but the battle isn\'t over, defend the farmland!',
-        'max': 125,
-        'min': 25,
+        'max': 210,
+        'min': 110,
         'cards': EnemyCardsData[1]
     },
     {
@@ -45,8 +45,8 @@ const FlagsData = [
         'left': 72,
         'bottom': 19,
         'text': 'We have driven the enemy to the edge of the river, drive them further!',
-        'max': 150,
-        'min': 25,
+        'max': 220,
+        'min': 120,
         'cards': EnemyCardsData[2]
     },
     {
@@ -61,8 +61,8 @@ const FlagsData = [
         'left': 25,
         'bottom': 35.2,
         'text': 'We have met up with some skilled elven warriors that live in the forest, if we help them, they will help us!',
-        'max': 150,
-        'min': 25,
+        'max': 230,
+        'min': 130,
         'cards': EnemyCardsData[3]
     },
     {
@@ -77,8 +77,8 @@ const FlagsData = [
         'left': 9,
         'bottom': 60,
         'text': 'We have come across a small town, drive the enemy out!',
-        'max': 150,
-        'min': 25,
+        'max': 240,
+        'min': 140,
         'cards': EnemyCardsData[4]
     },
     {
@@ -93,8 +93,8 @@ const FlagsData = [
         'left': 26.4,
         'bottom': 80,
         'text': 'This is the enemies final stand for the forest, they will bring out their leader now, this will be a hard fight.',
-        'max': 150,
-        'min': 25,
+        'max': 300,
+        'min': 180,
         'cards': EnemyCardsData[5]
     },
     {
@@ -109,8 +109,8 @@ const FlagsData = [
         'left': 25.1,
         'bottom': 100,
         'text': 'The forest is ours! It\'s time we turned to help the rest of the kingdom.',
-        'max': 150,
-        'min': 25,
+        'max': 250,
+        'min': 150,
         'cards': EnemyCardsData[6]
     },
     {
@@ -125,8 +125,8 @@ const FlagsData = [
         'left': 46.4,
         'bottom': 116,
         'text': 'We are in the icy alps, we need to get away from the sides of the mountain!',
-        'max': 150,
-        'min': 25,
+        'max': 260,
+        'min': 160,
         'cards': EnemyCardsData[7]
     },
     {
@@ -141,8 +141,8 @@ const FlagsData = [
         'left': 44,
         'bottom': 140,
         'text': 'We have arrived at the viking headquarters, but the enemy is already oppressing them, drive them away from the village!',
-        'max': 150,
-        'min': 25,
+        'max': 270,
+        'min': 170,
         'cards': EnemyCardsData[8]
     },
     {
@@ -157,8 +157,8 @@ const FlagsData = [
         'left': 60,
         'bottom': 141,
         'text': 'The vikings are helping and slowly we are pushing the enemy away, keep attacking!',
-        'max': 150,
-        'min': 25,
+        'max': 280,
+        'min': 180,
         'cards': EnemyCardsData[9]
     },
     {
@@ -173,8 +173,8 @@ const FlagsData = [
         'left': 77,
         'bottom': 139,
         'text': 'Success! They are out of the viking village, but they will come back if we don\'t keep pushing.',
-        'max': 150,
-        'min': 25,
+        'max': 290,
+        'min': 190,
         'cards': EnemyCardsData[10]
     },
     {
@@ -189,8 +189,8 @@ const FlagsData = [
         'left': 93,
         'bottom': 145,
         'text': 'We have located a strange contraption that the enemy was making, fortunately we got to them before they finished their toy, now destroy it!',
-        'max': 150,
-        'min': 25,
+        'max': 300,
+        'min': 200,
         'cards': EnemyCardsData[11]
     },
     {
@@ -205,8 +205,8 @@ const FlagsData = [
         'left': 110,
         'bottom': 148,
         'text': 'The enemy has been driven to the very edge of the icy alps, this will be a tough fight!',
-        'max': 150,
-        'min': 25,
+        'max': 450,
+        'min': 300,
         'cards': EnemyCardsData[12]
     },
     {
@@ -221,8 +221,8 @@ const FlagsData = [
         'left': 126,
         'bottom': 136.7,
         'text': 'We are nearing the dwarve\'s territory, it\'s time to free their city!',
-        'max': 150,
-        'min': 25,
+        'max': 310,
+        'min': 210,
         'cards': EnemyCardsData[13]
     },
     {
@@ -237,8 +237,8 @@ const FlagsData = [
         'left': 140,
         'bottom': 147.5,
         'text': 'As we feared, the dwarve\'s city has been taken over, and they are defending hard!',
-        'max': 150,
-        'min': 25,
+        'max': 320,
+        'min': 220,
         'cards': EnemyCardsData[14]
     },
     {
@@ -253,8 +253,8 @@ const FlagsData = [
         'left': 156.8,
         'bottom': 145,
         'text': 'The dwarves will fight with us, onward!',
-        'max': 150,
-        'min': 25,
+        'max': 330,
+        'min': 230,
         'cards': EnemyCardsData[15]
     },
     {
@@ -269,8 +269,8 @@ const FlagsData = [
         'left': 170,
         'bottom': 140,
         'text': 'We can use their own tactics against them, but the fight will still be hard!',
-        'max': 150,
-        'min': 25,
+        'max': 340,
+        'min': 240,
         'cards': EnemyCardsData[16]
     },
     {
@@ -285,8 +285,8 @@ const FlagsData = [
         'left': 176.5,
         'bottom': 129,
         'text': 'The more we push the more dwarves we free that will help us, keep going!',
-        'max': 150,
-        'min': 25,
+        'max': 350,
+        'min': 250,
         'cards': EnemyCardsData[17]
     },
     {
@@ -301,8 +301,8 @@ const FlagsData = [
         'left': 200,
         'bottom': 109,
         'text': 'The enemy is continuing to use the dwarve defenses against us, it\'s getting harder to fight.',
-        'max': 150,
-        'min': 25,
+        'max': 360,
+        'min': 260,
         'cards': EnemyCardsData[18]
     },
     {
@@ -317,8 +317,8 @@ const FlagsData = [
         'left': 185,
         'bottom': 107.5,
         'text': 'The next entrance to go through is a cave, it looks unstable, I hope we will all make it through safely.',
-        'max': 150,
-        'min': 25,
+        'max': 370,
+        'min': 270,
         'cards': EnemyCardsData[19]
     },
     {
@@ -333,8 +333,8 @@ const FlagsData = [
         'left': 175.7,
         'bottom': 98,
         'text': 'With some tricky maneuvering, we should be able to slip behind the enemy and take them by surprise!',
-        'max': 150,
-        'min': 25,
+        'max': 380,
+        'min': 280,
         'cards': EnemyCardsData[20]
     },
     {
@@ -349,8 +349,8 @@ const FlagsData = [
         'left': 158,
         'bottom': 100,
         'text': 'We are pushing the enemy to our best ability, they are almost out of the dwarve kingdom!',
-        'max': 150,
-        'min': 25,
+        'max': 390,
+        'min': 290,
         'cards': EnemyCardsData[21]
     },
     {
@@ -365,8 +365,8 @@ const FlagsData = [
         'left': 148,
         'bottom': 93,
         'text': 'The enemy has been driven out of the dwarve kingdom and is now retreating into their territory, destroy them!',
-        'max': 150,
-        'min': 25,
+        'max': 550,
+        'min': 400,
         'cards': EnemyCardsData[22]
     },
     {
@@ -381,8 +381,8 @@ const FlagsData = [
         'left': 154,
         'bottom': 80,
         'text': 'We made it through the caves! But it looks like we are now in enemy territory, this is where we will do our final assault.',
-        'max': 150,
-        'min': 25,
+        'max': 400,
+        'min': 300,
         'cards': EnemyCardsData[23]
     },
     {
@@ -394,11 +394,11 @@ const FlagsData = [
         'yellow': false,
         'red': true,
         'next': false,
-        'left': 26.4,
-        'bottom': 80,
-        'text': 'The air stinks of decay and it appears like the enemy is using the undead against us, fight for your life!',
         'left': 164,
         'bottom': 75,
+        'text': 'The air stinks of decay and it appears like the enemy is using the undead against us, fight for your life!',
+        'max': 400,
+        'min': 300,
         'cards': EnemyCardsData[24]
     },
     {
@@ -413,8 +413,8 @@ const FlagsData = [
         'left': 163,
         'bottom': 65,
         'text': 'We are continuing to fight off all type of horrible monsters, but the enemy stronghold is in sight, keep fighting!',
-        'max': 150,
-        'min': 25,
+        'max': 410,
+        'min': 310,
         'cards': EnemyCardsData[25]
     },
     {
@@ -429,8 +429,8 @@ const FlagsData = [
         'left': 168,
         'bottom': 52,
         'text': 'We have reached the stronghold\'s graveyard, but it is guarded by his minions, fight your way through!',
-        'max': 150,
-        'min': 25,
+        'max': 420,
+        'min': 320,
         'cards': EnemyCardsData[26]
     },
     {
@@ -445,8 +445,8 @@ const FlagsData = [
         'left': 185,
         'bottom': 48,
         'text': 'We are nearing the enemy stronghold, and the enemy is growing increasingly aggressive.',
-        'max': 150,
-        'min': 25,
+        'max': 430,
+        'min': 330,
         'cards': EnemyCardsData[27]
     },
     {
@@ -461,8 +461,8 @@ const FlagsData = [
         'left': 196,
         'bottom': 36,
         'text': 'We have driven the enemy straight to their base, it\'s time to destroy them once and for all!',
-        'max': 150,
-        'min': 25,
+        'max': 999,
+        'min': 599,
         'cards': EnemyCardsData[28]
     },
 ]

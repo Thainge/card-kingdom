@@ -110,7 +110,8 @@ function MainPage() {
     }, [cards]);
 
     const startMusic = () => {
-        if (music.playingMusic1 === false && muteIsActive === false) {
+        if (!music.playingMusic1 && muteIsActive === false) {
+            console.log('starting')
             // Start music 1
             let newObj = {
                 playingMusic1: true,
@@ -133,7 +134,7 @@ function MainPage() {
             left: '0',
         },
         {
-            text: 'To get started, go ahead and click on the red flag to start your first battle!',
+            text: 'To get started, go ahead and drag the map down and click on the red flag to start your first battle!',
             top: '0',
             left: '0',
         },
@@ -165,26 +166,34 @@ function MainPage() {
 
     const [currentStep, setCurrentStep] = useState(0);
     const [readyToShow, setReadyToShow] = useState(false);
+    const [finished, setFinished] = useState(false);
+    const [showAll, setShowAll] = useState(false);
 
     const moveOnToNextStep = () => {
-        if (currentStep < tutorialArr.length) {
+        // if it is finished, move on to next step
+        if (finished && currentStep < tutorialArr.length) {
+            setFinished(() => false);
+            setShowAll(() => false);
             setCurrentStep((prevStep) => {
                 let newStep = prevStep + 1;
                 return newStep;
             });
+        } else if (!finished) {
+            setFinished(() => true);
+            setShowAll(() => true);
         } else {
-            setCurrentStep(0);
+            setFinished(false);
+            setShowAll(false);
+            setCurrentStep(4);
         }
     }
-
-
 
     return (
         <div className={styles.papa} onClick={startMusic}>
             {
                 tutorialArr.map((item, index) => (
-                    <div key={index} className={currentStep === index + 1 ? styles.overlayModalTut : styles.fadeInOutTut}>
-                        {currentStep === index + 1 && readyToShow ? <div onClick={moveOnToNextStep}><TutorialModal index={index + 1} item={item} /></div> : <></>}
+                    <div key={index} onClick={moveOnToNextStep} className={currentStep === index + 1 ? styles.overlayModalTut : styles.fadeInOutTut}>
+                        {currentStep === index + 1 && readyToShow ? <TutorialModal setFinished={setFinished} showAll={showAll} index={index + 1} item={item} /> : <></>}
                     </div>
                 ))
             }
@@ -203,8 +212,6 @@ function MainPage() {
                 }}
                 alignmentAnimation={{ sizeY: 0, sizeX: 0, velocityAlignmentTime: 0 }}
                 velocityAnimation={{ sensitivity: 200, animationTime: 500, equalToMove: false }}
-                initialPositionX={0}
-                initialPositionY={-720}
             >
                 <TransformComponent
                     wrapperStyle={{

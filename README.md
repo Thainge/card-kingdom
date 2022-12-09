@@ -11,6 +11,7 @@ Next steps:
 - Node Sockets multiplayer access
 
 credits to
+Tobey Hainge - Lead Programmer
 Alena - Art
 Elizabeth - Art
 IronHide Studios - Music

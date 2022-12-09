@@ -20,10 +20,11 @@ function CreditsModal({ setIsOpen, isOpen }) {
                 </div>
                 <div className={styles.settings}>
                     <div className={styles.column}>
-                        <Fade up delay={100}><div>Alena - Art</div></Fade>
-                        <Fade up when={isOpen}><div>Elizabeth - Art</div></Fade>
-                        <Fade up delay={200} when={isOpen}><div>Elements Envato - Sounds</div></Fade>
-                        <Fade up delay={300} when={isOpen}><div>Ironhide Studios - Music</div></Fade>
+                        <Fade up delay={100} when={isOpen}><div>Tobey Hainge - Lead Designer</div></Fade>
+                        <Fade up delay={200} when={isOpen}><div>Alena - Art</div></Fade>
+                        <Fade up delay={300} when={isOpen}><div>Elizabeth - Art</div></Fade>
+                        <Fade up delay={400} when={isOpen}><div>Elements Envato - Sounds</div></Fade>
+                        <Fade up delay={500} when={isOpen}><div>Ironhide Studios - Music</div></Fade>
                     </div>
                 </div>
             </div>

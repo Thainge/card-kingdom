@@ -100,7 +100,7 @@ function DeckModal({ setIsOpen, isOpen }) {
     }, [cards])
 
     const updateDeckFunction = () => {
-        let total = 4 + initalVal;
+        let total = 8 + initalVal;
         if (deck.length > total) {
             return;
         } else {
@@ -184,14 +184,25 @@ function DeckModal({ setIsOpen, isOpen }) {
         }
     }, [isOpen]);
 
+    const [finished, setFinished] = useState(false);
+    const [showAll, setShowAll] = useState(false);
+
     const moveOnToNextStep = () => {
-        if (currentStep < tutorialArr.length) {
+        // if it is finished, move on to next step
+        if (finished && currentStep < tutorialArr.length) {
+            setFinished(() => false);
+            setShowAll(() => false);
             setCurrentStep((prevStep) => {
                 let newStep = prevStep + 1;
                 return newStep;
             });
+        } else if (!finished) {
+            setFinished(() => true);
+            setShowAll(() => true);
         } else {
-            setCurrentStep(0);
+            setFinished(false);
+            setShowAll(false);
+            setCurrentStep(4);
         }
     }
 
@@ -199,8 +210,8 @@ function DeckModal({ setIsOpen, isOpen }) {
         <div className={styles.panel} onClick={e => e.stopPropagation()}>
             {
                 tutorialArr.map((item, index) => (
-                    <div key={index} className={currentStep === index + 1 ? styles.overlayModalTut : styles.fadeInOutTut}>
-                        {currentStep === index + 1 && readyToShow ? <div onClick={moveOnToNextStep}><TutorialModal index={index + 1} item={item} /></div> : <></>}
+                    <div key={index} onClick={moveOnToNextStep} className={currentStep === index + 1 ? styles.overlayModalTut : styles.fadeInOutTut}>
+                        {currentStep === index + 1 && readyToShow ? <TutorialModal setFinished={setFinished} showAll={showAll} index={index + 1} item={item} /> : <></>}
                     </div>
                 ))
             }
@@ -233,7 +244,7 @@ function DeckModal({ setIsOpen, isOpen }) {
                                     <img className={`${styles.btn3} ${styles.sortBtn}`} src={require('../../Assets/MainMenu/button.png')}></img>
                                 </div>
                                 <div className={styles.deckLength1}>
-                                    {deck.length} / {initalVal + 4}
+                                    {deck.length} / {initalVal + 8}
                                 </div>
                                 {
                                     error.length > 1 ? <Fade right delay={2} duration={500}><div className={styles.error}>

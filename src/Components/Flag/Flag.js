@@ -4,6 +4,7 @@ import { ContextFunction } from '../../Contexts/contextProvider';
 import openClick from '../../Assets/sounds/starting/button.mp3';
 import useSound from 'use-sound';
 import Fade from 'react-reveal/Fade';
+import Pulse from 'react-reveal/Pulse';
 
 const FinishedFlagImg = require('../../Assets/MainMenu/FinishedFlag.png');
 const FlagImg = require('../../Assets/MainMenu/Flag.png');
@@ -27,10 +28,10 @@ function FlagLogo({ item, openFlags }) {
     }, [error])
 
     const startBattle = () => {
-        if (deck.length > 3) {
+        if (deck.length > 7) {
             openFlags(item);
         } else {
-            let string = 'Invalid deck length! 4 cards minimum.';
+            let string = 'Invalid deck length! 8 cards minimum.';
             setError(string)
         }
     }
@@ -66,10 +67,12 @@ function FlagLogo({ item, openFlags }) {
                             openButton();
                             startBattle()
                         }}
-                        className={styles.flagContainer}
+                        className={styles.flagContainer2}
                         style={{ bottom: `${item.bottom}em`, left: `${item.left}em` }}
                     >
-                        <img className={styles.flag2} style={{ bottom: `${item.bottom}em`, left: `${item.left}em`, }} src={FlagImg} />
+                        <Pulse forever duration={1200}>
+                            <img className={styles.flag2} style={{ bottom: `${item.bottom}em`, left: `${item.left}em`, }} src={FlagImg} />
+                        </Pulse>
                     </div>
                     : <></>
             }
