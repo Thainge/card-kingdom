@@ -4,7 +4,7 @@ import UpgradesData from './Upgrades';
 import FlagsData from './Flags';
 
 const userData = {
-    diamonds: 250,
+    diamonds: 0,
     stars: 0,
     usedStars: 0,
     Donegreen: false,

@@ -89,7 +89,7 @@ function GalleryModal({ setIsOpen, isOpen }) {
         } else {
             setFinished(false);
             setShowAll(false);
-            setCurrentStep(4);
+            setCurrentStep(0);
         }
     }
 

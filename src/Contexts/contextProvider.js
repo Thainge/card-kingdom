@@ -37,10 +37,6 @@ export function InputProvider({ children }) {
         cardsData[1],
         cardsData[2],
         cardsData[3],
-        cardsData[4],
-        cardsData[5],
-        cardsData[6],
-        cardsData[7],
     ]
     defaultDeck.forEach((item) => {
         item.owned = true;
@@ -87,17 +83,17 @@ export function InputProvider({ children }) {
     }, [music.playingMusic2]);
 
     // Update localStorage on change
-    useEffect(() => {
-        ls.set('cards', cards);
-    }, [cards])
+    // useEffect(() => {
+    //     ls.set('cards', cards);
+    // }, [cards])
 
-    useEffect(() => {
-        ls.set('deck', deck);
-    }, [deck])
+    // useEffect(() => {
+    //     ls.set('deck', deck);
+    // }, [deck])
 
-    useEffect(() => {
-        ls.set('user', user);
-    }, [user])
+    // useEffect(() => {
+    //     ls.set('user', user);
+    // }, [user])
 
     let obj = {
         user: user,

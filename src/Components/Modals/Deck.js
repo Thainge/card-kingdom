@@ -100,7 +100,7 @@ function DeckModal({ setIsOpen, isOpen }) {
     }, [cards])
 
     const updateDeckFunction = () => {
-        let total = 8 + initalVal;
+        let total = 4 + initalVal;
         if (deck.length > total) {
             return;
         } else {
@@ -202,7 +202,7 @@ function DeckModal({ setIsOpen, isOpen }) {
         } else {
             setFinished(false);
             setShowAll(false);
-            setCurrentStep(4);
+            setCurrentStep(0);
         }
     }
 
@@ -244,7 +244,7 @@ function DeckModal({ setIsOpen, isOpen }) {
                                     <img className={`${styles.btn3} ${styles.sortBtn}`} src={require('../../Assets/MainMenu/button.png')}></img>
                                 </div>
                                 <div className={styles.deckLength1}>
-                                    {deck.length} / {initalVal + 8}
+                                    {deck.length} / {initalVal + 4}
                                 </div>
                                 {
                                     error.length > 1 ? <Fade right delay={2} duration={500}><div className={styles.error}>

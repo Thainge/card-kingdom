@@ -2,7 +2,7 @@ const SpecialUpgradesData = [
     {
         id: 'special1',
         bought: false,
-        cost: 1000,
+        cost: 500,
         name: 'Double Diamonds',
         text: 'Double diamonds in every battle!',
         backgroundImage: require('../Assets/Shop/doublegold.png'),

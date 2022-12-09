@@ -751,7 +751,7 @@ function BattlePage() {
         } else {
             setFinished(false);
             setShowAll(false);
-            setCurrentStep(15);
+            setCurrentStep(0);
         }
     }
 
