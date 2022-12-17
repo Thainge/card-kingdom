@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/card-kingdom/static/css/main.b402374b.css",
-    "main.js": "/card-kingdom/static/js/main.42365d26.js",
+    "main.css": "/card-kingdom/static/css/main.5b2969a5.css",
+    "main.js": "/card-kingdom/static/js/main.d958327b.js",
     "static/js/845.ba8360cc.chunk.js": "/card-kingdom/static/js/845.ba8360cc.chunk.js",
     "static/media/map.png": "/card-kingdom/static/media/map.80bf95ba01be0e4a03d4.png",
     "static/media/mapMusic.mp3": "/card-kingdom/static/media/mapMusic.5c281a858c7a7242ab07.mp3",
@@ -246,12 +246,12 @@
     "static/media/button.mp3": "/card-kingdom/static/media/button.4fec54707924f5327820.mp3",
     "static/media/cursor2.cur": "/card-kingdom/static/media/cursor2.f63672ee319292e7a023.cur",
     "index.html": "/card-kingdom/index.html",
-    "main.b402374b.css.map": "/card-kingdom/static/css/main.b402374b.css.map",
-    "main.42365d26.js.map": "/card-kingdom/static/js/main.42365d26.js.map",
+    "main.5b2969a5.css.map": "/card-kingdom/static/css/main.5b2969a5.css.map",
+    "main.d958327b.js.map": "/card-kingdom/static/js/main.d958327b.js.map",
     "845.ba8360cc.chunk.js.map": "/card-kingdom/static/js/845.ba8360cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b402374b.css",
-    "static/js/main.42365d26.js"
+    "static/css/main.5b2969a5.css",
+    "static/js/main.d958327b.js"
   ]
 }
