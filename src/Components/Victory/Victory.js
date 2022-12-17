@@ -8,7 +8,7 @@ const backgroundImage = require('../../Assets/victory.png')
 const backgroundImage2 = require('../../Assets/victoryFinished.png')
 
 function Victory({ data }) {
-    const [closeButtonAudio] = useSound(buttonCloseSound, { volume: .5 });
+    const [closeButtonAudio] = useSound(buttonCloseSound, { volume: .3 });
     return (
         <div className={styles.panel}>
             <div className={styles.container} style={data.stars ? { backgroundImage: "url(" + backgroundImage + ")" } : { backgroundImage: "url(" + backgroundImage2 + ")" }}>

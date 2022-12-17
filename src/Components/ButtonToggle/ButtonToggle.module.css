@@ -16,3 +16,13 @@
 .button:active {
     transform: scale(.96);
 }
+
+@media screen and (max-height: 500px) {
+    .button {
+        width: 12vw;
+    }
+
+    .options {
+        width: 8vw;
+    }
+}

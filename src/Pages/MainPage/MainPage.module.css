@@ -354,3 +354,35 @@
     width: 10em;
     transition: all .05s;
 }
+
+@media screen and (max-height: 500px) {
+    .button {
+        width: 12vw;
+    }
+
+    .topLeft {
+        bottom: 0;
+    }
+
+    .progress {
+        height: 6vw;
+    }
+
+    .text {
+        font-size: 2vw;
+    }
+
+    .text2 {
+        font-size: 2vw;
+    }
+
+    .diamond {
+        width: 3vw;
+        margin-left: 9.5vw;
+        margin-bottom: .2vw;
+    }
+
+    .star {
+        width: 3vw;
+    }
+}

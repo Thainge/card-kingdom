@@ -5,7 +5,7 @@ import useSound from 'use-sound';
 
 function ButtonToggle({ initialState, options, setModal }) {
     // Sound logic
-    const [openButton] = useSound(openClick, { volume: .5 });
+    const [openButton] = useSound(openClick, { volume: .3 });
     return (
         <>
             {

@@ -40,8 +40,8 @@ function ShopModal({ setIsOpen, isOpen }) {
     const obj = ContextFunction();
     const { user, setUser, cards, setCards } = obj;
 
-    const [closeButton] = useSound(buttonCloseSound, { volume: .5 });
-    const [soundButton] = useSound(buttonSound, { volume: .5 });
+    const [closeButton] = useSound(buttonCloseSound, { volume: .3 });
+    const [soundButton] = useSound(buttonSound, { volume: .3 });
     const [buyButton] = useSound(buttonBuySound, { volume: .1 });
 
     const [cardAnimationState, setCardAnimatonState] = useState(false);

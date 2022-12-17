@@ -21,8 +21,8 @@ function SettingsModal({ setIsOpen, main }) {
     }
 
     // Sound logic
-    const [closeButton] = useSound(closeClick, { volume: .5 });
-    const [playButton] = useSound(buttonClick, { volume: .5 });
+    const [closeButton] = useSound(closeClick, { volume: .3 });
+    const [playButton] = useSound(buttonClick, { volume: .3 });
 
     function toggleFullScreen(elem) {
         if ((document.fullScreenElement !== undefined && document.fullScreenElement === null) || (document.msFullscreenElement !== undefined && document.msFullscreenElement === null) || (document.mozFullScreen !== undefined && !document.mozFullScreen) || (document.webkitIsFullScreen !== undefined && !document.webkitIsFullScreen)) {

@@ -64,7 +64,7 @@ export function InputProvider({ children }) {
             mapAudio.load();
             mapAudio.play();
             mapAudio.loop = true;
-            mapAudio.volume = mapAudio.volume = .2;
+            mapAudio.volume = .05;
         } else if (music.playingMusic1 === false) {
             mapAudio.pause();
         }
@@ -76,7 +76,7 @@ export function InputProvider({ children }) {
             battleAudio.load();
             battleAudio.play();
             battleAudio.loop = true;
-            battleAudio.volume = mapAudio.volume = .2;
+            battleAudio.volume = .05;
         } else if (music.playingMusic2 === false) {
             battleAudio.pause();
         }

@@ -18,8 +18,8 @@ function UpgradesModal({ setIsOpen, isOpen }) {
     const obj = ContextFunction();
     const { user, setUser } = obj;
 
-    const [soundButton] = useSound(buttonSound, { volume: .5 });
-    const [closeButton] = useSound(buttonCloseSound, { volume: .5 });
+    const [soundButton] = useSound(buttonSound, { volume: .3 });
+    const [closeButton] = useSound(buttonCloseSound, { volume: .3 });
 
     const {
         ResetUpgrades,

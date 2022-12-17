@@ -15,7 +15,7 @@ function CloseModalButton({ closeModal, small, large, smaller }) {
     }
 
     // Sound logic
-    const [playClose] = useSound(closeClick, { volume: .5 });
+    const [playClose] = useSound(closeClick, { volume: .3 });
 
     return (
         <img src={state}

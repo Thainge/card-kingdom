@@ -20,8 +20,8 @@ const close = require('../../Assets/MainMenu/close.png');
 const closeActive = require('../../Assets/MainMenu/closeActive.png');
 
 function DeckModal({ setIsOpen, isOpen }) {
-    const [soundButton] = useSound(buttonSound, { volume: .5 });
-    const [closeButton] = useSound(buttonCloseSound, { volume: .5 });
+    const [soundButton] = useSound(buttonSound, { volume: .3 });
+    const [closeButton] = useSound(buttonCloseSound, { volume: .3 });
 
     const obj = ContextFunction();
     const { user, cards, deck, setUser } = obj;

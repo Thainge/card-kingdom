@@ -31,8 +31,8 @@ function StartingPage() {
     }
 
     // Sound logic
-    const [playButton] = useSound(buttonClick, { volume: .5 });
-    const [playStart] = useSound(startClick, { volume: .5 });
+    const [playButton] = useSound(buttonClick, { volume: .3 });
+    const [playStart] = useSound(startClick, { volume: .3 });
 
     // starts loading
     useEffect(() => {

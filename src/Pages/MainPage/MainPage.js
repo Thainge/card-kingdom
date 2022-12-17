@@ -31,7 +31,7 @@ function MainPage() {
     const flags = user.flags;
 
     // Sound logic
-    const [openButton] = useSound(openClick, { volume: .5 });
+    const [openButton] = useSound(openClick, { volume: .3 });
 
     // Open Modals
     const [deckModalState, setDeckModalState] = useState(false);

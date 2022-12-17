@@ -116,3 +116,26 @@
 .options:active {
     transform: scale(.98);
 }
+
+@media screen and (max-height: 500px) {
+    .logo {
+        height: 20vw;
+    }
+
+    .options {
+        width: 7vw;
+    }
+
+    .topLeft {
+        height: 3vw;
+        margin: 1vw;
+    }
+
+    .startButton {
+        height: 10vw;
+    }
+
+    .creditsButton {
+        height: 7vw;
+    }
+}

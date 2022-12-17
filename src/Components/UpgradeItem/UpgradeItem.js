@@ -10,7 +10,7 @@ function CircleIcon({ item }) {
     const obj = ContextFunction();
     const { user, cards } = obj;
 
-    const [soundButton] = useSound(buttonSound, { volume: .5 });
+    const [soundButton] = useSound(buttonSound, { volume: .3 });
 
     const {
         BuyUpgrade,

@@ -14,7 +14,7 @@ function FlagLogo({ item, openFlags }) {
     const { deck } = obj;
 
     // Sound logic
-    const [openButton] = useSound(openClick, { volume: .5 });
+    const [openButton] = useSound(openClick, { volume: .3 });
 
     // error message
     const [error, setError] = useState('');

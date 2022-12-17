@@ -73,15 +73,15 @@ function BattlePage() {
     // Sound logic
     const [soundButton] = useSound(buttonSound, { volume: .2 });
     const [cardOpen] = useSound(cardOpenSound, { volume: .2 });
-    const [cardFlip] = useSound(flipCardSound, { volume: .5 });
+    const [cardFlip] = useSound(flipCardSound, { volume: .3 });
     const [victoryAudio] = useSound(victorySound, { volume: .1 });
     const [defeatAudio] = useSound(defeatSound, { volume: .1 });
     const [healCard] = useSound(healCardAudio, { volume: .2 });
-    const [burnCard] = useSound(burnCardAudio, { volume: .3 });
-    const [freezeCard] = useSound(freezeCardAudio, { volume: .3 });
+    const [burnCard] = useSound(burnCardAudio, { volume: .2 });
+    const [freezeCard] = useSound(freezeCardAudio, { volume: .2 });
     const [attackCard] = useSound(attackCardAudio, { volume: .1 });
-    const [blockCard] = useSound(blockCardAudio, { volume: .3 });
-    const [cardDestroyed] = useSound(destroyedCardSound, { volume: .3 });
+    const [blockCard] = useSound(blockCardAudio, { volume: .2 });
+    const [cardDestroyed] = useSound(destroyedCardSound, { volume: .2 });
 
     // Randomize deck
     let shuffledCards = shuffle(deck);

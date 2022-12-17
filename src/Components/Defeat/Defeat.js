@@ -8,8 +8,8 @@ import useSound from 'use-sound';
 const backgroundImage = require('../../Assets/defeat.png');
 
 function Defeat({ setIsOpen, item }) {
-    const [soundButton] = useSound(buttonSound, { volume: .5 });
-    const [closeButtonAudio] = useSound(buttonCloseSound, { volume: .5 });
+    const [soundButton] = useSound(buttonSound, { volume: .3 });
+    const [closeButtonAudio] = useSound(buttonCloseSound, { volume: .3 });
 
     function closeModal() {
         setIsOpen(false);
