@@ -27,25 +27,31 @@ export function InputProvider({ children }) {
 
     // All cards
     let cardsDefaultData = cardsData;
-    if (storedCards) {
-        cardsDefaultData = storedCards;
-    }
     const [cards, setCards] = useState(cardsDefaultData);
 
-    let defaultDeck = [
+    let defaultArr = [
         cardsData[0],
         cardsData[1],
         cardsData[2],
         cardsData[3],
-    ]
-    defaultDeck.forEach((item) => {
+        cardsData[4],
+        cardsData[5],
+        cardsData[6],
+        cardsData[7],
+    ];
+    defaultArr.forEach((item) => {
         item.owned = true;
         item.indeck = true;
-    })
-
+        item.new = false;
+    });
+    let defaultDeck = defaultArr;
     // Deck cards
     if (storedDeck) {
-        defaultDeck = storedDeck;
+        if (storedDeck.length < 7) {
+            defaultDeck = defaultArr;
+        } else {
+            defaultDeck = storedDeck;
+        }
     }
     const [deck, setDeck] = useState(defaultDeck);
 

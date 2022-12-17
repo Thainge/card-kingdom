@@ -28,10 +28,10 @@ function FlagLogo({ item, openFlags }) {
     }, [error])
 
     const startBattle = () => {
-        if (deck.length > 3) {
+        if (deck.length > 7) {
             openFlags(item);
         } else {
-            let string = 'Invalid deck length! 4 cards minimum.';
+            let string = 'Invalid deck length! 8 cards minimum.';
             setError(string)
         }
     }

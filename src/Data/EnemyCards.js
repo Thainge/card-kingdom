@@ -34,14 +34,14 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g4",
             "owned": false,
             "indeck": false,
             "color": "green",
-            "orbType": 'forest',
+            "orbType": "forest",
             "name": "Green 4",
             "attack": 1,
             "health": 3,
@@ -106,14 +106,14 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g6",
             "owned": false,
             "indeck": false,
             "color": "green",
-            "orbType": 'forest',
+            "orbType": "forest",
             "name": "Green 6",
             "attack": 2,
             "health": 1,
@@ -124,7 +124,7 @@ const EnemyCardsData = [
             "new": true,
             "border": require('../Assets/Borders/green1.png'),
             "backImage": require('../Assets/cardImages/6.png'),
-            "delay": 1,
+            "delay": 2,
             "shown": true,
             "active": false,
             "strengthUpgrade": false,
@@ -178,7 +178,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g17",
@@ -196,7 +196,7 @@ const EnemyCardsData = [
             "new": true,
             "border": require('../Assets/Borders/green1.png'),
             "backImage": require('../Assets/cardImages/17.png'),
-            "delay": 3,
+            "delay": 4,
             "shown": true,
             "active": false,
             "strengthUpgrade": false,
@@ -214,7 +214,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g11",
@@ -250,7 +250,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g2",
@@ -286,7 +286,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -324,7 +324,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g2",
@@ -360,7 +360,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g13",
@@ -396,7 +396,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g15",
@@ -414,7 +414,7 @@ const EnemyCardsData = [
             "new": true,
             "border": require('../Assets/Borders/green1.png'),
             "backImage": require('../Assets/cardImages/15.png'),
-            "delay": 3,
+            "delay": 4,
             "shown": true,
             "active": false,
             "strengthUpgrade": false,
@@ -432,7 +432,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g16",
@@ -468,7 +468,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g11",
@@ -504,7 +504,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g9",
@@ -540,7 +540,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g18",
@@ -558,7 +558,7 @@ const EnemyCardsData = [
             "new": true,
             "border": require('../Assets/Borders/green1.png'),
             "backImage": require('../Assets/cardImages/18.png'),
-            "delay": 3,
+            "delay": 4,
             "shown": true,
             "active": false,
             "strengthUpgrade": false,
@@ -576,7 +576,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -596,7 +596,7 @@ const EnemyCardsData = [
             "new": true,
             "border": require('../Assets/Borders/green1.png'),
             "backImage": require('../Assets/cardImages/14.png'),
-            "delay": 2,
+            "delay": 3,
             "shown": true,
             "active": false,
             "strengthUpgrade": false,
@@ -614,7 +614,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g2",
@@ -632,7 +632,7 @@ const EnemyCardsData = [
             "new": false,
             "border": require('../Assets/Borders/green1.png'),
             "backImage": require('../Assets/cardImages/2.png'),
-            "delay": 1,
+            "delay": 2,
             "shown": true,
             "active": false,
             "strengthUpgrade": false,
@@ -650,7 +650,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g13",
@@ -668,7 +668,7 @@ const EnemyCardsData = [
             "new": true,
             "border": require('../Assets/Borders/green1.png'),
             "backImage": require('../Assets/cardImages/13.png'),
-            "delay": 2,
+            "delay": 3,
             "shown": true,
             "active": false,
             "strengthUpgrade": false,
@@ -686,7 +686,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g15",
@@ -704,7 +704,7 @@ const EnemyCardsData = [
             "new": true,
             "border": require('../Assets/Borders/green1.png'),
             "backImage": require('../Assets/cardImages/15.png'),
-            "delay": 2,
+            "delay": 4,
             "shown": true,
             "active": false,
             "strengthUpgrade": false,
@@ -722,7 +722,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g16",
@@ -758,7 +758,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g11",
@@ -794,7 +794,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g9",
@@ -830,7 +830,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g18",
@@ -848,7 +848,7 @@ const EnemyCardsData = [
             "new": true,
             "border": require('../Assets/Borders/green1.png'),
             "backImage": require('../Assets/cardImages/18.png'),
-            "delay": 2,
+            "delay": 3,
             "shown": true,
             "active": false,
             "strengthUpgrade": false,
@@ -866,7 +866,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -886,7 +886,7 @@ const EnemyCardsData = [
             "new": true,
             "border": require('../Assets/Borders/green1.png'),
             "backImage": require('../Assets/cardImages/14.png'),
-            "delay": 2,
+            "delay": 3,
             "shown": true,
             "active": false,
             "strengthUpgrade": false,
@@ -904,7 +904,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g2",
@@ -940,7 +940,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g13",
@@ -958,42 +958,6 @@ const EnemyCardsData = [
             "new": true,
             "border": require('../Assets/Borders/green1.png'),
             "backImage": require('../Assets/cardImages/13.png'),
-            "delay": 2,
-            "shown": true,
-            "active": false,
-            "strengthUpgrade": false,
-            "vitalityUpgrade": false,
-            "blockUpgrade": false,
-            "firstUpgrade": false,
-            "orbUpgrade": false,
-            "animation": false,
-            "animationFire": false,
-            "animationFrost": false,
-            "animationTrample": false,
-            "animationBlock": false,
-            "animationHeal": false,
-            "enemy": true,
-            "blockEnabled": false,
-            "blockPermaEnabled": false,
-            "justEntered": true,
-            "justLeft": false
-        },
-        {
-            "id": "g15",
-            "owned": false,
-            "indeck": false,
-            "color": "green",
-            "orbType": "forest",
-            "name": "Green 15",
-            "attack": 5,
-            "health": 5,
-            "common": true,
-            "rare": false,
-            "epic": false,
-            "legendary": false,
-            "new": true,
-            "border": require('../Assets/Borders/green1.png'),
-            "backImage": require('../Assets/cardImages/15.png'),
             "delay": 3,
             "shown": true,
             "active": false,
@@ -1012,7 +976,43 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+        },
+        {
+            "id": "g15",
+            "owned": false,
+            "indeck": false,
+            "color": "green",
+            "orbType": "forest",
+            "name": "Green 15",
+            "attack": 5,
+            "health": 5,
+            "common": true,
+            "rare": false,
+            "epic": false,
+            "legendary": false,
+            "new": true,
+            "border": require('../Assets/Borders/green1.png'),
+            "backImage": require('../Assets/cardImages/15.png'),
+            "delay": 4,
+            "shown": true,
+            "active": false,
+            "strengthUpgrade": false,
+            "vitalityUpgrade": false,
+            "blockUpgrade": false,
+            "firstUpgrade": false,
+            "orbUpgrade": false,
+            "animation": false,
+            "animationFire": false,
+            "animationFrost": false,
+            "animationTrample": false,
+            "animationBlock": false,
+            "animationHeal": false,
+            "enemy": true,
+            "blockEnabled": false,
+            "blockPermaEnabled": false,
+            "justEntered": true,
+            "justLeft": false,
         },
         {
             "id": "g16",
@@ -1048,7 +1048,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g11",
@@ -1084,7 +1084,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g9",
@@ -1120,7 +1120,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g18",
@@ -1156,7 +1156,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -1194,7 +1194,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g6",
@@ -1230,7 +1230,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g22",
@@ -1266,7 +1266,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g23",
@@ -1302,7 +1302,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g1",
@@ -1338,7 +1338,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g11",
@@ -1374,7 +1374,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g4",
@@ -1410,7 +1410,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g7",
@@ -1446,7 +1446,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -1484,7 +1484,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g20",
@@ -1520,7 +1520,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g14",
@@ -1556,7 +1556,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g10",
@@ -1592,7 +1592,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g17",
@@ -1628,7 +1628,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g18",
@@ -1664,7 +1664,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g23",
@@ -1700,7 +1700,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "g25",
@@ -1736,13 +1736,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
-    // --------------------------------- Green Ends --------------------------------- //
-    // --------------------------------- Green Ends --------------------------------- //
-    // --------------------------------- Green Ends --------------------------------- //
-    // --------------------------------- Green Ends --------------------------------- //
     [
         {
             "id": "b8",
@@ -1778,7 +1774,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b22",
@@ -1814,7 +1810,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b17",
@@ -1850,7 +1846,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b1",
@@ -1886,7 +1882,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b11",
@@ -1922,7 +1918,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b14",
@@ -1958,7 +1954,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b3",
@@ -1994,7 +1990,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b24",
@@ -2030,7 +2026,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -2068,7 +2064,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b2",
@@ -2104,7 +2100,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b3",
@@ -2140,7 +2136,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b12",
@@ -2176,7 +2172,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b10",
@@ -2212,7 +2208,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b21",
@@ -2248,7 +2244,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b22",
@@ -2284,7 +2280,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b15",
@@ -2320,7 +2316,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -2358,7 +2354,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b8",
@@ -2394,7 +2390,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b24",
@@ -2430,7 +2426,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b3",
@@ -2466,7 +2462,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b16",
@@ -2502,7 +2498,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b7",
@@ -2538,7 +2534,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b6",
@@ -2574,7 +2570,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b19",
@@ -2610,7 +2606,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -2648,7 +2644,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b12",
@@ -2684,7 +2680,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b7",
@@ -2720,7 +2716,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b13",
@@ -2756,7 +2752,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b22",
@@ -2792,7 +2788,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b16",
@@ -2828,7 +2824,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b14",
@@ -2864,7 +2860,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b6",
@@ -2900,7 +2896,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -2938,7 +2934,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b24",
@@ -2974,7 +2970,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b6",
@@ -3010,7 +3006,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b2",
@@ -3046,7 +3042,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b3",
@@ -3082,7 +3078,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b7",
@@ -3118,7 +3114,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b23",
@@ -3154,7 +3150,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b20",
@@ -3190,7 +3186,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -3228,7 +3224,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b5",
@@ -3264,7 +3260,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b29",
@@ -3300,7 +3296,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b22",
@@ -3336,7 +3332,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b20",
@@ -3372,7 +3368,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b10",
@@ -3408,7 +3404,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b23",
@@ -3444,7 +3440,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b28",
@@ -3480,7 +3476,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -3518,7 +3514,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b22",
@@ -3554,7 +3550,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b26",
@@ -3590,7 +3586,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b27",
@@ -3626,7 +3622,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b9",
@@ -3662,7 +3658,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b4",
@@ -3698,7 +3694,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b14",
@@ -3734,7 +3730,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "b29",
@@ -3770,13 +3766,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
-    // --------------------------------- Blue Ends --------------------------------- //
-    // --------------------------------- Blue Ends --------------------------------- //
-    // --------------------------------- Blue Ends --------------------------------- //
-    // --------------------------------- Blue Ends --------------------------------- //
     [
         {
             "id": "y21",
@@ -3812,7 +3804,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y25",
@@ -3848,7 +3840,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y23",
@@ -3884,7 +3876,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y30",
@@ -3920,7 +3912,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y27",
@@ -3956,7 +3948,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y29",
@@ -3992,7 +3984,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y22",
@@ -4028,7 +4020,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y24",
@@ -4064,7 +4056,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -4102,7 +4094,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y26",
@@ -4138,7 +4130,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y23",
@@ -4174,7 +4166,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y19",
@@ -4210,7 +4202,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y27",
@@ -4246,7 +4238,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y22",
@@ -4282,7 +4274,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y29",
@@ -4318,7 +4310,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y30",
@@ -4354,7 +4346,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -4392,7 +4384,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y23",
@@ -4428,7 +4420,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y27",
@@ -4464,7 +4456,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y28",
@@ -4500,7 +4492,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y21",
@@ -4536,7 +4528,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y30",
@@ -4572,7 +4564,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y20",
@@ -4608,7 +4600,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y19",
@@ -4644,7 +4636,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -4682,7 +4674,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y23",
@@ -4718,7 +4710,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y28",
@@ -4754,7 +4746,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y22",
@@ -4790,7 +4782,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y19",
@@ -4826,7 +4818,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y30",
@@ -4862,7 +4854,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y27",
@@ -4898,7 +4890,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y21",
@@ -4934,7 +4926,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -4972,7 +4964,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y21",
@@ -5008,7 +5000,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y25",
@@ -5044,7 +5036,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y19",
@@ -5080,7 +5072,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y30",
@@ -5116,7 +5108,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y23",
@@ -5152,7 +5144,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y28",
@@ -5188,7 +5180,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y22",
@@ -5224,7 +5216,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -5262,7 +5254,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y26",
@@ -5298,7 +5290,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y22",
@@ -5334,7 +5326,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y24",
@@ -5370,7 +5362,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y27",
@@ -5406,7 +5398,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y20",
@@ -5442,7 +5434,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y28",
@@ -5478,7 +5470,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y21",
@@ -5514,7 +5506,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -5552,7 +5544,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y19",
@@ -5588,7 +5580,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y26",
@@ -5624,7 +5616,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y27",
@@ -5660,7 +5652,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y22",
@@ -5696,7 +5688,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y21",
@@ -5732,7 +5724,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y28",
@@ -5768,7 +5760,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y25",
@@ -5804,7 +5796,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -5842,7 +5834,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y27",
@@ -5878,7 +5870,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y22",
@@ -5914,7 +5906,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y29",
@@ -5950,7 +5942,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y30",
@@ -5986,7 +5978,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y23",
@@ -6022,7 +6014,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y26",
@@ -6058,7 +6050,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y19",
@@ -6094,7 +6086,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -6132,7 +6124,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y26",
@@ -6168,7 +6160,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y24",
@@ -6204,7 +6196,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y28",
@@ -6240,7 +6232,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y23",
@@ -6276,7 +6268,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y22",
@@ -6312,7 +6304,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y21",
@@ -6348,7 +6340,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y29",
@@ -6384,7 +6376,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -6422,7 +6414,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y24",
@@ -6458,7 +6450,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y26",
@@ -6494,7 +6486,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y32",
@@ -6530,7 +6522,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y30",
@@ -6566,7 +6558,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y23",
@@ -6602,7 +6594,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y31",
@@ -6638,7 +6630,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "y22",
@@ -6674,13 +6666,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
-    // --------------------------------- Yellow Ends --------------------------------- //
-    // --------------------------------- Yellow Ends --------------------------------- //
-    // --------------------------------- Yellow Ends --------------------------------- //
-    // --------------------------------- Yellow Ends --------------------------------- //
     [
         {
             "id": "r21",
@@ -6716,7 +6704,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r22",
@@ -6752,7 +6740,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r28",
@@ -6788,7 +6776,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r32",
@@ -6824,7 +6812,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r27",
@@ -6860,7 +6848,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r29",
@@ -6896,7 +6884,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r25",
@@ -6932,7 +6920,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r23",
@@ -6968,7 +6956,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -7006,7 +6994,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r21",
@@ -7042,7 +7030,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r23",
@@ -7078,7 +7066,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r29",
@@ -7114,7 +7102,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r25",
@@ -7150,7 +7138,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r28",
@@ -7186,7 +7174,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r24",
@@ -7222,7 +7210,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r32",
@@ -7258,7 +7246,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -7296,7 +7284,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r28",
@@ -7332,7 +7320,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r31",
@@ -7368,7 +7356,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r19",
@@ -7404,7 +7392,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r22",
@@ -7440,7 +7428,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r24",
@@ -7476,7 +7464,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r23",
@@ -7512,7 +7500,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r29",
@@ -7548,7 +7536,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -7586,7 +7574,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r25",
@@ -7622,7 +7610,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r31",
@@ -7658,7 +7646,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r23",
@@ -7694,7 +7682,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r22",
@@ -7730,7 +7718,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r26",
@@ -7766,7 +7754,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r32",
@@ -7802,7 +7790,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r20",
@@ -7838,7 +7826,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -7876,7 +7864,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r31",
@@ -7912,7 +7900,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r19",
@@ -7948,7 +7936,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r20",
@@ -7984,7 +7972,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r25",
@@ -8020,7 +8008,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r28",
@@ -8056,7 +8044,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r24",
@@ -8092,7 +8080,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r30",
@@ -8128,7 +8116,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ],
     [
@@ -8166,7 +8154,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r25",
@@ -8202,7 +8190,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r23",
@@ -8238,7 +8226,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r28",
@@ -8274,7 +8262,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r32",
@@ -8310,7 +8298,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r26",
@@ -8346,7 +8334,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r19",
@@ -8382,7 +8370,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         },
         {
             "id": "r30",
@@ -8418,7 +8406,7 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
         }
     ]
 ]
