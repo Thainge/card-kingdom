@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/card-kingdom/static/css/main.5b2969a5.css",
-    "main.js": "/card-kingdom/static/js/main.32b50cec.js",
+    "main.js": "/card-kingdom/static/js/main.34ad8231.js",
     "static/js/845.ba8360cc.chunk.js": "/card-kingdom/static/js/845.ba8360cc.chunk.js",
     "static/media/map.png": "/card-kingdom/static/media/map.80bf95ba01be0e4a03d4.png",
     "static/media/mapMusic.mp3": "/card-kingdom/static/media/mapMusic.5c281a858c7a7242ab07.mp3",
@@ -247,11 +247,11 @@
     "static/media/cursor2.cur": "/card-kingdom/static/media/cursor2.f63672ee319292e7a023.cur",
     "index.html": "/card-kingdom/index.html",
     "main.5b2969a5.css.map": "/card-kingdom/static/css/main.5b2969a5.css.map",
-    "main.32b50cec.js.map": "/card-kingdom/static/js/main.32b50cec.js.map",
+    "main.34ad8231.js.map": "/card-kingdom/static/js/main.34ad8231.js.map",
     "845.ba8360cc.chunk.js.map": "/card-kingdom/static/js/845.ba8360cc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b2969a5.css",
-    "static/js/main.32b50cec.js"
+    "static/js/main.34ad8231.js"
   ]
 }
