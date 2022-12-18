@@ -40,7 +40,7 @@ function DeckCard({ item, deckAddCard, setError, deckLength, initalVal }) {
     const addNewItem = (item) => {
         let newItem = { ...item, new: false };
 
-        if (deckLength === 4 + initalVal) {
+        if (deckLength === 8 + initalVal) {
             setError('Deck limit reached')
         } else {
             setToggled(false);
