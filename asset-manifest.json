@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/card-kingdom/static/css/main.5b2969a5.css",
-    "main.js": "/card-kingdom/static/js/main.34ad8231.js",
+    "main.css": "/card-kingdom/static/css/main.f37774ea.css",
+    "main.js": "/card-kingdom/static/js/main.73dda38b.js",
     "static/js/845.ba8360cc.chunk.js": "/card-kingdom/static/js/845.ba8360cc.chunk.js",
     "static/media/map.png": "/card-kingdom/static/media/map.80bf95ba01be0e4a03d4.png",
     "static/media/mapMusic.mp3": "/card-kingdom/static/media/mapMusic.5c281a858c7a7242ab07.mp3",
@@ -59,7 +59,6 @@
     "static/media/31.png": "/card-kingdom/static/media/31.8ca1a73a8477015d4aaa.png",
     "static/media/69.png": "/card-kingdom/static/media/69.3b62f5c901d6c56c3094.png",
     "static/media/Signor.ttf": "/card-kingdom/static/media/Signor.d7a66fa7cab9ceaf35c7.ttf",
-    "static/media/firstturn.png": "/card-kingdom/static/media/firstturn.13a5b62a9990d0e33bb9.png",
     "static/media/32.png": "/card-kingdom/static/media/32.2347842d23858d4c7e23.png",
     "static/media/20.png": "/card-kingdom/static/media/20.58817a6a70464996724e.png",
     "static/media/76.png": "/card-kingdom/static/media/76.34a73066559e5fde1b3c.png",
@@ -67,7 +66,6 @@
     "static/media/93.png": "/card-kingdom/static/media/93.e006ccd7de50b43fa475.png",
     "static/media/83.png": "/card-kingdom/static/media/83.b7258ed70ccdb4e5e6a0.png",
     "static/media/attack.mp3": "/card-kingdom/static/media/attack.1a5b9ae0521f510cb7be.mp3",
-    "static/media/doublegold.png": "/card-kingdom/static/media/doublegold.46ddcbdfd3cfc51938b3.png",
     "static/media/8.png": "/card-kingdom/static/media/8.9d6c3754adb24ef538f7.png",
     "static/media/85.png": "/card-kingdom/static/media/85.d28719e06226141852af.png",
     "static/media/30.png": "/card-kingdom/static/media/30.d666b2aba382ab1c7ff0.png",
@@ -217,8 +215,9 @@
     "static/media/greenUpgrade.png": "/card-kingdom/static/media/greenUpgrade.69b71e84d51ad4b3b577.png",
     "static/media/epic.png": "/card-kingdom/static/media/epic.c8e9567cf1532e9b9cc0.png",
     "static/media/mute.png": "/card-kingdom/static/media/mute.cebfe52da3937972df37.png",
-    "static/media/surrender.png": "/card-kingdom/static/media/surrender.cebfe52da3937972df37.png",
+    "static/media/reset.png": "/card-kingdom/static/media/reset.0865664a95eebf1e715c.png",
     "static/media/unMuted.png": "/card-kingdom/static/media/unMuted.9e22c173c751c5397c9a.png",
+    "static/media/surrender.png": "/card-kingdom/static/media/surrender.cd6269d92be636791721.png",
     "static/media/arrow.png": "/card-kingdom/static/media/arrow.e0d2c650eab7f24907dc.png",
     "static/media/arrowActive.png": "/card-kingdom/static/media/arrowActive.5bdfa796af3a8940536b.png",
     "static/media/fullscreen.png": "/card-kingdom/static/media/fullscreen.98e2d3d159be3c6f8baf.png",
@@ -246,12 +245,12 @@
     "static/media/button.mp3": "/card-kingdom/static/media/button.4fec54707924f5327820.mp3",
     "static/media/cursor2.cur": "/card-kingdom/static/media/cursor2.f63672ee319292e7a023.cur",
     "index.html": "/card-kingdom/index.html",
-    "main.5b2969a5.css.map": "/card-kingdom/static/css/main.5b2969a5.css.map",
-    "main.34ad8231.js.map": "/card-kingdom/static/js/main.34ad8231.js.map",
+    "main.f37774ea.css.map": "/card-kingdom/static/css/main.f37774ea.css.map",
+    "main.73dda38b.js.map": "/card-kingdom/static/js/main.73dda38b.js.map",
     "845.ba8360cc.chunk.js.map": "/card-kingdom/static/js/845.ba8360cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b2969a5.css",
-    "static/js/main.34ad8231.js"
+    "static/css/main.f37774ea.css",
+    "static/js/main.73dda38b.js"
   ]
 }
