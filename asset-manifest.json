@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/card-kingdom/static/css/main.f37774ea.css",
-    "main.js": "/card-kingdom/static/js/main.7bf32cb0.js",
+    "main.js": "/card-kingdom/static/js/main.113292ab.js",
     "static/js/845.ba8360cc.chunk.js": "/card-kingdom/static/js/845.ba8360cc.chunk.js",
     "static/media/map.png": "/card-kingdom/static/media/map.80bf95ba01be0e4a03d4.png",
     "static/media/mapMusic.mp3": "/card-kingdom/static/media/mapMusic.5c281a858c7a7242ab07.mp3",
@@ -10,11 +10,9 @@
     "static/media/victory.mp3": "/card-kingdom/static/media/victory.102962116cab5ff2f9e0.mp3",
     "static/media/healGIF.gif": "/card-kingdom/static/media/healGIF.690df5fcd53ee515b545.gif",
     "static/media/mission.png": "/card-kingdom/static/media/mission.61093fa3f9a20d368ab3.png",
-    "static/media/blueLocked.png": "/card-kingdom/static/media/blueLocked.8d2fb886004ea042f437.png",
     "static/media/greenLocked.png": "/card-kingdom/static/media/greenLocked.8d2fb886004ea042f437.png",
     "static/media/lockedBack.png": "/card-kingdom/static/media/lockedBack.8d2fb886004ea042f437.png",
     "static/media/redLocked.png": "/card-kingdom/static/media/redLocked.8d2fb886004ea042f437.png",
-    "static/media/yellowLocked.png": "/card-kingdom/static/media/yellowLocked.8d2fb886004ea042f437.png",
     "static/media/start.wav": "/card-kingdom/static/media/start.a1d9dec6eca2ca34b2b3.wav",
     "static/media/victory.png": "/card-kingdom/static/media/victory.23be8b441d47c003590d.png",
     "static/media/victoryFinished.png": "/card-kingdom/static/media/victoryFinished.543b24ae6e42af83aee8.png",
@@ -26,11 +24,13 @@
     "static/media/body.png": "/card-kingdom/static/media/body.a531de26164c282d6d50.png",
     "static/media/fire.png": "/card-kingdom/static/media/fire.51d1dd3cd71623236212.png",
     "static/media/snow.png": "/card-kingdom/static/media/snow.c802a742005831c71ea9.png",
-    "static/media/blue.png": "/card-kingdom/static/media/blue.ac273256299cf32d4c94.png",
     "static/media/cardBack.png": "/card-kingdom/static/media/cardBack.381807ebf3dffcd2a41a.png",
     "static/media/green.png": "/card-kingdom/static/media/green.381807ebf3dffcd2a41a.png",
     "static/media/red.png": "/card-kingdom/static/media/red.381807ebf3dffcd2a41a.png",
     "static/media/yellow.png": "/card-kingdom/static/media/yellow.381807ebf3dffcd2a41a.png",
+    "static/media/yellowLocked.png": "/card-kingdom/static/media/yellowLocked.381807ebf3dffcd2a41a.png",
+    "static/media/blue.png": "/card-kingdom/static/media/blue.ac273256299cf32d4c94.png",
+    "static/media/blueLocked.png": "/card-kingdom/static/media/blueLocked.7570b5904e35d333c372.png",
     "static/media/desert.png": "/card-kingdom/static/media/desert.ec581166a69a2f383838.png",
     "static/media/forestBG.png": "/card-kingdom/static/media/forestBG.1c470094e60b456bd7db.png",
     "static/media/shopWall.png": "/card-kingdom/static/media/shopWall.6feb2bf9b6729bb069e9.png",
@@ -246,11 +246,11 @@
     "static/media/cursor2.cur": "/card-kingdom/static/media/cursor2.f63672ee319292e7a023.cur",
     "index.html": "/card-kingdom/index.html",
     "main.f37774ea.css.map": "/card-kingdom/static/css/main.f37774ea.css.map",
-    "main.7bf32cb0.js.map": "/card-kingdom/static/js/main.7bf32cb0.js.map",
+    "main.113292ab.js.map": "/card-kingdom/static/js/main.113292ab.js.map",
     "845.ba8360cc.chunk.js.map": "/card-kingdom/static/js/845.ba8360cc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f37774ea.css",
-    "static/js/main.7bf32cb0.js"
+    "static/js/main.113292ab.js"
   ]
 }
