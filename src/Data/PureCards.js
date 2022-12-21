@@ -7,11 +7,11 @@ const pureCardsData = [
     {
         "id": "g2",
         "attack": 2,
-        "health": 2
+        "health": 3
     },
     {
         "id": "g3",
-        "attack": 2,
+        "attack": 3,
         "health": 4
     },
     {
@@ -37,7 +37,7 @@ const pureCardsData = [
     {
         "id": "g8",
         "attack": 2,
-        "health": 4
+        "health": 6
     },
     {
         "id": "g9",
@@ -57,12 +57,12 @@ const pureCardsData = [
     {
         "id": "g12",
         "attack": 2,
-        "health": 2
+        "health": 3
     },
     {
         "id": "g13",
-        "attack": 3,
-        "health": 4
+        "attack": 1,
+        "health": 7
     },
     {
         "id": "g14",
@@ -77,16 +77,16 @@ const pureCardsData = [
     {
         "id": "g16",
         "attack": 4,
-        "health": 2
+        "health": 1
     },
     {
         "id": "g17",
         "attack": 3,
-        "health": 5
+        "health": 6
     },
     {
         "id": "g18",
-        "attack": 5,
+        "attack": 6,
         "health": 3
     },
     {
@@ -107,12 +107,12 @@ const pureCardsData = [
     {
         "id": "g22",
         "attack": 3,
-        "health": 3
+        "health": 5
     },
     {
         "id": "g23",
-        "attack": 6,
-        "health": 6
+        "attack": 2,
+        "health": 8
     },
     {
         "id": "g24",
@@ -147,7 +147,7 @@ const pureCardsData = [
     {
         "id": "g30",
         "attack": 5,
-        "health": 8
+        "health": 10
     },
     {
         "id": "g31",
@@ -162,12 +162,12 @@ const pureCardsData = [
     {
         "id": "b2",
         "attack": 2,
-        "health": 2
+        "health": 3
     },
     {
         "id": "b3",
         "attack": 2,
-        "health": 4
+        "health": 6
     },
     {
         "id": "b4",
@@ -191,7 +191,7 @@ const pureCardsData = [
     },
     {
         "id": "b8",
-        "attack": 2,
+        "attack": 3,
         "health": 4
     },
     {
@@ -212,12 +212,12 @@ const pureCardsData = [
     {
         "id": "b12",
         "attack": 2,
-        "health": 2
+        "health": 3
     },
     {
         "id": "b13",
-        "attack": 3,
-        "health": 4
+        "attack": 1,
+        "health": 7
     },
     {
         "id": "b14",
@@ -232,16 +232,16 @@ const pureCardsData = [
     {
         "id": "b16",
         "attack": 4,
-        "health": 2
+        "health": 1
     },
     {
         "id": "b17",
         "attack": 3,
-        "health": 5
+        "health": 6
     },
     {
         "id": "b18",
-        "attack": 5,
+        "attack": 6,
         "health": 3
     },
     {
@@ -262,12 +262,12 @@ const pureCardsData = [
     {
         "id": "b22",
         "attack": 3,
-        "health": 3
+        "health": 5
     },
     {
         "id": "b23",
-        "attack": 6,
-        "health": 6
+        "attack": 2,
+        "health": 8
     },
     {
         "id": "b24",
@@ -302,7 +302,7 @@ const pureCardsData = [
     {
         "id": "b30",
         "attack": 5,
-        "health": 8
+        "health": 10
     },
     {
         "id": "b31",
@@ -317,12 +317,12 @@ const pureCardsData = [
     {
         "id": "y2",
         "attack": 2,
-        "health": 2
+        "health": 3
     },
     {
         "id": "y3",
         "attack": 2,
-        "health": 4
+        "health": 6
     },
     {
         "id": "y4",
@@ -346,7 +346,7 @@ const pureCardsData = [
     },
     {
         "id": "y8",
-        "attack": 2,
+        "attack": 3,
         "health": 4
     },
     {
@@ -367,12 +367,12 @@ const pureCardsData = [
     {
         "id": "y12",
         "attack": 2,
-        "health": 2
+        "health": 3
     },
     {
         "id": "y13",
-        "attack": 3,
-        "health": 4
+        "attack": 1,
+        "health": 7
     },
     {
         "id": "y14",
@@ -387,16 +387,16 @@ const pureCardsData = [
     {
         "id": "y16",
         "attack": 4,
-        "health": 2
+        "health": 1
     },
     {
         "id": "y17",
         "attack": 3,
-        "health": 5
+        "health": 6
     },
     {
         "id": "y18",
-        "attack": 5,
+        "attack": 6,
         "health": 3
     },
     {
@@ -417,12 +417,12 @@ const pureCardsData = [
     {
         "id": "y22",
         "attack": 3,
-        "health": 3
+        "health": 5
     },
     {
         "id": "y23",
-        "attack": 6,
-        "health": 6
+        "attack": 2,
+        "health": 8
     },
     {
         "id": "y24",
@@ -457,7 +457,7 @@ const pureCardsData = [
     {
         "id": "y30",
         "attack": 5,
-        "health": 8
+        "health": 10
     },
     {
         "id": "y31",
@@ -472,12 +472,12 @@ const pureCardsData = [
     {
         "id": "r2",
         "attack": 2,
-        "health": 2
+        "health": 3
     },
     {
         "id": "r3",
         "attack": 2,
-        "health": 4
+        "health": 6
     },
     {
         "id": "r4",
@@ -501,7 +501,7 @@ const pureCardsData = [
     },
     {
         "id": "r8",
-        "attack": 2,
+        "attack": 3,
         "health": 4
     },
     {
@@ -522,12 +522,12 @@ const pureCardsData = [
     {
         "id": "r12",
         "attack": 2,
-        "health": 2
+        "health": 3
     },
     {
         "id": "r13",
-        "attack": 3,
-        "health": 4
+        "attack": 1,
+        "health": 7
     },
     {
         "id": "r14",
@@ -542,16 +542,16 @@ const pureCardsData = [
     {
         "id": "r16",
         "attack": 4,
-        "health": 2
+        "health": 1
     },
     {
         "id": "r17",
         "attack": 3,
-        "health": 5
+        "health": 6
     },
     {
         "id": "r18",
-        "attack": 5,
+        "attack": 6,
         "health": 3
     },
     {
@@ -572,12 +572,12 @@ const pureCardsData = [
     {
         "id": "r22",
         "attack": 3,
-        "health": 3
+        "health": 5
     },
     {
         "id": "r23",
-        "attack": 6,
-        "health": 6
+        "attack": 2,
+        "health": 8
     },
     {
         "id": "r24",
@@ -612,7 +612,7 @@ const pureCardsData = [
     {
         "id": "r30",
         "attack": 5,
-        "health": 8
+        "health": 10
     },
     {
         "id": "r31",

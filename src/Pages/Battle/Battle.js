@@ -136,7 +136,7 @@ function BattlePage() {
         startOpponnentUpKeep();
     }, []);
 
-    const numberInit = 500;
+    const numberInit = 250;
     const [DELAY, setDELAY] = useState(numberInit)
 
     // Speeds up delays
