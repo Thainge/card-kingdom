@@ -5,18 +5,22 @@ const burnPhaseOpponnent = async (setPlayedCards, givenDelay, burnCard) => new P
     // burn check
     let burnEnemies = new Promise((resolveBurnEnemies, reject) => {
         setPlayedCards((prevVal) => {
-            let oppCards = [...prevVal];
-            oppCards.forEach((item, index) => {
-                setPlayedCards((prevPlayedCardsOp) => {
-                    let newOppCards = [...prevPlayedCardsOp];
-                    let newHealth = item.health - 1;
-                    let newBurnedItem = { ...item, health: newHealth, animationFire: true, justEntered: false, };
-                    newOppCards[index] = newBurnedItem;
-                    if (index === prevPlayedCardsOp.length - 1) resolveBurnEnemies();
-                    burnCard();
-                    return newOppCards;
+            if (prevVal.length > 0) {
+                let oppCards = [...prevVal];
+                oppCards.forEach((item, index) => {
+                    setPlayedCards((prevPlayedCardsOp) => {
+                        let newOppCards = [...prevPlayedCardsOp];
+                        let newHealth = item.health - 1;
+                        let newBurnedItem = { ...item, health: newHealth, animationFire: true, justEntered: false, };
+                        newOppCards[index] = newBurnedItem;
+                        if (index === prevPlayedCardsOp.length - 1) resolveBurnEnemies();
+                        burnCard();
+                        return newOppCards;
+                    });
                 });
-            });
+            } else {
+                resolveBurnEnemies();
+            }
             return prevVal;
         });
     });
@@ -25,19 +29,23 @@ const burnPhaseOpponnent = async (setPlayedCards, givenDelay, burnCard) => new P
             // Remove cards that have health less than 0 health
             setPlayedCards((prevState, props) => {
                 let newArr = [...prevState];
-                setTimeout(() => {
-                    newArr.forEach((item, index) => {
-                        setPlayedCards((prevState, props) => {
-                            let readyToDelete = prevState;
-                            if (item.health < 1) {
-                                let deletedIndex = readyToDelete.findIndex(x => x.id === item.id);
-                                readyToDelete.splice(deletedIndex, 1)
-                            }
-                            if (index === newArr.length - 1) resolveBurnRemove();
-                            return readyToDelete;
+                if (prevState.length > 0) {
+                    setTimeout(() => {
+                        newArr.forEach((item, index) => {
+                            setPlayedCards((prevState, props) => {
+                                let readyToDelete = prevState;
+                                if (item.health < 1) {
+                                    let deletedIndex = readyToDelete.findIndex(x => x.id === item.id);
+                                    readyToDelete.splice(deletedIndex, 1)
+                                }
+                                if (index === newArr.length - 1) resolveBurnRemove();
+                                return readyToDelete;
+                            });
                         });
-                    });
-                }, givenDelay);
+                    }, givenDelay);
+                } else {
+                    resolveBurnRemove();
+                }
                 return prevState;
             });
         });
@@ -53,17 +61,21 @@ const burnPhasePlayer = async (setPlayedCardsOpponent, givenDelay, burnCard) => 
     let burnEnemies = new Promise((resolveBurnEnemies, reject) => {
         setPlayedCardsOpponent((prevVal) => {
             let oppCards = [...prevVal];
-            oppCards.forEach((item, index) => {
-                setPlayedCardsOpponent((prevPlayedCardsOp) => {
-                    let newOppCards = [...prevPlayedCardsOp];
-                    let newHealth = item.health - 1;
-                    let newBurnedItem = { ...item, health: newHealth, animationFire: true, justEntered: false, };
-                    newOppCards[index] = newBurnedItem;
-                    if (index === prevPlayedCardsOp.length - 1) resolveBurnEnemies();
-                    burnCard();
-                    return newOppCards;
+            if (prevVal.length > 0) {
+                oppCards.forEach((item, index) => {
+                    setPlayedCardsOpponent((prevPlayedCardsOp) => {
+                        let newOppCards = [...prevPlayedCardsOp];
+                        let newHealth = item.health - 1;
+                        let newBurnedItem = { ...item, health: newHealth, animationFire: true, justEntered: false, };
+                        newOppCards[index] = newBurnedItem;
+                        if (index === prevPlayedCardsOp.length - 1) resolveBurnEnemies();
+                        burnCard();
+                        return newOppCards;
+                    });
                 });
-            });
+            } else {
+                resolveBurnEnemies();
+            }
             return prevVal;
         });
     });
@@ -72,19 +84,23 @@ const burnPhasePlayer = async (setPlayedCardsOpponent, givenDelay, burnCard) => 
             // Remove cards that have health less than 0 health
             setPlayedCardsOpponent((prevState, props) => {
                 let newArr = [...prevState];
-                setTimeout(() => {
-                    newArr.forEach((item, index) => {
-                        setPlayedCardsOpponent((prevState, props) => {
-                            let readyToDelete = prevState;
-                            if (item.health < 1) {
-                                let deletedIndex = readyToDelete.findIndex(x => x.id === item.id);
-                                readyToDelete.splice(deletedIndex, 1)
-                            }
-                            if (index === newArr.length - 1) resolveBurnRemove();
-                            return readyToDelete;
+                if (prevState.length > 0) {
+                    setTimeout(() => {
+                        newArr.forEach((item, index) => {
+                            setPlayedCardsOpponent((prevState, props) => {
+                                let readyToDelete = prevState;
+                                if (item.health < 1) {
+                                    let deletedIndex = readyToDelete.findIndex(x => x.id === item.id);
+                                    readyToDelete.splice(deletedIndex, 1)
+                                }
+                                if (index === newArr.length - 1) resolveBurnRemove();
+                                return readyToDelete;
+                            });
                         });
-                    });
-                }, givenDelay);
+                    }, givenDelay);
+                } else {
+                    resolveBurnRemove();
+                }
                 return prevState;
             });
         });

@@ -45,10 +45,10 @@ function DeckModal({ setIsOpen, isOpen }) {
 
     // Difference in deck cards
     const [differenceArray, setDifferenceArray] = useState([]);
-    let v1 = user.special[2].bought ? 1 : 0;
-    let v2 = user.special[3].bought ? 1 : 0;
-    let v3 = user.special[4].bought ? 1 : 0;
-    let v4 = user.special[5].bought ? 1 : 0;
+    let v1 = user.special[0].bought ? 1 : 0;
+    let v2 = user.special[1].bought ? 1 : 0;
+    let v3 = user.special[2].bought ? 1 : 0;
+    let v4 = user.special[3].bought ? 1 : 0;
     let initalVal = v1 + v2 + v3 + v4;
 
     // Closes modal
@@ -72,21 +72,22 @@ function DeckModal({ setIsOpen, isOpen }) {
     const [currentCards, setCurrentCards] = useState(filteredCards);
     const [deckCards, setdeckCards] = useState(deck);
 
-    const [currentSortIndex, setCurrentSortIndex] = useState(0);
-    const [currentSortName, setCurrentSortName] = useState('color');
-
-    const ref = useRef();
-
     // Sort filters
     const sortFilters = [
         'color',
+        'attack',
+        'health',
+        'delay',
         'common',
         'rare',
         'epic',
         'legendary',
-        'attack',
-        'health',
     ]
+
+    const [currentSortIndex, setCurrentSortIndex] = useState(0);
+    const [currentSortName, setCurrentSortName] = useState(sortFilters[0]);
+
+    const ref = useRef();
 
     // Whenever cards change in any way, update cards list and then sort by current sort
     useEffect(() => {
@@ -94,7 +95,10 @@ function DeckModal({ setIsOpen, isOpen }) {
             let filteredCards = cards.filter((item, index) => {
                 return item.owned === true;
             })
-            const sorted = [...filteredCards].sort((a, b) => b[currentSortName] - a[currentSortName]);
+            let sorted = [...filteredCards].sort((a, b) => b[currentSortName] - a[currentSortName]);
+            if (currentSortName === 'delay') {
+                sorted = [...filteredCards].sort((a, b) => a[currentSortName] - b[currentSortName]);
+            }
             return sorted;
         });
     }, [cards])
@@ -125,23 +129,33 @@ function DeckModal({ setIsOpen, isOpen }) {
         updateDeckFunction();
     }, [user])
 
+    const [firstTime, setFirstTime] = useState(true);
+
     // Sort current cards
     const sortCurrentCards = () => {
         let newSortValue = 0;
         if (currentSortIndex < sortFilters.length - 1) {
             newSortValue = currentSortIndex + 1;
         }
+        let newName = sortFilters[newSortValue];
+
+        if (firstTime) {
+            newName = sortFilters[1];
+            newSortValue = 1;
+            setFirstTime(false);
+        }
+
         setCurrentSortIndex(newSortValue);
-
-
-        let newName = sortFilters[currentSortIndex];
         setCurrentSortName(newName);
 
         setCurrentCards((prevValue) => {
             let filteredCards = cards.filter((item, index) => {
                 return item.owned === true;
-            })
-            const sorted = [...filteredCards].sort((a, b) => b[newName] - a[newName]);
+            });
+            let sorted = [...filteredCards].sort((a, b) => b[newName] - a[newName]);
+            if (newName === 'delay') {
+                sorted = [...filteredCards].sort((a, b) => a[newName] - b[newName]);
+            }
             return sorted;
         });
 
@@ -286,7 +300,7 @@ function DeckModal({ setIsOpen, isOpen }) {
                                     {currentCards.length - deck.length} / {currentCards.length}
                                 </div>
                             </div>
-                            <div className={styles.overflow}>
+                            <div className={`${styles.smoothScroll} ${styles.overflow}`} ref={ref}>
                                 <div className={styles.paddingOverflow}>
                                     {
                                         currentCards.map((item, index) => (

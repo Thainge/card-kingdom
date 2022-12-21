@@ -7,11 +7,13 @@ import buttonClick from '../../Assets/sounds/starting/button.mp3';
 import closeClick from '../../Assets/sounds/starting/close.mp3';
 import useSound from 'use-sound';
 import { ContextFunction } from '../../Contexts/contextProvider';
+import localStorage from 'local-storage';
 
 const mutedImg = require('../../Assets/mute.png');
 const unmutedImg = require('../../Assets/unMuted.png');
 const fullscreenImg = require('../../Assets/fullscreen.png');
 const menu = require('../../Assets/MainMenu/button.png')
+const resetImage = require('../../Assets/reset.png')
 
 function SettingsModal({ setIsOpen, main }) {
     const obj = ContextFunction();
@@ -80,6 +82,11 @@ function SettingsModal({ setIsOpen, main }) {
         }
     }
 
+    const hardReset = () => {
+        localStorage.clear();
+        window.location.reload()
+    }
+
     return (
         <div className={styles.panel} onClick={e => e.stopPropagation()}>
             <div className={styles.container} onClick={e => e.stopPropagation()} style={{ backgroundImage: "url(" + backgroundImage + ")" }} >
@@ -120,7 +127,12 @@ function SettingsModal({ setIsOpen, main }) {
                             </div>
                         </Link> : <></>
                     }
-
+                    <div className={`${styles.column} ${styles.hardReset}`}>
+                        <div className={styles.imageText4}>Factory Reset</div>
+                        <img className={styles.image} src={resetImage}
+                            onClick={hardReset}
+                        ></img>
+                    </div>
                 </div>
             </div>
         </div>

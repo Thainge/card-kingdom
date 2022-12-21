@@ -2,7 +2,7 @@ const BoosterPacksData = [
     {
         id: 'green',
         name: 'Green Booster Pack',
-        cost: '100',
+        cost: '125',
         unlocked: true,
         unlockedBG: require('../Assets/Shop/green.png'),
         lockedBG: require('../Assets/Shop/greenLocked.png'),
@@ -18,7 +18,7 @@ const BoosterPacksData = [
     {
         id: 'yellow',
         name: 'Yellow Booster Pack',
-        cost: '200',
+        cost: '175',
         unlocked: false,
         unlockedBG: require('../Assets/Shop/yellow.png'),
         lockedBG: require('../Assets/Shop/yellowLocked.png'),
@@ -26,7 +26,7 @@ const BoosterPacksData = [
     {
         id: 'red',
         name: 'Red Booster Pack',
-        cost: '250',
+        cost: '200',
         unlocked: false,
         unlockedBG: require('../Assets/Shop/red.png'),
         lockedBG: require('../Assets/Shop/redLocked.png'),

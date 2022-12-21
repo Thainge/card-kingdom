@@ -81,21 +81,88 @@ function ShopModal({ setIsOpen, isOpen }) {
             });
 
             let readyForShuffle = [];
+            let backUpCards = [];
 
             newCards.forEach(element => {
                 if (element.legendary) {
-                    const val1 = 50 - newCards.length;
+                    const val1 = 22 - newCards.length;
                     const val2 = val1 / 100
                     const randomBool = Math.random() < val2 ? true : false;
                     if (randomBool) {
+                        console.log(val2)
                         readyForShuffle.push(element);
                     } else if (newCards.length < 4) {
                         readyForShuffle.push(element);
+                    } else {
+                        backUpCards.push(element);
+                    }
+                } else if (element.epic) {
+                    const val1 = 28 - newCards.length;
+                    const val2 = val1 / 100
+                    const randomBool = Math.random() < val2 ? true : false;
+                    if (randomBool) {
+                        console.log(val2)
+                        readyForShuffle.push(element);
+                    } else if (newCards.length < 4) {
+                        readyForShuffle.push(element);
+                    } else {
+                        backUpCards.push(element);
+                    }
+                } else if (element.rare) {
+                    const val1 = 36 - newCards.length;
+                    const val2 = val1 / 100
+                    const randomBool = Math.random() < val2 ? true : false;
+                    if (randomBool) {
+                        console.log(val2)
+                        readyForShuffle.push(element);
+                    } else if (newCards.length < 4) {
+                        readyForShuffle.push(element);
+                    } else {
+                        backUpCards.push(element);
                     }
                 } else {
                     readyForShuffle.push(element)
                 }
-            })
+            });
+
+            if (readyForShuffle.length < 3) {
+
+                let newArr = [...readyForShuffle];
+                let incrCounter = readyForShuffle.length;
+
+                backUpCards.forEach((item) => {
+                    if (item.common && incrCounter < 3) {
+                        console.log('pushed common')
+                        newArr.push(item);
+                        incrCounter++;
+                    }
+                });
+
+                backUpCards.forEach((item) => {
+                    if (item.rare && incrCounter < 3) {
+                        console.log('pushed rare')
+                        newArr.push(item);
+                        incrCounter++;
+                    }
+                });
+
+                backUpCards.forEach((item) => {
+                    if (item.epic && incrCounter < 3) {
+                        console.log('pushed epic')
+                        newArr.push(item);
+                        incrCounter++;
+                    }
+                });
+
+                backUpCards.forEach((item) => {
+                    console.log('pushed legendary')
+                    if (item.legendary && incrCounter < 3) {
+                        newArr.push(item);
+                        incrCounter++;
+                    }
+                });
+                readyForShuffle = newArr;
+            }
 
             let shuffledCards = shuffle(readyForShuffle);
 

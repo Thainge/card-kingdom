@@ -7,7 +7,6 @@ import flipCardSound from '../../Assets/sounds/starting/cardFlip.mp3';
 import useSound from 'use-sound';
 import TutorialModal from '../tutorial/tutorial';
 
-const cardBack = require('../../Assets/cardBorder.png');
 const attack = require('../../Assets/shield.png');
 const health = require('../../Assets/heart.png');
 
@@ -122,14 +121,14 @@ function GalleryModal({ setIsOpen, isOpen }) {
                                             cardFlip();
                                             setCurrentImg(item);
                                         }} className={styles.cardBorder}>
-                                            <img className={styles.card} src={cardBack}></img>
+                                            <img className={styles.card} src={item.border}></img>
                                             <img className={styles.cardImage} src={item.backImage} />
                                         </div>
                                         : <div onClick={() => {
                                             cardFlip();
                                             setCurrentImg(item);
                                         }} className={`${styles.cardBorder} ${styles.disabledCardBorder}`}>
-                                            <img className={styles.card} src={cardBack}></img>
+                                            <img className={styles.card} src={item.border}></img>
                                             <img className={styles.cardImage} src={item.backImage} />
                                         </div>
                                 }

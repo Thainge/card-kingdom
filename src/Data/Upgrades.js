@@ -52,7 +52,7 @@ const UpgradesData = {
             title: 'Forest Armor',
             text: 'The first green card played each game gains Block 1.',
             backgroundImage: require('../Assets/Upgrades/greenBoth.png'),
-            cost: 3
+            cost: 2
         },
     ],
     blue: [
@@ -109,7 +109,7 @@ const UpgradesData = {
             title: 'Frozen Armor',
             text: 'The first blue card played each game gains Block 1.',
             backgroundImage: require('../Assets/Upgrades/blueBoth.png'),
-            cost: 3
+            cost: 2
         },
     ],
     yellow: [
@@ -166,7 +166,7 @@ const UpgradesData = {
             title: 'Desert Armor',
             text: 'The first yellow card played each game gains Block 1.',
             backgroundImage: require('../Assets/Upgrades/yellowBoth.png'),
-            cost: 3
+            cost: 2
         },
     ],
     red: [
@@ -223,7 +223,7 @@ const UpgradesData = {
             title: 'Fire Armor',
             text: 'The first red card played each game gains Block 1.',
             backgroundImage: require('../Assets/Upgrades/redBoth.png'),
-            cost: 3
+            cost: 2
         },
     ],
 }

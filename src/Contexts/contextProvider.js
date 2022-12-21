@@ -27,6 +27,9 @@ export function InputProvider({ children }) {
 
     // All cards
     let cardsDefaultData = cardsData;
+    if (storedCards) {
+        cardsDefaultData = storedCards;
+    }
     const [cards, setCards] = useState(cardsDefaultData);
 
     let defaultArr = [

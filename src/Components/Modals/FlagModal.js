@@ -81,7 +81,7 @@ function FlagModal({ setIsOpen, item }) {
                             <ReactFitText>
                                 <div className={styles.diamondBox3}>
                                     <img className={styles.diamond} src={require('../../Assets/diamond.png')}></img>
-                                    <div className={styles.diamondText}>{min} - 199</div>
+                                    <div className={styles.diamondText}>{min} - {max}</div>
 
                                 </div>
                             </ReactFitText>

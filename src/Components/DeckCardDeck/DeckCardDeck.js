@@ -96,26 +96,26 @@ function DeckCardDeck({ item, deckRemoveCard }) {
                             : styles.nothingatall
                             }`} src={item.border} onMouseEnter={() => setToggledTwo(true)} onMouseLeave={() => setToggledTwo(false)} />
                         <img className={styles.cardImage1} src={item.backImage} />
-                        <div className={styles.healthBox}>
+                        <div className={styles.healthBox} onMouseEnter={() => setToggledTwo(true)} onMouseLeave={() => setToggledTwo(false)}>
                             <img className={`${styles.healthImage} ${styles.disabled}`} src={healthImage} />
                             <div className={`
                             ${health === baseHealth ? styles.nothingnew : health > baseHealth ? styles.greaterHealth : styles.lowerHealth}
                             ${item.health === 1 ? styles.specialText1 : item.health.toString().length === 1 ? styles.healthText : styles.healthTextBig} ${styles.disabled}`}>{item.health}</div>
                         </div>
-                        <div className={styles.attackBox}>
+                        <div className={styles.attackBox} onMouseEnter={() => setToggledTwo(true)} onMouseLeave={() => setToggledTwo(false)}>
                             <img className={`${styles.attackImage} ${styles.disabled}`} src={attackImage} />
                             <div className={`
                             ${attack === baseAttack ? styles.nothingnew : attack > baseAttack ? styles.greaterAttack : styles.lowerAttack}
                             ${item.attack.toString().length === 1 ? styles.attackText : styles.attackTextBig} ${styles.disabled}`}>{item.attack}</div>
                         </div>
-                        <div className={styles.absolute}>
+                        <div className={styles.absolute} onMouseEnter={() => setToggledTwo(true)} onMouseLeave={() => setToggledTwo(false)}>
                             <div className={styles.relative}>
                                 <img src={delayImage} className={styles.delay} />
                                 <div className={styles.delayText}>{item.delay}</div>
                             </div>
                         </div>
                         {
-                            <div className={currentImages.image1 || currentImages.image2 ? styles.specialAbilties : styles.specialField}>
+                            <div className={currentImages.image1 || currentImages.image2 ? styles.specialAbilties : styles.specialField} onMouseEnter={() => setToggledTwo(true)} onMouseLeave={() => setToggledTwo(false)}>
                                 {
                                     currentImages.image1 ? <img src={currentImages.image1} className={styles.specialImage} /> : <></>
                                 }

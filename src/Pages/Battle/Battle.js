@@ -24,7 +24,7 @@ import useSound from 'use-sound';
 import TutorialModal from '../../Components/tutorial/tutorial';
 
 import speedUpImg from '../../Assets/speed1x.png';
-import homeImg from '../../Assets/surrender.png';
+import surrenderImg from '../../Assets/surrender.png';
 import BattleCard from '../../Components/BattleCard/BattleCard';
 import heart from '../../Assets/tiltedHeart.png';
 import arrow from '../../Assets/arrow.png';
@@ -121,28 +121,19 @@ function BattlePage() {
     const [playedCards, setPlayedCards] = useState([]);
     const [playedCardsOpponent, setPlayedCardsOpponent] = useState([]);
 
-    let initialPlayerTurn = user.special[1].bought ? true : false;
-    let initialTime = user.special[1].bought ? false : true;
-    let initialCardsShow = user.special[1].bought ? true : false;
-
     // Who goes first
-    const [playerTurn, setPlayerTurn] = useState(initialPlayerTurn);
+    const [playerTurn, setPlayerTurn] = useState(false);
     const [healthPlayer, setHealthPlayer] = useState(30);
     const [healthOpponent, setHealthOpponent] = useState(30);
     const [currentRound, setCurrentRound] = useState(1);
-    const [firstTime, setFirstTime] = useState(initialTime);
-    const [showCards, setShowCards] = useState(initialCardsShow);
+    const [firstTime, setFirstTime] = useState(true);
+    const [showCards, setShowCards] = useState(false);
 
     // starts loading
     // Default opponent deck and default deck hand
     useEffect(() => {
         stopLoading();
-
-        if (playerTurn === false && firstTime) {
-            setTimeout(() => {
-                startOpponnentUpKeep();
-            }, DELAY)
-        }
+        startOpponnentUpKeep();
     }, []);
 
     const numberInit = 500;
@@ -470,11 +461,9 @@ function BattlePage() {
 
     const handleVictory = () => {
         victoryAudio();
-        let goldValue = user.special[0].bought
-            ? ((Math.floor(Math.random() * (location.state.max - location.state.min + 1)) + location.state.min) * 2)
-            : Math.floor(Math.random() * (location.state.max - location.state.min + 1)) + location.state.min;
+        let goldValue = Math.floor(Math.random() * (location.state.max - location.state.min + 1)) + location.state.min;
         if (location.state.boss) {
-            goldValue = goldValue * 3;
+            goldValue = goldValue * 2;
         }
         if (location.state.complete) {
             let newObj = {
@@ -779,7 +768,7 @@ function BattlePage() {
             </div>
             <div className={styles.overlayImage}>
                 {/* Fixed buttons */}
-                <img className={styles.home} src={homeImg} onClickCapture={() => {
+                <img className={styles.home} src={surrenderImg} onClickCapture={() => {
                     soundButton();
                     setSurrenderModal(true);
                 }} />
