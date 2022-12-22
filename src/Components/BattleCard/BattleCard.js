@@ -81,11 +81,15 @@ function BattleCard({ item, onField }) {
                         </div>
                         <div className={styles.healthBoxField} onMouseEnter={() => setToggled(true)} onMouseLeave={() => setToggled(false)}>
                             <img className={styles.healthImageField} src={healthImage} />
-                            <div className={`${health === baseHealth ? styles.nothingnew : health > baseHealth ? styles.greaterHealth : styles.lowerHealth} ${item.health === 1 ? styles.special1Field : item.health.toString().length === 1 ? styles.healthTextField : styles.healthTextBigField}`}>{item.health}</div>
+                            <div className={`
+                            ${item.enemy === true ? item.health === item.baseHealth ? styles.nothingnew : item.health > item.baseHealth ? styles.greaterHealth : styles.lowerHealth : styles.nothingnew}
+                            ${item.enemy === false ? health === baseHealth ? styles.nothingnew : health > baseHealth ? styles.greaterHealth : styles.lowerHealth : styles.nothingnew} ${item.health === 1 ? styles.special1Field : item.health.toString().length === 1 ? styles.healthTextField : styles.healthTextBigField}`}>{item.health}</div>
                         </div>
                         <div className={styles.attackBoxField} onMouseEnter={() => setToggled(true)} onMouseLeave={() => setToggled(false)}>
                             <img className={styles.attackImageField} src={attackImage} />
-                            <div className={`${attack === baseAttack ? styles.nothingnew : attack > baseAttack ? styles.greaterAttack : styles.lowerAttack} ${item.attack.toString().length === 1 ? styles.attackTextField : styles.attackTextBigField}`}>{item.attack}</div>
+                            <div className={`
+                            ${item.enemy === true ? item.attack === item.baseAttack ? styles.nothingnew : item.attack > item.baseAttack ? styles.greaterAttack : styles.lowerAttack : styles.nothingnew}
+                            ${item.enemy === false ? attack === baseAttack ? styles.nothingnew : attack > baseAttack ? styles.greaterAttack : styles.lowerAttack : styles.nothingnew} ${item.attack.toString().length === 1 ? styles.attackTextField : styles.attackTextBigField}`}>{item.attack}</div>
                         </div>
                         {
                             <div className={currentImages.image1 || currentImages.image2 ? styles.specialAbiltiesField : styles.specialField}>

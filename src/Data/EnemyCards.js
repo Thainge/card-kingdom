@@ -35,6 +35,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 3,
+            "baseAttack": 1
         },
         {
             "id": "g4",
@@ -43,8 +45,8 @@ const EnemyCardsData = [
             "color": "green",
             "orbType": "forest",
             "name": "Green 4",
-            "attack": 1,
-            "health": 3,
+            "attack": 2,
+            "health": 1,
             "common": true,
             "rare": false,
             "epic": false,
@@ -52,7 +54,7 @@ const EnemyCardsData = [
             "new": false,
             "border": require('../Assets/Borders/green1.png'),
             "backImage": require('../Assets/cardImages/4.png'),
-            "delay": 1,
+            "delay": 2,
             "shown": true,
             "active": false,
             "strengthUpgrade": false,
@@ -66,11 +68,13 @@ const EnemyCardsData = [
             "animationTrample": false,
             "animationBlock": false,
             "animationHeal": false,
-            "enemy": false,
+            "enemy": true,
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 1,
+            "baseAttack": 2
         },
         {
             "id": "g14",
@@ -107,6 +111,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 1,
+            "baseAttack": 4
         },
         {
             "id": "g6",
@@ -115,7 +121,7 @@ const EnemyCardsData = [
             "color": "green",
             "orbType": "forest",
             "name": "Green 6",
-            "attack": 3,
+            "attack": 1,
             "health": 1,
             "common": true,
             "rare": false,
@@ -138,11 +144,13 @@ const EnemyCardsData = [
             "animationTrample": false,
             "animationBlock": false,
             "animationHeal": false,
-            "enemy": false,
+            "enemy": true,
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 1,
+            "baseAttack": 1
         },
         {
             "id": "g3",
@@ -179,6 +187,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 1,
+            "baseAttack": 2
         },
         {
             "id": "g17",
@@ -215,6 +225,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 2,
+            "baseAttack": 3
         },
         {
             "id": "g11",
@@ -251,6 +263,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 2,
+            "baseAttack": 1
         },
         {
             "id": "g2",
@@ -287,6 +301,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 2,
+            "baseAttack": 1
         }
     ],
     [
@@ -325,6 +341,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 4
         },
         {
             "id": "g2",
@@ -361,6 +379,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 2,
+            "baseAttack": 2
         },
         {
             "id": "g13",
@@ -397,6 +417,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 3
         },
         {
             "id": "g15",
@@ -406,7 +428,7 @@ const EnemyCardsData = [
             "orbType": "forest",
             "name": "Green 15",
             "attack": 5,
-            "health": 5,
+            "health": 1,
             "common": true,
             "rare": false,
             "epic": false,
@@ -414,7 +436,7 @@ const EnemyCardsData = [
             "new": true,
             "border": require('../Assets/Borders/green1.png'),
             "backImage": require('../Assets/cardImages/15.png'),
-            "delay": 3,
+            "delay": 2,
             "shown": true,
             "active": false,
             "strengthUpgrade": false,
@@ -433,6 +455,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 1,
+            "baseAttack": 5
         },
         {
             "id": "g16",
@@ -469,6 +493,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 2,
+            "baseAttack": 4
         },
         {
             "id": "g11",
@@ -478,7 +504,7 @@ const EnemyCardsData = [
             "orbType": "forest",
             "name": "Green 11",
             "attack": 1,
-            "health": 2,
+            "health": 5,
             "common": true,
             "rare": false,
             "epic": false,
@@ -505,6 +531,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 5,
+            "baseAttack": 1
         },
         {
             "id": "g9",
@@ -541,6 +569,314 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 3,
+            "baseAttack": 1
+        },
+        {
+            "id": "g18",
+            "owned": false,
+            "indeck": false,
+            "color": "green",
+            "orbType": "forest",
+            "name": "Green 18",
+            "attack": 2,
+            "health": 3,
+            "common": true,
+            "rare": false,
+            "epic": false,
+            "legendary": false,
+            "new": true,
+            "border": require('../Assets/Borders/green1.png'),
+            "backImage": require('../Assets/cardImages/18.png'),
+            "delay": 2,
+            "shown": true,
+            "active": false,
+            "strengthUpgrade": false,
+            "vitalityUpgrade": false,
+            "blockUpgrade": false,
+            "firstUpgrade": false,
+            "orbUpgrade": false,
+            "animation": false,
+            "animationFire": false,
+            "animationFrost": false,
+            "animationTrample": false,
+            "animationBlock": false,
+            "animationHeal": false,
+            "enemy": true,
+            "blockEnabled": false,
+            "blockPermaEnabled": false,
+            "justEntered": true,
+            "justLeft": false,
+            "baseHealth": 3,
+            "baseAttack": 2
+        }
+    ],
+    [
+        {
+            "id": "g14",
+            "owned": false,
+            "indeck": false,
+            "color": "green",
+            "orbType": "forest",
+            "name": "Green 14",
+            "attack": 4,
+            "health": 3,
+            "common": true,
+            "rare": false,
+            "epic": false,
+            "legendary": false,
+            "new": true,
+            "border": require('../Assets/Borders/green1.png'),
+            "backImage": require('../Assets/cardImages/14.png'),
+            "delay": 2,
+            "shown": true,
+            "active": false,
+            "strengthUpgrade": false,
+            "vitalityUpgrade": false,
+            "blockUpgrade": false,
+            "firstUpgrade": false,
+            "orbUpgrade": false,
+            "animation": false,
+            "animationFire": false,
+            "animationFrost": false,
+            "animationTrample": false,
+            "animationBlock": false,
+            "animationHeal": false,
+            "enemy": true,
+            "blockEnabled": false,
+            "blockPermaEnabled": false,
+            "justEntered": true,
+            "justLeft": false,
+            "baseHealth": 3,
+            "baseAttack": 4
+        },
+        {
+            "id": "g2",
+            "owned": false,
+            "indeck": false,
+            "color": "green",
+            "orbType": "forest",
+            "name": "Green 2",
+            "attack": 2,
+            "health": 2,
+            "common": true,
+            "rare": false,
+            "epic": false,
+            "legendary": false,
+            "new": false,
+            "border": require('../Assets/Borders/green1.png'),
+            "backImage": require('../Assets/cardImages/2.png'),
+            "delay": 1,
+            "shown": true,
+            "active": false,
+            "strengthUpgrade": false,
+            "vitalityUpgrade": false,
+            "blockUpgrade": false,
+            "firstUpgrade": false,
+            "orbUpgrade": false,
+            "animation": false,
+            "animationFire": false,
+            "animationFrost": false,
+            "animationTrample": false,
+            "animationBlock": false,
+            "animationHeal": false,
+            "enemy": true,
+            "blockEnabled": false,
+            "blockPermaEnabled": false,
+            "justEntered": true,
+            "justLeft": false,
+            "baseHealth": 2,
+            "baseAttack": 2
+        },
+        {
+            "id": "g13",
+            "owned": false,
+            "indeck": false,
+            "color": "green",
+            "orbType": "forest",
+            "name": "Green 13",
+            "attack": 3,
+            "health": 4,
+            "common": true,
+            "rare": false,
+            "epic": false,
+            "legendary": false,
+            "new": true,
+            "border": require('../Assets/Borders/green1.png'),
+            "backImage": require('../Assets/cardImages/13.png'),
+            "delay": 3,
+            "shown": true,
+            "active": false,
+            "strengthUpgrade": false,
+            "vitalityUpgrade": false,
+            "blockUpgrade": false,
+            "firstUpgrade": false,
+            "orbUpgrade": false,
+            "animation": false,
+            "animationFire": false,
+            "animationFrost": false,
+            "animationTrample": false,
+            "animationBlock": false,
+            "animationHeal": false,
+            "enemy": true,
+            "blockEnabled": false,
+            "blockPermaEnabled": false,
+            "justEntered": true,
+            "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 3
+        },
+        {
+            "id": "g15",
+            "owned": false,
+            "indeck": false,
+            "color": "green",
+            "orbType": "forest",
+            "name": "Green 15",
+            "attack": 3,
+            "health": 4,
+            "common": true,
+            "rare": false,
+            "epic": false,
+            "legendary": false,
+            "new": true,
+            "border": require('../Assets/Borders/green1.png'),
+            "backImage": require('../Assets/cardImages/15.png'),
+            "delay": 2,
+            "shown": true,
+            "active": false,
+            "strengthUpgrade": false,
+            "vitalityUpgrade": false,
+            "blockUpgrade": false,
+            "firstUpgrade": false,
+            "orbUpgrade": false,
+            "animation": false,
+            "animationFire": false,
+            "animationFrost": false,
+            "animationTrample": false,
+            "animationBlock": false,
+            "animationHeal": false,
+            "enemy": true,
+            "blockEnabled": false,
+            "blockPermaEnabled": false,
+            "justEntered": true,
+            "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 3
+        },
+        {
+            "id": "g16",
+            "owned": false,
+            "indeck": false,
+            "color": "green",
+            "orbType": "forest",
+            "name": "Green 16",
+            "attack": 4,
+            "health": 2,
+            "common": true,
+            "rare": false,
+            "epic": false,
+            "legendary": false,
+            "new": true,
+            "border": require('../Assets/Borders/green1.png'),
+            "backImage": require('../Assets/cardImages/16.png'),
+            "delay": 2,
+            "shown": true,
+            "active": false,
+            "strengthUpgrade": false,
+            "vitalityUpgrade": false,
+            "blockUpgrade": false,
+            "firstUpgrade": false,
+            "orbUpgrade": false,
+            "animation": false,
+            "animationFire": false,
+            "animationFrost": false,
+            "animationTrample": false,
+            "animationBlock": false,
+            "animationHeal": false,
+            "enemy": true,
+            "blockEnabled": false,
+            "blockPermaEnabled": false,
+            "justEntered": true,
+            "justLeft": false,
+            "baseHealth": 2,
+            "baseAttack": 4
+        },
+        {
+            "id": "g11",
+            "owned": false,
+            "indeck": false,
+            "color": "green",
+            "orbType": "forest",
+            "name": "Green 11",
+            "attack": 2,
+            "health": 5,
+            "common": true,
+            "rare": false,
+            "epic": false,
+            "legendary": false,
+            "new": true,
+            "border": require('../Assets/Borders/green1.png'),
+            "backImage": require('../Assets/cardImages/11.png'),
+            "delay": 2,
+            "shown": true,
+            "active": false,
+            "strengthUpgrade": false,
+            "vitalityUpgrade": false,
+            "blockUpgrade": false,
+            "firstUpgrade": false,
+            "orbUpgrade": false,
+            "animation": false,
+            "animationFire": false,
+            "animationFrost": false,
+            "animationTrample": false,
+            "animationBlock": false,
+            "animationHeal": false,
+            "enemy": true,
+            "blockEnabled": false,
+            "blockPermaEnabled": false,
+            "justEntered": true,
+            "justLeft": false,
+            "baseHealth": 5,
+            "baseAttack": 2
+        },
+        {
+            "id": "g9",
+            "owned": false,
+            "indeck": false,
+            "color": "green",
+            "orbType": "forest",
+            "name": "Green 9",
+            "attack": 1,
+            "health": 3,
+            "common": true,
+            "rare": false,
+            "epic": false,
+            "legendary": false,
+            "new": true,
+            "border": require('../Assets/Borders/green1.png'),
+            "backImage": require('../Assets/cardImages/9.png'),
+            "delay": 1,
+            "shown": true,
+            "active": false,
+            "strengthUpgrade": false,
+            "vitalityUpgrade": false,
+            "blockUpgrade": false,
+            "firstUpgrade": false,
+            "orbUpgrade": false,
+            "animation": false,
+            "animationFire": false,
+            "animationFrost": false,
+            "animationTrample": false,
+            "animationBlock": false,
+            "animationHeal": false,
+            "enemy": true,
+            "blockEnabled": false,
+            "blockPermaEnabled": false,
+            "justEntered": true,
+            "justLeft": false,
+            "baseHealth": 3,
+            "baseAttack": 1
         },
         {
             "id": "g18",
@@ -577,6 +913,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 3,
+            "baseAttack": 5
         }
     ],
     [
@@ -596,7 +934,7 @@ const EnemyCardsData = [
             "new": true,
             "border": require('../Assets/Borders/green1.png'),
             "backImage": require('../Assets/cardImages/14.png'),
-            "delay": 3,
+            "delay": 2,
             "shown": true,
             "active": false,
             "strengthUpgrade": false,
@@ -615,6 +953,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 4
         },
         {
             "id": "g2",
@@ -651,6 +991,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 2,
+            "baseAttack": 2
         },
         {
             "id": "g13",
@@ -668,7 +1010,7 @@ const EnemyCardsData = [
             "new": true,
             "border": require('../Assets/Borders/green1.png'),
             "backImage": require('../Assets/cardImages/13.png'),
-            "delay": 3,
+            "delay": 2,
             "shown": true,
             "active": false,
             "strengthUpgrade": false,
@@ -687,6 +1029,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 3
         },
         {
             "id": "g15",
@@ -723,6 +1067,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 5,
+            "baseAttack": 5
         },
         {
             "id": "g16",
@@ -759,6 +1105,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 2,
+            "baseAttack": 4
         },
         {
             "id": "g11",
@@ -768,7 +1116,7 @@ const EnemyCardsData = [
             "orbType": "forest",
             "name": "Green 11",
             "attack": 1,
-            "health": 2,
+            "health": 6,
             "common": true,
             "rare": false,
             "epic": false,
@@ -795,6 +1143,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 6,
+            "baseAttack": 1
         },
         {
             "id": "g9",
@@ -831,296 +1181,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
-        },
-        {
-            "id": "g18",
-            "owned": false,
-            "indeck": false,
-            "color": "green",
-            "orbType": "forest",
-            "name": "Green 18",
-            "attack": 5,
-            "health": 3,
-            "common": true,
-            "rare": false,
-            "epic": false,
-            "legendary": false,
-            "new": true,
-            "border": require('../Assets/Borders/green1.png'),
-            "backImage": require('../Assets/cardImages/18.png'),
-            "delay": 3,
-            "shown": true,
-            "active": false,
-            "strengthUpgrade": false,
-            "vitalityUpgrade": false,
-            "blockUpgrade": false,
-            "firstUpgrade": false,
-            "orbUpgrade": false,
-            "animation": false,
-            "animationFire": false,
-            "animationFrost": false,
-            "animationTrample": false,
-            "animationBlock": false,
-            "animationHeal": false,
-            "enemy": true,
-            "blockEnabled": false,
-            "blockPermaEnabled": false,
-            "justEntered": true,
-            "justLeft": false,
-        }
-    ],
-    [
-        {
-            "id": "g14",
-            "owned": false,
-            "indeck": false,
-            "color": "green",
-            "orbType": "forest",
-            "name": "Green 14",
-            "attack": 4,
-            "health": 4,
-            "common": true,
-            "rare": false,
-            "epic": false,
-            "legendary": false,
-            "new": true,
-            "border": require('../Assets/Borders/green1.png'),
-            "backImage": require('../Assets/cardImages/14.png'),
-            "delay": 3,
-            "shown": true,
-            "active": false,
-            "strengthUpgrade": false,
-            "vitalityUpgrade": false,
-            "blockUpgrade": false,
-            "firstUpgrade": false,
-            "orbUpgrade": false,
-            "animation": false,
-            "animationFire": false,
-            "animationFrost": false,
-            "animationTrample": false,
-            "animationBlock": false,
-            "animationHeal": false,
-            "enemy": true,
-            "blockEnabled": false,
-            "blockPermaEnabled": false,
-            "justEntered": true,
-            "justLeft": false,
-        },
-        {
-            "id": "g2",
-            "owned": false,
-            "indeck": false,
-            "color": "green",
-            "orbType": "forest",
-            "name": "Green 2",
-            "attack": 2,
-            "health": 2,
-            "common": true,
-            "rare": false,
-            "epic": false,
-            "legendary": false,
-            "new": false,
-            "border": require('../Assets/Borders/green1.png'),
-            "backImage": require('../Assets/cardImages/2.png'),
-            "delay": 1,
-            "shown": true,
-            "active": false,
-            "strengthUpgrade": false,
-            "vitalityUpgrade": false,
-            "blockUpgrade": false,
-            "firstUpgrade": false,
-            "orbUpgrade": false,
-            "animation": false,
-            "animationFire": false,
-            "animationFrost": false,
-            "animationTrample": false,
-            "animationBlock": false,
-            "animationHeal": false,
-            "enemy": true,
-            "blockEnabled": false,
-            "blockPermaEnabled": false,
-            "justEntered": true,
-            "justLeft": false,
-        },
-        {
-            "id": "g13",
-            "owned": false,
-            "indeck": false,
-            "color": "green",
-            "orbType": "forest",
-            "name": "Green 13",
-            "attack": 3,
-            "health": 4,
-            "common": true,
-            "rare": false,
-            "epic": false,
-            "legendary": false,
-            "new": true,
-            "border": require('../Assets/Borders/green1.png'),
-            "backImage": require('../Assets/cardImages/13.png'),
-            "delay": 3,
-            "shown": true,
-            "active": false,
-            "strengthUpgrade": false,
-            "vitalityUpgrade": false,
-            "blockUpgrade": false,
-            "firstUpgrade": false,
-            "orbUpgrade": false,
-            "animation": false,
-            "animationFire": false,
-            "animationFrost": false,
-            "animationTrample": false,
-            "animationBlock": false,
-            "animationHeal": false,
-            "enemy": true,
-            "blockEnabled": false,
-            "blockPermaEnabled": false,
-            "justEntered": true,
-            "justLeft": false,
-        },
-        {
-            "id": "g15",
-            "owned": false,
-            "indeck": false,
-            "color": "green",
-            "orbType": "forest",
-            "name": "Green 15",
-            "attack": 5,
-            "health": 5,
-            "common": true,
-            "rare": false,
-            "epic": false,
-            "legendary": false,
-            "new": true,
-            "border": require('../Assets/Borders/green1.png'),
-            "backImage": require('../Assets/cardImages/15.png'),
-            "delay": 4,
-            "shown": true,
-            "active": false,
-            "strengthUpgrade": false,
-            "vitalityUpgrade": false,
-            "blockUpgrade": false,
-            "firstUpgrade": false,
-            "orbUpgrade": false,
-            "animation": false,
-            "animationFire": false,
-            "animationFrost": false,
-            "animationTrample": false,
-            "animationBlock": false,
-            "animationHeal": false,
-            "enemy": true,
-            "blockEnabled": false,
-            "blockPermaEnabled": false,
-            "justEntered": true,
-            "justLeft": false,
-        },
-        {
-            "id": "g16",
-            "owned": false,
-            "indeck": false,
-            "color": "green",
-            "orbType": "forest",
-            "name": "Green 16",
-            "attack": 4,
-            "health": 2,
-            "common": true,
-            "rare": false,
-            "epic": false,
-            "legendary": false,
-            "new": true,
-            "border": require('../Assets/Borders/green1.png'),
-            "backImage": require('../Assets/cardImages/16.png'),
-            "delay": 2,
-            "shown": true,
-            "active": false,
-            "strengthUpgrade": false,
-            "vitalityUpgrade": false,
-            "blockUpgrade": false,
-            "firstUpgrade": false,
-            "orbUpgrade": false,
-            "animation": false,
-            "animationFire": false,
-            "animationFrost": false,
-            "animationTrample": false,
-            "animationBlock": false,
-            "animationHeal": false,
-            "enemy": true,
-            "blockEnabled": false,
-            "blockPermaEnabled": false,
-            "justEntered": true,
-            "justLeft": false,
-        },
-        {
-            "id": "g11",
-            "owned": false,
-            "indeck": false,
-            "color": "green",
-            "orbType": "forest",
-            "name": "Green 11",
-            "attack": 1,
-            "health": 2,
-            "common": true,
-            "rare": false,
-            "epic": false,
-            "legendary": false,
-            "new": true,
-            "border": require('../Assets/Borders/green1.png'),
-            "backImage": require('../Assets/cardImages/11.png'),
-            "delay": 1,
-            "shown": true,
-            "active": false,
-            "strengthUpgrade": false,
-            "vitalityUpgrade": false,
-            "blockUpgrade": false,
-            "firstUpgrade": false,
-            "orbUpgrade": false,
-            "animation": false,
-            "animationFire": false,
-            "animationFrost": false,
-            "animationTrample": false,
-            "animationBlock": false,
-            "animationHeal": false,
-            "enemy": true,
-            "blockEnabled": false,
-            "blockPermaEnabled": false,
-            "justEntered": true,
-            "justLeft": false,
-        },
-        {
-            "id": "g9",
-            "owned": false,
-            "indeck": false,
-            "color": "green",
-            "orbType": "forest",
-            "name": "Green 9",
-            "attack": 1,
-            "health": 3,
-            "common": true,
-            "rare": false,
-            "epic": false,
-            "legendary": false,
-            "new": true,
-            "border": require('../Assets/Borders/green1.png'),
-            "backImage": require('../Assets/cardImages/9.png'),
-            "delay": 1,
-            "shown": true,
-            "active": false,
-            "strengthUpgrade": false,
-            "vitalityUpgrade": false,
-            "blockUpgrade": false,
-            "firstUpgrade": false,
-            "orbUpgrade": false,
-            "animation": false,
-            "animationFire": false,
-            "animationFrost": false,
-            "animationTrample": false,
-            "animationBlock": false,
-            "animationHeal": false,
-            "enemy": true,
-            "blockEnabled": false,
-            "blockPermaEnabled": false,
-            "justEntered": true,
-            "justLeft": false,
+            "baseHealth": 3,
+            "baseAttack": 1
         },
         {
             "id": "g18",
@@ -1157,6 +1219,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 3,
+            "baseAttack": 5
         }
     ],
     [
@@ -1195,6 +1259,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 5,
+            "baseAttack": 5
         },
         {
             "id": "g6",
@@ -1231,6 +1297,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 1,
+            "baseAttack": 2
         },
         {
             "id": "g22",
@@ -1267,6 +1335,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 3,
+            "baseAttack": 3
         },
         {
             "id": "g23",
@@ -1284,7 +1354,7 @@ const EnemyCardsData = [
             "new": true,
             "border": require('../Assets/Borders/green2.png'),
             "backImage": require('../Assets/cardImages/23.png'),
-            "delay": 4,
+            "delay": 3,
             "shown": true,
             "active": false,
             "strengthUpgrade": false,
@@ -1303,6 +1373,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 6,
+            "baseAttack": 6
         },
         {
             "id": "g1",
@@ -1312,7 +1384,7 @@ const EnemyCardsData = [
             "orbType": "forest",
             "name": "Green 1",
             "attack": 1,
-            "health": 2,
+            "health": 5,
             "common": true,
             "rare": false,
             "epic": false,
@@ -1339,6 +1411,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 5,
+            "baseAttack": 1
         },
         {
             "id": "g11",
@@ -1347,7 +1421,7 @@ const EnemyCardsData = [
             "color": "green",
             "orbType": "forest",
             "name": "Green 11",
-            "attack": 1,
+            "attack": 3,
             "health": 2,
             "common": true,
             "rare": false,
@@ -1375,6 +1449,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 2,
+            "baseAttack": 3
         },
         {
             "id": "g4",
@@ -1411,6 +1487,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 3,
+            "baseAttack": 1
         },
         {
             "id": "g7",
@@ -1447,6 +1525,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 3,
+            "baseAttack": 1
         }
     ],
     [
@@ -1485,6 +1565,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 3,
+            "baseAttack": 1
         },
         {
             "id": "g20",
@@ -1521,6 +1603,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 6,
+            "baseAttack": 4
         },
         {
             "id": "g14",
@@ -1557,6 +1641,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 4
         },
         {
             "id": "g10",
@@ -1593,6 +1679,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 1,
+            "baseAttack": 3
         },
         {
             "id": "g17",
@@ -1629,6 +1717,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 5,
+            "baseAttack": 3
         },
         {
             "id": "g18",
@@ -1665,6 +1755,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 3,
+            "baseAttack": 5
         },
         {
             "id": "g23",
@@ -1701,6 +1793,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 6,
+            "baseAttack": 6
         },
         {
             "id": "g25",
@@ -1737,6 +1831,8 @@ const EnemyCardsData = [
             "blockPermaEnabled": false,
             "justEntered": true,
             "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 7
         }
     ],
     [
@@ -1774,7 +1870,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "b25",
@@ -1810,7 +1908,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 7
         },
         {
             "id": "b20",
@@ -1846,7 +1946,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 6,
+            "baseAttack": 4
         },
         {
             "id": "b21",
@@ -1882,7 +1984,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 5
         },
         {
             "id": "b27",
@@ -1918,7 +2022,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         },
         {
             "id": "b19",
@@ -1954,7 +2060,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 8,
+            "baseAttack": 4
         },
         {
             "id": "b31",
@@ -1990,7 +2098,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "b30",
@@ -2026,7 +2136,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 8,
+            "baseAttack": 5
         }
     ],
     [
@@ -2064,7 +2176,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 7
         },
         {
             "id": "b32",
@@ -2100,7 +2214,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "b20",
@@ -2136,7 +2252,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 6,
+            "baseAttack": 4
         },
         {
             "id": "b19",
@@ -2172,7 +2290,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 8,
+            "baseAttack": 4
         },
         {
             "id": "b23",
@@ -2208,7 +2328,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 6,
+            "baseAttack": 6
         },
         {
             "id": "b31",
@@ -2244,7 +2366,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "b21",
@@ -2280,7 +2404,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 5
         },
         {
             "id": "b29",
@@ -2316,7 +2442,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 5,
+            "baseAttack": 3
         }
     ],
     [
@@ -2354,7 +2482,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "b20",
@@ -2390,7 +2520,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 6,
+            "baseAttack": 4
         },
         {
             "id": "b24",
@@ -2426,7 +2558,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 9,
+            "baseAttack": 1
         },
         {
             "id": "b31",
@@ -2462,7 +2596,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "b29",
@@ -2498,7 +2634,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 5,
+            "baseAttack": 3
         },
         {
             "id": "b27",
@@ -2534,7 +2672,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         },
         {
             "id": "b30",
@@ -2570,7 +2710,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 8,
+            "baseAttack": 5
         },
         {
             "id": "b25",
@@ -2606,7 +2748,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 7
         }
     ],
     [
@@ -2644,7 +2788,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         },
         {
             "id": "b20",
@@ -2680,7 +2826,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 6,
+            "baseAttack": 4
         },
         {
             "id": "b29",
@@ -2716,7 +2864,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 5,
+            "baseAttack": 3
         },
         {
             "id": "b24",
@@ -2752,7 +2902,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 9,
+            "baseAttack": 1
         },
         {
             "id": "b25",
@@ -2788,7 +2940,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 7
         },
         {
             "id": "b31",
@@ -2824,7 +2978,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "b21",
@@ -2860,7 +3016,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 5
         },
         {
             "id": "b32",
@@ -2896,7 +3054,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         }
     ],
     [
@@ -2934,7 +3094,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 8,
+            "baseAttack": 5
         },
         {
             "id": "g31",
@@ -2970,7 +3132,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "g28",
@@ -3006,7 +3170,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 4
         },
         {
             "id": "b31",
@@ -3042,7 +3208,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "b27",
@@ -3078,7 +3246,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         },
         {
             "id": "b29",
@@ -3114,7 +3284,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 5,
+            "baseAttack": 3
         },
         {
             "id": "g29",
@@ -3150,7 +3322,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 5,
+            "baseAttack": 3
         },
         {
             "id": "b32",
@@ -3186,7 +3360,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         }
     ],
     [
@@ -3224,7 +3400,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         },
         {
             "id": "g32",
@@ -3260,7 +3438,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "b29",
@@ -3296,7 +3476,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 5,
+            "baseAttack": 3
         },
         {
             "id": "b28",
@@ -3332,7 +3514,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 4
         },
         {
             "id": "g31",
@@ -3368,7 +3552,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "g27",
@@ -3404,7 +3590,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         },
         {
             "id": "g28",
@@ -3440,7 +3628,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 4
         },
         {
             "id": "b32",
@@ -3476,7 +3666,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         }
     ],
     [
@@ -3514,7 +3706,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 8,
+            "baseAttack": 5
         },
         {
             "id": "g28",
@@ -3550,7 +3744,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 4
         },
         {
             "id": "b30",
@@ -3586,7 +3782,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 8,
+            "baseAttack": 5
         },
         {
             "id": "b32",
@@ -3622,7 +3820,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "b27",
@@ -3658,7 +3858,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         },
         {
             "id": "b31",
@@ -3694,7 +3896,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "g31",
@@ -3730,7 +3934,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "g32",
@@ -3766,7 +3972,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         }
     ],
     [
@@ -3804,7 +4012,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "g29",
@@ -3840,7 +4050,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 5,
+            "baseAttack": 3
         },
         {
             "id": "b31",
@@ -3876,7 +4088,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "g27",
@@ -3912,7 +4126,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         },
         {
             "id": "b32",
@@ -3948,7 +4164,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "b30",
@@ -3984,7 +4202,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 8,
+            "baseAttack": 5
         },
         {
             "id": "y27",
@@ -4020,7 +4240,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         },
         {
             "id": "g32",
@@ -4056,7 +4278,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         }
     ],
     [
@@ -4094,7 +4318,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         },
         {
             "id": "g32",
@@ -4130,7 +4356,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "b30",
@@ -4166,7 +4394,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 8,
+            "baseAttack": 5
         },
         {
             "id": "y27",
@@ -4202,7 +4432,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         },
         {
             "id": "b31",
@@ -4238,7 +4470,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "y32",
@@ -4274,7 +4508,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "b32",
@@ -4310,7 +4546,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "g28",
@@ -4346,7 +4584,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 4
         }
     ],
     [
@@ -4384,7 +4624,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "g32",
@@ -4420,7 +4662,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "y27",
@@ -4456,7 +4700,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         },
         {
             "id": "y32",
@@ -4492,7 +4738,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "b31",
@@ -4528,7 +4776,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "b29",
@@ -4564,7 +4814,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 5,
+            "baseAttack": 3
         },
         {
             "id": "b28",
@@ -4600,7 +4852,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 4
         },
         {
             "id": "g27",
@@ -4636,7 +4890,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         }
     ],
     [
@@ -4674,7 +4930,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "b28",
@@ -4710,7 +4968,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 4
         },
         {
             "id": "b32",
@@ -4746,7 +5006,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "y31",
@@ -4782,7 +5044,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "b29",
@@ -4818,7 +5082,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 5,
+            "baseAttack": 3
         },
         {
             "id": "y27",
@@ -4854,7 +5120,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         },
         {
             "id": "g31",
@@ -4890,7 +5158,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "b31",
@@ -4926,7 +5196,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         }
     ],
     [
@@ -4964,7 +5236,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 4
         },
         {
             "id": "y32",
@@ -5000,7 +5274,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "b27",
@@ -5036,7 +5312,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         },
         {
             "id": "b31",
@@ -5072,7 +5350,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "b32",
@@ -5108,7 +5388,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "y31",
@@ -5144,7 +5426,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "b30",
@@ -5180,7 +5464,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 8,
+            "baseAttack": 5
         },
         {
             "id": "g31",
@@ -5216,7 +5502,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         }
     ],
     [
@@ -5254,7 +5542,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         },
         {
             "id": "b31",
@@ -5290,7 +5580,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "b32",
@@ -5326,7 +5618,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "g32",
@@ -5362,7 +5656,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "y31",
@@ -5398,7 +5694,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "g29",
@@ -5434,7 +5732,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 5,
+            "baseAttack": 3
         },
         {
             "id": "y28",
@@ -5470,7 +5770,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 4
         },
         {
             "id": "y32",
@@ -5506,7 +5808,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         }
     ],
     [
@@ -5544,7 +5848,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "y32",
@@ -5580,7 +5886,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "b31",
@@ -5616,7 +5924,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "y31",
@@ -5652,7 +5962,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "b29",
@@ -5688,7 +6000,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 5,
+            "baseAttack": 3
         },
         {
             "id": "y27",
@@ -5724,7 +6038,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         },
         {
             "id": "g30",
@@ -5760,7 +6076,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 8,
+            "baseAttack": 5
         },
         {
             "id": "y30",
@@ -5796,7 +6114,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 8,
+            "baseAttack": 5
         }
     ],
     [
@@ -5834,7 +6154,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "b29",
@@ -5870,7 +6192,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 5,
+            "baseAttack": 3
         },
         {
             "id": "b32",
@@ -5906,7 +6230,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "g31",
@@ -5942,7 +6268,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "y28",
@@ -5978,7 +6306,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 4
         },
         {
             "id": "y31",
@@ -6014,7 +6344,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "b31",
@@ -6050,7 +6382,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "y32",
@@ -6086,7 +6420,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         }
     ],
     [
@@ -6124,7 +6460,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 5,
+            "baseAttack": 3
         },
         {
             "id": "y29",
@@ -6160,7 +6498,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 5,
+            "baseAttack": 3
         },
         {
             "id": "y31",
@@ -6196,7 +6536,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "g32",
@@ -6232,7 +6574,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "g31",
@@ -6268,7 +6612,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "b32",
@@ -6304,7 +6650,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "g28",
@@ -6340,7 +6688,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 4
         },
         {
             "id": "y32",
@@ -6376,7 +6726,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         }
     ],
     [
@@ -6414,7 +6766,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 4
         },
         {
             "id": "g32",
@@ -6450,7 +6804,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "y31",
@@ -6486,7 +6842,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "b31",
@@ -6522,7 +6880,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "y32",
@@ -6558,7 +6918,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "g31",
@@ -6594,7 +6956,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "b32",
@@ -6630,7 +6994,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "g27",
@@ -6666,7 +7032,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         }
     ],
     [
@@ -6704,7 +7072,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "r27",
@@ -6740,7 +7110,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         },
         {
             "id": "b31",
@@ -6776,7 +7148,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "r32",
@@ -6812,7 +7186,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "b32",
@@ -6848,7 +7224,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "y31",
@@ -6884,7 +7262,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "y27",
@@ -6920,7 +7300,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         },
         {
             "id": "g32",
@@ -6956,7 +7338,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         }
     ],
     [
@@ -6994,7 +7378,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 8,
+            "baseAttack": 5
         },
         {
             "id": "y31",
@@ -7030,7 +7416,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "y32",
@@ -7066,7 +7454,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "b32",
@@ -7102,7 +7492,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "g32",
@@ -7138,7 +7530,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "r31",
@@ -7174,7 +7568,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "b31",
@@ -7210,7 +7606,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "g31",
@@ -7246,7 +7644,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         }
     ],
     [
@@ -7284,7 +7684,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "y32",
@@ -7320,7 +7722,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "g31",
@@ -7356,7 +7760,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "y31",
@@ -7392,7 +7798,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "b32",
@@ -7428,7 +7836,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "r31",
@@ -7464,7 +7874,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "r28",
@@ -7500,7 +7912,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 4
         },
         {
             "id": "y30",
@@ -7536,7 +7950,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 8,
+            "baseAttack": 5
         }
     ],
     [
@@ -7574,7 +7990,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 7,
+            "baseAttack": 7
         },
         {
             "id": "b31",
@@ -7610,7 +8028,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "g32",
@@ -7646,7 +8066,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "r32",
@@ -7682,7 +8104,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "r31",
@@ -7718,7 +8142,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "y32",
@@ -7754,7 +8180,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "g31",
@@ -7790,7 +8218,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "y28",
@@ -7826,7 +8256,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 4,
+            "baseAttack": 4
         }
     ],
     [
@@ -7864,7 +8296,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "r31",
@@ -7900,7 +8334,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "y31",
@@ -7936,7 +8372,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "r32",
@@ -7972,7 +8410,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "b32",
@@ -8008,7 +8448,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "r30",
@@ -8044,7 +8486,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": false,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 8,
+            "baseAttack": 5
         },
         {
             "id": "y32",
@@ -8080,7 +8524,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "g31",
@@ -8116,7 +8562,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         }
     ],
     [
@@ -8154,7 +8602,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "y32",
@@ -8190,7 +8640,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "g32",
@@ -8226,7 +8678,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "r32",
@@ -8262,7 +8716,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "b31",
@@ -8298,7 +8754,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "y31",
@@ -8334,7 +8792,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         },
         {
             "id": "b32",
@@ -8370,7 +8830,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 10
         },
         {
             "id": "r31",
@@ -8406,7 +8868,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 10,
+            "baseAttack": 9
         }
     ],
     [
@@ -8444,7 +8908,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 12,
+            "baseAttack": 11
         },
         {
             "id": "b32",
@@ -8480,7 +8946,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 12,
+            "baseAttack": 12
         },
         {
             "id": "g31",
@@ -8516,7 +8984,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 12,
+            "baseAttack": 11
         },
         {
             "id": "g32",
@@ -8552,7 +9022,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 12,
+            "baseAttack": 12
         },
         {
             "id": "r32",
@@ -8588,7 +9060,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 12,
+            "baseAttack": 12
         },
         {
             "id": "b31",
@@ -8624,7 +9098,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 12,
+            "baseAttack": 11
         },
         {
             "id": "y32",
@@ -8660,7 +9136,9 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 12,
+            "baseAttack": 12
         },
         {
             "id": "r31",
@@ -8696,9 +9174,26 @@ const EnemyCardsData = [
             "blockEnabled": false,
             "blockPermaEnabled": true,
             "justEntered": true,
-            "justLeft": false
+            "justLeft": false,
+            "baseHealth": 12,
+            "baseAttack": 11
         }
     ]
 ]
+
+// let newCards = [];
+
+// EnemyCardsData.forEach((item) => {
+//     let newArray = [];
+
+//     item.forEach((item) => {
+//         let newItem = { ...item, baseHealth: item.health, baseAttack: item.attack };
+//         newArray.push(newItem);
+//     });
+
+//     newCards.push(newArray);
+// });
+
+// console.log(newCards)
 
 export default EnemyCardsData;

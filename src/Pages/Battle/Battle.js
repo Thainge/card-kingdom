@@ -74,7 +74,7 @@ function BattlePage() {
     const [soundButton] = useSound(buttonSound, { volume: .2 });
     const [cardOpen] = useSound(cardOpenSound, { volume: .2 });
     const [cardFlip] = useSound(flipCardSound, { volume: .3 });
-    const [victoryAudio] = useSound(victorySound, { volume: .1 });
+    const [victoryAudio] = useSound(victorySound, { volume: .5 });
     const [defeatAudio] = useSound(defeatSound, { volume: .1 });
     const [healCard] = useSound(healCardAudio, { volume: .2 });
     const [burnCard] = useSound(burnCardAudio, { volume: .2 });
@@ -533,8 +533,10 @@ function BattlePage() {
                 handleVictory();
             }
         } else if (healthPlayer < 1) {
-            defeatAudio();
-            setDefeatModalState(true);
+            if (!defeatModalState) {
+                defeatAudio();
+                setDefeatModalState(true);
+            }
         }
     }, [healthOpponent, healthPlayer])
 

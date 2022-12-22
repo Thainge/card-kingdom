@@ -50,14 +50,14 @@ function CardAnimation({ setIsOpen, item, cards }) {
         >
             {/* Onclick starts animation */}
             {!started
-                ? <Fade distance={'5em'} up><img onClick={StartAnimation} className={styles.boosterPack} src={require('../../Assets/cardBack.png')}></img></Fade>
+                ? <Fade distance={'5em'} up><img onClick={StartAnimation} className={styles.boosterPack} src={item.unlockedBG}></img></Fade>
                 : <></>}
 
             {/* spin and zoom in card */}
             <Spin duration={600} when={startZoom}>
                 <Zoom opposite duration={800} when={!startZoom}>
                     {started
-                        ? <img className={styles.booster} src={require('../../Assets/cardBack.png')}></img>
+                        ? <img className={styles.booster} src={item.unlockedBG}></img>
                         : <></>
                     }
                 </Zoom>

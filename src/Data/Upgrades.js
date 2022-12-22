@@ -8,6 +8,7 @@ const UpgradesData = {
             active: false,
             title: 'Forest Orb',
             text: 'All green cards gain Heal 1',
+            backgroundImage: require('../Assets/Upgrades/greenOrb.png'),
             cost: 7
         },
         {

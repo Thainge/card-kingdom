@@ -11,7 +11,7 @@ const pureCardsData = [
     },
     {
         "id": "g3",
-        "attack": 3,
+        "attack": 2,
         "health": 4
     },
     {
@@ -46,8 +46,8 @@ const pureCardsData = [
     },
     {
         "id": "g10",
-        "attack": 3,
-        "health": 1
+        "attack": 1,
+        "health": 5
     },
     {
         "id": "g11",
@@ -191,7 +191,7 @@ const pureCardsData = [
     },
     {
         "id": "b8",
-        "attack": 3,
+        "attack": 2,
         "health": 4
     },
     {
@@ -201,8 +201,8 @@ const pureCardsData = [
     },
     {
         "id": "b10",
-        "attack": 3,
-        "health": 1
+        "attack": 1,
+        "health": 5
     },
     {
         "id": "b11",
@@ -346,7 +346,7 @@ const pureCardsData = [
     },
     {
         "id": "y8",
-        "attack": 3,
+        "attack": 2,
         "health": 4
     },
     {
@@ -356,8 +356,8 @@ const pureCardsData = [
     },
     {
         "id": "y10",
-        "attack": 3,
-        "health": 1
+        "attack": 1,
+        "health": 5
     },
     {
         "id": "y11",
@@ -501,7 +501,7 @@ const pureCardsData = [
     },
     {
         "id": "r8",
-        "attack": 3,
+        "attack": 2,
         "health": 4
     },
     {
@@ -511,8 +511,8 @@ const pureCardsData = [
     },
     {
         "id": "r10",
-        "attack": 3,
-        "health": 1
+        "attack": 1,
+        "health": 5
     },
     {
         "id": "r11",
