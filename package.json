@@ -8,6 +8,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "loading-dots": "^1.0.3",
     "local-storage": "^2.0.0",
     "react": "^18.2.0",
     "react-3d-hover": "^1.1.1",
@@ -32,6 +33,8 @@
     "react-typewriter-effect": "^1.1.0",
     "react-typewriting-effect": "^1.0.4",
     "react-zoom-pan-pinch": "^2.1.3",
+    "socket.io": "^4.5.4",
+    "socket.io-client": "^4.5.4",
     "use-fit-text": "^2.4.0",
     "use-sound": "^4.0.1",
     "web-vitals": "^2.1.4"

@@ -15,6 +15,7 @@ import ShopModal from '../../Components/Modals/Shop';
 import openClick from '../../Assets/sounds/starting/open.mp3';
 import useSound from 'use-sound';
 import TutorialModal from '../../Components/tutorial/tutorial';
+import { Link } from 'react-router-dom';
 
 const normalDeck = require('./../../Assets/MainMenu/Deck.png');
 const normalUpgrades = require('./../../Assets/MainMenu/Upgrades.png');
@@ -23,6 +24,7 @@ const normalOptions = require('./../../Assets/MainMenu/options.png');
 const star = require('../../Assets/MainMenu/biggerstar.png');
 const normalShop = require('../../Assets/MainMenu/shop.png')
 const notificationImg = require('../../Assets/new.png');
+const normalMultiplayer = require('../../Assets/MainMenu/multiplayer.png');
 
 function MainPage() {
     const obj = ContextFunction();
@@ -255,6 +257,9 @@ function MainPage() {
             {/* Buttons bottom right */}
             <div className={styles.overlay}>
                 <div className={styles.menuFlex}>
+                    <Link to={'/multiplayer'} className={styles.deck}>
+                        <ButtonToggle initialState={normalMultiplayer} setModal={openShop} />
+                    </Link>
                     <div className={styles.deck} onClick={openDeck}>
                         {
                             newCards

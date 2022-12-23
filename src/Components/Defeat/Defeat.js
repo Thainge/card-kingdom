@@ -7,13 +7,9 @@ import useSound from 'use-sound';
 
 const backgroundImage = require('../../Assets/defeat.png');
 
-function Defeat({ setIsOpen, item }) {
+function Defeat() {
     const [soundButton] = useSound(buttonSound, { volume: .3 });
     const [closeButtonAudio] = useSound(buttonCloseSound, { volume: .3 });
-
-    function closeModal() {
-        setIsOpen(false);
-    }
 
     return (
         <div className={styles.panel}>

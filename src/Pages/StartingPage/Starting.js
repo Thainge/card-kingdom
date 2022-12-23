@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import styles from './Starting.module.css';
 import { Link } from 'react-router-dom';
 import SettingsModal from '../../Components/Modals/Settings';
@@ -8,6 +8,7 @@ import startClick from '../../Assets/sounds/starting/start.wav';
 import useSound from 'use-sound';
 import CreditsModal from '../../Components/Modals/credits';
 
+const io = require("socket.io-client")("http://localhost:3010");
 const backgroundImg = require('./../../Assets/StartingPage/background.jpg');
 const normalButton = require('./../../Assets/StartingPage/start.png');
 const normalOptions = require('./../../Assets/MainMenu/options.png');
@@ -16,6 +17,25 @@ const creditsButton = require('./../../Assets/StartingPage/credits.png');
 function StartingPage() {
     const [settingsModalState, setSettingsModalState] = useState(false);
     const [creditsModalState, setCreditsModalState] = useState(false);
+
+    const [socket, setSocket] = useState(null);
+
+    useEffect(() => {
+        io.on("connect", () => {
+            console.log(`connect ${io.id}`);
+        });
+
+        setSocket(io);
+
+        return () => {
+            io.disconnect();
+        };
+    }, []);
+
+    useEffect(() => {
+        if (!socket) return;
+        socket.emit('ready', 'lol')
+    }, [socket]);
 
     // Loading effect on page load
     const [loading, setLoading] = useState(true);
