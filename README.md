@@ -3,17 +3,22 @@ CopyRight 2022 Tobey Hainge
 
 Link: https://thainge.github.io/card-kingdom/
 
-This is a fully fledged card game made purely from react!
-Download the repository and run it to play it locally or visit the website directly on the right.
+Fully functional card game made purely from React. Also uses NodeJS for a sockets connection for multiplayer access.
+  - Sockets.io
+  - NodeJS
+  - ReactJS
 
-I spent around a month working on this project and had a few art designers help assist me with art creation for this game.
+This project took around a month to complete and has turned out to be a very fun web card game, in the future I plan on releasing a better version built in Unity.
 
-I also plan on hooking this game up to Node Sockets to allow players to connect to others and battle eachother.
 Next steps:
-- Node Sockets multiplayer access
+- Unity version
 
-credits to
-Tobey Hainge - Lead Programmer
-Alena - Art
-Elizabeth - Art
-IronHide Studios - Music
+credits 
+
+Tobey Hainge - Lead Programmer,
+
+Alena - Art,
+
+Elizabeth - Art,
+
+IronHide Studios - Music,
