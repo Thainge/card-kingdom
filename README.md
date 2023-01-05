@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 CopyRight 2022 Tobey Hainge
 
-Working deployment: https://thainge.github.io/card-kingdom/
+Link: https://thainge.github.io/card-kingdom/
 
 This is a fully fledged card game made purely from react!
 Download the repository and run it to play it locally or visit the website directly on the right.
