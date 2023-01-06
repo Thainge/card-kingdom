@@ -25,7 +25,7 @@ This project took around a month to complete and has turned out to be a very fun
 ## Next steps:
 - Unity version
 
-##credits 
+## Credits 
 - Tobey Hainge - Lead Programmer,
 - Alena - Art,
 - Elizabeth - Art,
