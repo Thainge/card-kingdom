@@ -10,7 +10,7 @@ Card game made purely from React and NodeJS. Earn gold and stars to purchase boo
   1. User object which holds gold, progress, upgrades, and gained cards.
   2. Cards object which holds all the cards in the game.
   3. Enemy deck object which holds all the enemy decks and encounter data.
-### Sockets.IO
+### Server Queries
   1. NodeJS sockets connection used to host multiple concurrent multiplayer lobbies.
   2. Key match information is held on the server, and one player acts as a referree to ensure data integrity.
 ### Web Pages
