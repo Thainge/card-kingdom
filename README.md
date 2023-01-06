@@ -1,5 +1,4 @@
 # Card Kingdom
-CopyRight 2022 Tobey Hainge
 
 Link: https://thainge.github.io/card-kingdom/
 
@@ -31,3 +30,5 @@ This project took around a month to complete and has turned out to be a very fun
   2. Alena - Art,
   3. Elizabeth - Art,
   4. IronHide Studios - Music,
+
+CopyRight 2022 Tobey Hainge
