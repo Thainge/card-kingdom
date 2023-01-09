@@ -11,7 +11,7 @@ Card game made purely from React and NodeJS. Earn gold and stars to purchase boo
 - Enemy deck object which holds all the enemy decks and encounter data.
 ### Server Queries
 - NodeJS sockets connection used to host multiple concurrent multiplayer lobbies.
-- Key match information is held on the server, and one player acts as a referree to ensure data integrity.
+- Key match information is held on the server, and one player acts as a referee to ensure data integrity.
 ### Web Pages
 - Battle
 - Map & Mission selection
