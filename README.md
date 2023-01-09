@@ -4,7 +4,7 @@ Link: https://thainge.github.io/card-kingdom/
 
 Card game made purely from React and NodeJS. Earn gold and stars to purchase booster packs and unlock upgrades to enhance your gameplay. Defeat your opponnents and take back the land. Also compete with other players by joining a multiplayer lobby!
 
-## Development Explaination
+## Development Explanation
 ### Data Modeling
 - User object which holds gold, progress, upgrades, and gained cards.
 - Cards object which holds all the cards in the game.
