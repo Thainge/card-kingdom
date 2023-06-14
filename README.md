@@ -32,4 +32,4 @@ This project took around a month to complete and has turned out to be a very fun
 - Elizabeth - Art,
 - IronHide Studios - Music,
 
-CopyRight 2022 Tobey Hainge
+© 2023 Tobey Hainge All rights reserved.
