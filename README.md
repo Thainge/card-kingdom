@@ -1,7 +1,7 @@
 # Card Kingdom
-![alt text](https://github.com/Thainge/portfolio/blob/gh-pages/static/media/4.fe69dcbcd2eeddb8b381.png?raw=true)
+[Card Kingdom](https://thainge.github.io/card-kingdom/)
 
-Link: https://thainge.github.io/card-kingdom/
+<img src="https://github.com/Thainge/portfolio/blob/gh-pages/static/media/4.fe69dcbcd2eeddb8b381.png?raw=true" width="500" />
 
 Card game made purely from React and NodeJS. Earn gold and stars to purchase booster packs and unlock upgrades to enhance your gameplay. Defeat your opponents and take back the land. Also compete with other players by joining a multiplayer lobby!
 
